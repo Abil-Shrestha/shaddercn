@@ -8,13 +8,13 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button",
-    "@coss/checkbox",
-    "@coss/frame",
-    "@coss/pagination",
-    "@coss/select",
-    "@coss/table"
+    "@shaddercn/badge",
+    "@shaddercn/button",
+    "@shaddercn/checkbox",
+    "@shaddercn/frame",
+    "@shaddercn/pagination",
+    "@shaddercn/select",
+    "@shaddercn/table"
   ],
   "files": [
     {

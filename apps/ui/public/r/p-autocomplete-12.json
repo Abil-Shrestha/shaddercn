@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Autocomplete with async items loading",
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/spinner"
+    "@shaddercn/autocomplete",
+    "@shaddercn/spinner"
   ],
   "files": [
     {

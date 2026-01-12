@@ -2,7 +2,7 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@coss/ui/shared/page-header";
+} from "@shaddercn/ui/shared/page-header";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 
@@ -16,7 +16,7 @@ const description =
 
 export const metadata: Metadata = {
   description,
-  title: "Browse Particles - coss ui",
+  title: "Browse Particles - shaddercn",
 };
 
 async function ParticlesDisplayServer({

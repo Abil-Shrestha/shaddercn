@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Basic number field",
   "registryDependencies": [
-    "@coss/number-field"
+    "@shaddercn/number-field"
   ],
   "files": [
     {

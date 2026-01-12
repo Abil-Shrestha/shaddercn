@@ -1,4 +1,4 @@
-import { cn } from "@coss/ui/lib/utils";
+import { cn } from "@shaddercn/ui/lib/utils";
 
 function PageHeader({
   className,

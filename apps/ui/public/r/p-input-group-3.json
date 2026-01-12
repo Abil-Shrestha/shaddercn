@@ -4,12 +4,12 @@
   "type": "registry:block",
   "description": "Input group with start text",
   "registryDependencies": [
-    "@coss/input-group"
+    "@shaddercn/input-group"
   ],
   "files": [
     {
       "path": "registry/default/particles/p-input-group-3.tsx",
-      "content": "import {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n  InputGroupText,\n} from \"@/registry/default/ui/input-group\";\n\nexport default function Particle() {\n  return (\n    <InputGroup>\n      <InputGroupInput\n        aria-label=\"Set your URL\"\n        className=\"*:[input]:ps-0!\"\n        placeholder=\"coss\"\n        type=\"search\"\n      />\n      <InputGroupAddon>\n        <InputGroupText>i.cal.com/</InputGroupText>\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
+      "content": "import {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n  InputGroupText,\n} from \"@/registry/default/ui/input-group\";\n\nexport default function Particle() {\n  return (\n    <InputGroup>\n      <InputGroupInput\n        aria-label=\"Set your URL\"\n        className=\"*:[input]:ps-0!\"\n        placeholder=\"shaddercn\"\n        type=\"search\"\n      />\n      <InputGroupAddon>\n        <InputGroupText>i.cal.com/</InputGroupText>\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
       "type": "registry:block"
     }
   ],

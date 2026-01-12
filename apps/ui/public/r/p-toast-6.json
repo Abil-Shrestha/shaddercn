@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Toast with varying heights",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/toast"
+    "@shaddercn/button",
+    "@shaddercn/toast"
   ],
   "files": [
     {

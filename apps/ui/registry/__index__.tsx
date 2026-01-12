@@ -65,7 +65,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/input","@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/input","@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/ui/autocomplete.tsx",
       type: "registry:ui",
@@ -227,7 +227,7 @@ export const Index: Record<string, any> = {
     name: "combobox",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/input","@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/input","@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/ui/combobox.tsx",
       type: "registry:ui",
@@ -245,7 +245,7 @@ export const Index: Record<string, any> = {
     name: "command",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/ui/command.tsx",
       type: "registry:ui",
@@ -263,7 +263,7 @@ export const Index: Record<string, any> = {
     name: "dialog",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/button","@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/ui/dialog.tsx",
       type: "registry:ui",
@@ -371,7 +371,7 @@ export const Index: Record<string, any> = {
     name: "group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/separator"],
+    registryDependencies: ["@shaddercn/separator"],
     files: [{
       path: "registry/default/ui/group.tsx",
       type: "registry:ui",
@@ -407,7 +407,7 @@ export const Index: Record<string, any> = {
     name: "input-group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/input","@coss/textarea"],
+    registryDependencies: ["@shaddercn/input","@shaddercn/textarea"],
     files: [{
       path: "registry/default/ui/input-group.tsx",
       type: "registry:ui",
@@ -497,7 +497,7 @@ export const Index: Record<string, any> = {
     name: "number-field",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/label"],
+    registryDependencies: ["@shaddercn/label"],
     files: [{
       path: "registry/default/ui/number-field.tsx",
       type: "registry:ui",
@@ -515,7 +515,7 @@ export const Index: Record<string, any> = {
     name: "pagination",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/ui/pagination.tsx",
       type: "registry:ui",
@@ -659,7 +659,7 @@ export const Index: Record<string, any> = {
     name: "sheet",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/button","@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/ui/sheet.tsx",
       type: "registry:ui",
@@ -677,7 +677,7 @@ export const Index: Record<string, any> = {
     name: "sidebar",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/button","@coss/input","@coss/scroll-area","@coss/separator","@coss/sheet","@coss/skeleton","@coss/tooltip","@coss/use-mobile"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input","@shaddercn/scroll-area","@shaddercn/separator","@shaddercn/sheet","@shaddercn/skeleton","@shaddercn/tooltip","@shaddercn/use-mobile"],
     files: [{
       path: "registry/default/ui/sidebar.tsx",
       type: "registry:ui",
@@ -821,7 +821,7 @@ export const Index: Record<string, any> = {
     name: "toast",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/ui/toast.tsx",
       type: "registry:ui",
@@ -857,7 +857,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/separator","@coss/toggle"],
+    registryDependencies: ["@shaddercn/separator","@shaddercn/toggle"],
     files: [{
       path: "registry/default/ui/toggle-group.tsx",
       type: "registry:ui",
@@ -911,7 +911,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-1",
     description: "Basic accordion",
     type: "registry:block",
-    registryDependencies: ["@coss/accordion"],
+    registryDependencies: ["@shaddercn/accordion"],
     files: [{
       path: "registry/default/particles/p-accordion-1.tsx",
       type: "registry:block",
@@ -929,7 +929,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-2",
     description: "Accordion with one panel open",
     type: "registry:block",
-    registryDependencies: ["@coss/accordion"],
+    registryDependencies: ["@shaddercn/accordion"],
     files: [{
       path: "registry/default/particles/p-accordion-2.tsx",
       type: "registry:block",
@@ -947,7 +947,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-3",
     description: "Accordion allowing multiple panels open",
     type: "registry:block",
-    registryDependencies: ["@coss/accordion"],
+    registryDependencies: ["@shaddercn/accordion"],
     files: [{
       path: "registry/default/particles/p-accordion-3.tsx",
       type: "registry:block",
@@ -965,7 +965,7 @@ export const Index: Record<string, any> = {
     name: "p-accordion-4",
     description: "Controlled accordion",
     type: "registry:block",
-    registryDependencies: ["@coss/accordion","@coss/button"],
+    registryDependencies: ["@shaddercn/accordion","@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-accordion-4.tsx",
       type: "registry:block",
@@ -983,7 +983,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-1",
     description: "Basic alert",
     type: "registry:block",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@shaddercn/alert"],
     files: [{
       path: "registry/default/particles/p-alert-1.tsx",
       type: "registry:block",
@@ -1001,7 +1001,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-2",
     description: "Alert with icon",
     type: "registry:block",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@shaddercn/alert"],
     files: [{
       path: "registry/default/particles/p-alert-2.tsx",
       type: "registry:block",
@@ -1019,7 +1019,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-3",
     description: "Alert with icon and action buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/alert","@coss/button"],
+    registryDependencies: ["@shaddercn/alert","@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-alert-3.tsx",
       type: "registry:block",
@@ -1037,7 +1037,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-4",
     description: "Info alert",
     type: "registry:block",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@shaddercn/alert"],
     files: [{
       path: "registry/default/particles/p-alert-4.tsx",
       type: "registry:block",
@@ -1055,7 +1055,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-5",
     description: "Success alert",
     type: "registry:block",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@shaddercn/alert"],
     files: [{
       path: "registry/default/particles/p-alert-5.tsx",
       type: "registry:block",
@@ -1073,7 +1073,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-6",
     description: "Warning alert",
     type: "registry:block",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@shaddercn/alert"],
     files: [{
       path: "registry/default/particles/p-alert-6.tsx",
       type: "registry:block",
@@ -1091,7 +1091,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-7",
     description: "Error alert",
     type: "registry:block",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@shaddercn/alert"],
     files: [{
       path: "registry/default/particles/p-alert-7.tsx",
       type: "registry:block",
@@ -1109,7 +1109,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-dialog-1",
     description: "Alert dialog",
     type: "registry:block",
-    registryDependencies: ["@coss/alert-dialog","@coss/button"],
+    registryDependencies: ["@shaddercn/alert-dialog","@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-alert-dialog-1.tsx",
       type: "registry:block",
@@ -1127,7 +1127,7 @@ export const Index: Record<string, any> = {
     name: "p-alert-dialog-2",
     description: "Alert dialog with bare footer",
     type: "registry:block",
-    registryDependencies: ["@coss/alert-dialog","@coss/button"],
+    registryDependencies: ["@shaddercn/alert-dialog","@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-alert-dialog-2.tsx",
       type: "registry:block",
@@ -1145,7 +1145,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-1",
     description: "Basic autocomplete",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-1.tsx",
       type: "registry:block",
@@ -1163,7 +1163,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-2",
     description: "Disabled autocomplete",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-2.tsx",
       type: "registry:block",
@@ -1181,7 +1181,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-3",
     description: "Small autocomplete",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-3.tsx",
       type: "registry:block",
@@ -1199,7 +1199,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-4",
     description: "Large autocomplete",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-4.tsx",
       type: "registry:block",
@@ -1217,7 +1217,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-5",
     description: "Autocomplete with label",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete","@coss/label"],
+    registryDependencies: ["@shaddercn/autocomplete","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-autocomplete-5.tsx",
       type: "registry:block",
@@ -1235,7 +1235,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-6",
     description: "Autocomplete autofilling the input with the highlighted item",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-6.tsx",
       type: "registry:block",
@@ -1253,7 +1253,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-7",
     description: "Autocomplete auto highlighting the first option",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-7.tsx",
       type: "registry:block",
@@ -1271,7 +1271,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-8",
     description: "Autocomplete with clear button",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-8.tsx",
       type: "registry:block",
@@ -1289,7 +1289,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-9",
     description: "Autocomplete with trigger and clear buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-9.tsx",
       type: "registry:block",
@@ -1307,7 +1307,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-10",
     description: "Autocomplete with grouped items",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-10.tsx",
       type: "registry:block",
@@ -1325,7 +1325,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-11",
     description: "Autocomplete with limited number of results",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-11.tsx",
       type: "registry:block",
@@ -1343,7 +1343,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-12",
     description: "Autocomplete with async items loading",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete","@coss/spinner"],
+    registryDependencies: ["@shaddercn/autocomplete","@shaddercn/spinner"],
     files: [{
       path: "registry/default/particles/p-autocomplete-12.tsx",
       type: "registry:block",
@@ -1361,7 +1361,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-13",
     description: "Autocomplete form",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete","@coss/button","@coss/field","@coss/form"],
+    registryDependencies: ["@shaddercn/autocomplete","@shaddercn/button","@shaddercn/field","@shaddercn/form"],
     files: [{
       path: "registry/default/particles/p-autocomplete-13.tsx",
       type: "registry:block",
@@ -1379,7 +1379,7 @@ export const Index: Record<string, any> = {
     name: "p-autocomplete-14",
     description: "Autocomplete form",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@shaddercn/autocomplete"],
     files: [{
       path: "registry/default/particles/p-autocomplete-14.tsx",
       type: "registry:block",
@@ -1397,7 +1397,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-1",
     description: "Avatar with image and fallback",
     type: "registry:block",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@shaddercn/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-1.tsx",
       type: "registry:block",
@@ -1415,7 +1415,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-2",
     description: "Fallback-only avatar",
     type: "registry:block",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@shaddercn/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-2.tsx",
       type: "registry:block",
@@ -1433,7 +1433,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-3",
     description: "Avatars with different sizes",
     type: "registry:block",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@shaddercn/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-3.tsx",
       type: "registry:block",
@@ -1451,7 +1451,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-4",
     description: "Avatars with different radii",
     type: "registry:block",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@shaddercn/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-4.tsx",
       type: "registry:block",
@@ -1469,7 +1469,7 @@ export const Index: Record<string, any> = {
     name: "p-avatar-5",
     description: "Overlapping avatar group",
     type: "registry:block",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@shaddercn/avatar"],
     files: [{
       path: "registry/default/particles/p-avatar-5.tsx",
       type: "registry:block",
@@ -1487,7 +1487,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-1",
     description: "Basic badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-1.tsx",
       type: "registry:block",
@@ -1505,7 +1505,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-2",
     description: "Outline badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-2.tsx",
       type: "registry:block",
@@ -1523,7 +1523,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-3",
     description: "Secondary badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-3.tsx",
       type: "registry:block",
@@ -1541,7 +1541,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-4",
     description: "Destructive badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-4.tsx",
       type: "registry:block",
@@ -1559,7 +1559,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-5",
     description: "Info badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-5.tsx",
       type: "registry:block",
@@ -1577,7 +1577,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-6",
     description: "Success badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-6.tsx",
       type: "registry:block",
@@ -1595,7 +1595,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-7",
     description: "Warning badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-7.tsx",
       type: "registry:block",
@@ -1613,7 +1613,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-8",
     description: "Error badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-8.tsx",
       type: "registry:block",
@@ -1631,7 +1631,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-9",
     description: "Small badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-9.tsx",
       type: "registry:block",
@@ -1649,7 +1649,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-10",
     description: "Large badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-10.tsx",
       type: "registry:block",
@@ -1667,7 +1667,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-11",
     description: "Badge with icon",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-11.tsx",
       type: "registry:block",
@@ -1685,7 +1685,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-12",
     description: "Badge with link",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-12.tsx",
       type: "registry:block",
@@ -1703,7 +1703,7 @@ export const Index: Record<string, any> = {
     name: "p-badge-13",
     description: "Badge with count",
     type: "registry:block",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@shaddercn/badge"],
     files: [{
       path: "registry/default/particles/p-badge-13.tsx",
       type: "registry:block",
@@ -1721,7 +1721,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-1",
     description: "Breadcrumb with menu example",
     type: "registry:block",
-    registryDependencies: ["@coss/breadcrumb","@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/breadcrumb","@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-1.tsx",
       type: "registry:block",
@@ -1739,7 +1739,7 @@ export const Index: Record<string, any> = {
     name: "p-breadcrumb-2",
     description: "Breadcrumb with custom separator",
     type: "registry:block",
-    registryDependencies: ["@coss/breadcrumb"],
+    registryDependencies: ["@shaddercn/breadcrumb"],
     files: [{
       path: "registry/default/particles/p-breadcrumb-2.tsx",
       type: "registry:block",
@@ -1757,7 +1757,7 @@ export const Index: Record<string, any> = {
     name: "p-button-1",
     description: "Default button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-1.tsx",
       type: "registry:block",
@@ -1775,7 +1775,7 @@ export const Index: Record<string, any> = {
     name: "p-button-2",
     description: "Outline button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-2.tsx",
       type: "registry:block",
@@ -1793,7 +1793,7 @@ export const Index: Record<string, any> = {
     name: "p-button-3",
     description: "Secondary button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-3.tsx",
       type: "registry:block",
@@ -1811,7 +1811,7 @@ export const Index: Record<string, any> = {
     name: "p-button-4",
     description: "Destructive button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-4.tsx",
       type: "registry:block",
@@ -1829,7 +1829,7 @@ export const Index: Record<string, any> = {
     name: "p-button-5",
     description: "Destructive outline button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-5.tsx",
       type: "registry:block",
@@ -1847,7 +1847,7 @@ export const Index: Record<string, any> = {
     name: "p-button-6",
     description: "Ghost button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-6.tsx",
       type: "registry:block",
@@ -1865,7 +1865,7 @@ export const Index: Record<string, any> = {
     name: "p-button-7",
     description: "Link button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-7.tsx",
       type: "registry:block",
@@ -1883,7 +1883,7 @@ export const Index: Record<string, any> = {
     name: "p-button-8",
     description: "Extra-small button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-8.tsx",
       type: "registry:block",
@@ -1901,7 +1901,7 @@ export const Index: Record<string, any> = {
     name: "p-button-9",
     description: "Small button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-9.tsx",
       type: "registry:block",
@@ -1919,7 +1919,7 @@ export const Index: Record<string, any> = {
     name: "p-button-10",
     description: "Large button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-10.tsx",
       type: "registry:block",
@@ -1937,7 +1937,7 @@ export const Index: Record<string, any> = {
     name: "p-button-11",
     description: "Extra-large button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-11.tsx",
       type: "registry:block",
@@ -1955,7 +1955,7 @@ export const Index: Record<string, any> = {
     name: "p-button-12",
     description: "Disabled button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-12.tsx",
       type: "registry:block",
@@ -1973,7 +1973,7 @@ export const Index: Record<string, any> = {
     name: "p-button-13",
     description: "Icon button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-13.tsx",
       type: "registry:block",
@@ -1991,7 +1991,7 @@ export const Index: Record<string, any> = {
     name: "p-button-14",
     description: "Small icon button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-14.tsx",
       type: "registry:block",
@@ -2009,7 +2009,7 @@ export const Index: Record<string, any> = {
     name: "p-button-15",
     description: "Large icon button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-15.tsx",
       type: "registry:block",
@@ -2027,7 +2027,7 @@ export const Index: Record<string, any> = {
     name: "p-button-16",
     description: "Button with icon",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-16.tsx",
       type: "registry:block",
@@ -2045,7 +2045,7 @@ export const Index: Record<string, any> = {
     name: "p-button-17",
     description: "Link rendered as button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-17.tsx",
       type: "registry:block",
@@ -2063,7 +2063,7 @@ export const Index: Record<string, any> = {
     name: "p-button-18",
     description: "Loading button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/spinner"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/spinner"],
     files: [{
       path: "registry/default/particles/p-button-18.tsx",
       type: "registry:block",
@@ -2081,7 +2081,7 @@ export const Index: Record<string, any> = {
     name: "p-button-19",
     description: "Expandable show more/less toggle button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-19.tsx",
       type: "registry:block",
@@ -2099,7 +2099,7 @@ export const Index: Record<string, any> = {
     name: "p-button-20",
     description: "Back link button with chevron",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-20.tsx",
       type: "registry:block",
@@ -2117,7 +2117,7 @@ export const Index: Record<string, any> = {
     name: "p-button-21",
     description: "Card-style button with heading and description",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-21.tsx",
       type: "registry:block",
@@ -2135,7 +2135,7 @@ export const Index: Record<string, any> = {
     name: "p-button-22",
     description: "Directional pad control buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-22.tsx",
       type: "registry:block",
@@ -2153,7 +2153,7 @@ export const Index: Record<string, any> = {
     name: "p-button-23",
     description: "Outline like button with count",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-23.tsx",
       type: "registry:block",
@@ -2171,7 +2171,7 @@ export const Index: Record<string, any> = {
     name: "p-button-24",
     description: "Social login icon buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-24.tsx",
       type: "registry:block",
@@ -2189,7 +2189,7 @@ export const Index: Record<string, any> = {
     name: "p-button-26",
     description: "Star button with count badge",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@shaddercn/button"],
     files: [{
       path: "registry/default/particles/p-button-26.tsx",
       type: "registry:block",
@@ -2207,7 +2207,7 @@ export const Index: Record<string, any> = {
     name: "p-card-1",
     description: "Card with header, content, and footer",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/card","@coss/field","@coss/form","@coss/input","@coss/select"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/card","@shaddercn/field","@shaddercn/form","@shaddercn/input","@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-card-1.tsx",
       type: "registry:block",
@@ -2225,7 +2225,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-1",
     description: "Basic checkbox",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-1.tsx",
       type: "registry:block",
@@ -2243,7 +2243,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-2",
     description: "Disabled checkbox",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-2.tsx",
       type: "registry:block",
@@ -2261,7 +2261,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-3",
     description: "Checkbox with description",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-3.tsx",
       type: "registry:block",
@@ -2279,7 +2279,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-4",
     description: "Card-style checkbox",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-4.tsx",
       type: "registry:block",
@@ -2297,7 +2297,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-5",
     description: "Checkbox form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/checkbox","@coss/field","@coss/form"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/checkbox","@shaddercn/field","@shaddercn/form"],
     files: [{
       path: "registry/default/particles/p-checkbox-5.tsx",
       type: "registry:block",
@@ -2315,7 +2315,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-1",
     description: "Basic checkbox group",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/checkbox-group","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/checkbox-group","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-1.tsx",
       type: "registry:block",
@@ -2333,7 +2333,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-2",
     description: "Checkbox group with disabled items",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/checkbox-group","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/checkbox-group","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-2.tsx",
       type: "registry:block",
@@ -2351,7 +2351,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-3",
     description: "Checkbox group with parent checkbox",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/checkbox-group","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/checkbox-group","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-3.tsx",
       type: "registry:block",
@@ -2369,7 +2369,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-4",
     description: "Nested checkbox group with parent",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/checkbox-group","@coss/label"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/checkbox-group","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-4.tsx",
       type: "registry:block",
@@ -2387,7 +2387,7 @@ export const Index: Record<string, any> = {
     name: "p-checkbox-group-5",
     description: "Checkbox group form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/checkbox","@coss/checkbox-group","@coss/field","@coss/fieldset","@coss/form"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/checkbox","@shaddercn/checkbox-group","@shaddercn/field","@shaddercn/fieldset","@shaddercn/form"],
     files: [{
       path: "registry/default/particles/p-checkbox-group-5.tsx",
       type: "registry:block",
@@ -2405,7 +2405,7 @@ export const Index: Record<string, any> = {
     name: "p-collapsible-1",
     description: "Basic collapsible",
     type: "registry:block",
-    registryDependencies: ["@coss/collapsible"],
+    registryDependencies: ["@shaddercn/collapsible"],
     files: [{
       path: "registry/default/particles/p-collapsible-1.tsx",
       type: "registry:block",
@@ -2423,7 +2423,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-1",
     description: "Basic combobox",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-1.tsx",
       type: "registry:block",
@@ -2441,7 +2441,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-2",
     description: "Disabled combobox",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-2.tsx",
       type: "registry:block",
@@ -2459,7 +2459,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-3",
     description: "Small combobox",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-3.tsx",
       type: "registry:block",
@@ -2477,7 +2477,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-4",
     description: "Large combobox",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-4.tsx",
       type: "registry:block",
@@ -2495,7 +2495,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-5",
     description: "Combobox with label",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox","@coss/label"],
+    registryDependencies: ["@shaddercn/combobox","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-combobox-5.tsx",
       type: "registry:block",
@@ -2513,7 +2513,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-6",
     description: "Combobox auto highlighting the first option",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-6.tsx",
       type: "registry:block",
@@ -2531,7 +2531,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-7",
     description: "Combobox with clear button",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-7.tsx",
       type: "registry:block",
@@ -2549,7 +2549,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-8",
     description: "Combobox with grouped items",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-8.tsx",
       type: "registry:block",
@@ -2567,7 +2567,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-9",
     description: "Combobox with multiple selection",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-9.tsx",
       type: "registry:block",
@@ -2585,7 +2585,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-10",
     description: "Combobox with input inside popup",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/combobox"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-10.tsx",
       type: "registry:block",
@@ -2603,7 +2603,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-11",
     description: "Combobox form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/combobox","@coss/field","@coss/form"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/combobox","@shaddercn/field","@shaddercn/form"],
     files: [{
       path: "registry/default/particles/p-combobox-11.tsx",
       type: "registry:block",
@@ -2621,7 +2621,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-12",
     description: "Combobox multiple form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/combobox","@coss/field","@coss/form"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/combobox","@shaddercn/field","@shaddercn/form"],
     files: [{
       path: "registry/default/particles/p-combobox-12.tsx",
       type: "registry:block",
@@ -2639,7 +2639,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-13",
     description: "Combobox with start addon",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-13.tsx",
       type: "registry:block",
@@ -2657,7 +2657,7 @@ export const Index: Record<string, any> = {
     name: "p-combobox-14",
     description: "Combobox multiple with start addon",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@shaddercn/combobox"],
     files: [{
       path: "registry/default/particles/p-combobox-14.tsx",
       type: "registry:block",
@@ -2675,7 +2675,7 @@ export const Index: Record<string, any> = {
     name: "p-command-1",
     description: "Command palette with dialog",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/command","@coss/kbd"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/command","@shaddercn/kbd"],
     files: [{
       path: "registry/default/particles/p-command-1.tsx",
       type: "registry:block",
@@ -2693,7 +2693,7 @@ export const Index: Record<string, any> = {
     name: "p-command-2",
     description: "Command palette with AI assistant",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete","@coss/button","@coss/command","@coss/input","@coss/kbd","@coss/scroll-area","@coss/skeleton","@coss/spinner"],
+    registryDependencies: ["@shaddercn/autocomplete","@shaddercn/button","@shaddercn/command","@shaddercn/input","@shaddercn/kbd","@shaddercn/scroll-area","@shaddercn/skeleton","@shaddercn/spinner"],
     files: [{
       path: "registry/default/particles/p-command-2.tsx",
       type: "registry:block",
@@ -2711,7 +2711,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-1",
     description: "Dialog with form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/dialog","@coss/field","@coss/form","@coss/input"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/dialog","@shaddercn/field","@shaddercn/form","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-dialog-1.tsx",
       type: "registry:block",
@@ -2729,7 +2729,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-6",
     description: "Dialog with bare footer",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/dialog","@coss/field","@coss/form","@coss/input"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/dialog","@shaddercn/field","@shaddercn/form","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-dialog-6.tsx",
       type: "registry:block",
@@ -2747,7 +2747,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-2",
     description: "Dialog opened from menu",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/dialog","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/dialog","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-dialog-2.tsx",
       type: "registry:block",
@@ -2765,7 +2765,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-3",
     description: "Nested dialogs",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/dialog","@coss/field","@coss/input"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/dialog","@shaddercn/field","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-dialog-3.tsx",
       type: "registry:block",
@@ -2783,7 +2783,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-4",
     description: "Dialog with close confirmation",
     type: "registry:block",
-    registryDependencies: ["@coss/alert-dialog","@coss/button","@coss/dialog","@coss/field","@coss/form","@coss/textarea"],
+    registryDependencies: ["@shaddercn/alert-dialog","@shaddercn/button","@shaddercn/dialog","@shaddercn/field","@shaddercn/form","@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-dialog-4.tsx",
       type: "registry:block",
@@ -2801,7 +2801,7 @@ export const Index: Record<string, any> = {
     name: "p-dialog-5",
     description: "Dialog with long content",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/dialog"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/dialog"],
     files: [{
       path: "registry/default/particles/p-dialog-5.tsx",
       type: "registry:block",
@@ -2819,7 +2819,7 @@ export const Index: Record<string, any> = {
     name: "p-empty-1",
     description: "Empty state with icon and actions",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/empty"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/empty"],
     files: [{
       path: "registry/default/particles/p-empty-1.tsx",
       type: "registry:block",
@@ -2837,7 +2837,7 @@ export const Index: Record<string, any> = {
     name: "p-field-1",
     description: "Field with description",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/input"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-field-1.tsx",
       type: "registry:block",
@@ -2855,7 +2855,7 @@ export const Index: Record<string, any> = {
     name: "p-field-2",
     description: "Field with required indicator",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/input"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-field-2.tsx",
       type: "registry:block",
@@ -2873,7 +2873,7 @@ export const Index: Record<string, any> = {
     name: "p-field-3",
     description: "Field in disabled state",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/input"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-field-3.tsx",
       type: "registry:block",
@@ -2891,7 +2891,7 @@ export const Index: Record<string, any> = {
     name: "p-field-4",
     description: "Field showing validation error",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/input"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-field-4.tsx",
       type: "registry:block",
@@ -2909,7 +2909,7 @@ export const Index: Record<string, any> = {
     name: "p-field-5",
     description: "Show field validity state",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/input"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-field-5.tsx",
       type: "registry:block",
@@ -2927,7 +2927,7 @@ export const Index: Record<string, any> = {
     name: "p-field-6",
     description: "Input group with field",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/input-group"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-field-6.tsx",
       type: "registry:block",
@@ -2945,7 +2945,7 @@ export const Index: Record<string, any> = {
     name: "p-field-7",
     description: "Field with autocomplete",
     type: "registry:block",
-    registryDependencies: ["@coss/autocomplete","@coss/field"],
+    registryDependencies: ["@shaddercn/autocomplete","@shaddercn/field"],
     files: [{
       path: "registry/default/particles/p-field-7.tsx",
       type: "registry:block",
@@ -2963,7 +2963,7 @@ export const Index: Record<string, any> = {
     name: "p-field-8",
     description: "Field with combobox",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox","@coss/field"],
+    registryDependencies: ["@shaddercn/combobox","@shaddercn/field"],
     files: [{
       path: "registry/default/particles/p-field-8.tsx",
       type: "registry:block",
@@ -2981,7 +2981,7 @@ export const Index: Record<string, any> = {
     name: "p-field-9",
     description: "Field with multiple selection combobox",
     type: "registry:block",
-    registryDependencies: ["@coss/combobox","@coss/field"],
+    registryDependencies: ["@shaddercn/combobox","@shaddercn/field"],
     files: [{
       path: "registry/default/particles/p-field-9.tsx",
       type: "registry:block",
@@ -2999,7 +2999,7 @@ export const Index: Record<string, any> = {
     name: "p-field-10",
     description: "Field with textarea",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/textarea"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-field-10.tsx",
       type: "registry:block",
@@ -3017,7 +3017,7 @@ export const Index: Record<string, any> = {
     name: "p-field-11",
     description: "Field with select",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/select"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-field-11.tsx",
       type: "registry:block",
@@ -3035,7 +3035,7 @@ export const Index: Record<string, any> = {
     name: "p-field-12",
     description: "Field with checkbox",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/field"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/field"],
     files: [{
       path: "registry/default/particles/p-field-12.tsx",
       type: "registry:block",
@@ -3053,7 +3053,7 @@ export const Index: Record<string, any> = {
     name: "p-field-13",
     description: "Field with checkbox group",
     type: "registry:block",
-    registryDependencies: ["@coss/checkbox","@coss/checkbox-group","@coss/field","@coss/fieldset"],
+    registryDependencies: ["@shaddercn/checkbox","@shaddercn/checkbox-group","@shaddercn/field","@shaddercn/fieldset"],
     files: [{
       path: "registry/default/particles/p-field-13.tsx",
       type: "registry:block",
@@ -3071,7 +3071,7 @@ export const Index: Record<string, any> = {
     name: "p-field-14",
     description: "Field with radio group",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/fieldset","@coss/radio-group"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/fieldset","@shaddercn/radio-group"],
     files: [{
       path: "registry/default/particles/p-field-14.tsx",
       type: "registry:block",
@@ -3089,7 +3089,7 @@ export const Index: Record<string, any> = {
     name: "p-field-15",
     description: "Field with toggle switch",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/switch"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/switch"],
     files: [{
       path: "registry/default/particles/p-field-15.tsx",
       type: "registry:block",
@@ -3107,7 +3107,7 @@ export const Index: Record<string, any> = {
     name: "p-field-16",
     description: "Field with slider",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/slider"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/slider"],
     files: [{
       path: "registry/default/particles/p-field-16.tsx",
       type: "registry:block",
@@ -3125,7 +3125,7 @@ export const Index: Record<string, any> = {
     name: "p-field-17",
     description: "Field with number field",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/number-field"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-field-17.tsx",
       type: "registry:block",
@@ -3143,7 +3143,7 @@ export const Index: Record<string, any> = {
     name: "p-field-18",
     description: "Complete form built with field",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/checkbox","@coss/field","@coss/form","@coss/input","@coss/select"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/checkbox","@shaddercn/field","@shaddercn/form","@shaddercn/input","@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-field-18.tsx",
       type: "registry:block",
@@ -3161,7 +3161,7 @@ export const Index: Record<string, any> = {
     name: "p-fieldset-1",
     description: "Fieldset with multiple fields",
     type: "registry:block",
-    registryDependencies: ["@coss/field","@coss/fieldset","@coss/input"],
+    registryDependencies: ["@shaddercn/field","@shaddercn/fieldset","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-fieldset-1.tsx",
       type: "registry:block",
@@ -3179,7 +3179,7 @@ export const Index: Record<string, any> = {
     name: "p-form-1",
     description: "Input in a form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/input"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-form-1.tsx",
       type: "registry:block",
@@ -3197,7 +3197,7 @@ export const Index: Record<string, any> = {
     name: "p-form-2",
     description: "Form with zod validation",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/input"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-form-2.tsx",
       type: "registry:block",
@@ -3215,7 +3215,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-1",
     description: "Basic frame",
     type: "registry:block",
-    registryDependencies: ["@coss/frame"],
+    registryDependencies: ["@shaddercn/frame"],
     files: [{
       path: "registry/default/particles/p-frame-1.tsx",
       type: "registry:block",
@@ -3233,7 +3233,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-3",
     description: "Frame with multiple separated panels",
     type: "registry:block",
-    registryDependencies: ["@coss/frame"],
+    registryDependencies: ["@shaddercn/frame"],
     files: [{
       path: "registry/default/particles/p-frame-3.tsx",
       type: "registry:block",
@@ -3251,7 +3251,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-4",
     description: "Frame with multiple stacked panels",
     type: "registry:block",
-    registryDependencies: ["@coss/frame","@coss/separator"],
+    registryDependencies: ["@shaddercn/frame","@shaddercn/separator"],
     files: [{
       path: "registry/default/particles/p-frame-4.tsx",
       type: "registry:block",
@@ -3269,7 +3269,7 @@ export const Index: Record<string, any> = {
     name: "p-frame-2",
     description: "Frame with collapsible content and delete button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/collapsible","@coss/frame"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/collapsible","@shaddercn/frame"],
     files: [{
       path: "registry/default/particles/p-frame-2.tsx",
       type: "registry:block",
@@ -3287,7 +3287,7 @@ export const Index: Record<string, any> = {
     name: "p-kbd-1",
     description: "Keyboard shortcuts display",
     type: "registry:block",
-    registryDependencies: ["@coss/kbd"],
+    registryDependencies: ["@shaddercn/kbd"],
     files: [{
       path: "registry/default/particles/p-kbd-1.tsx",
       type: "registry:block",
@@ -3305,7 +3305,7 @@ export const Index: Record<string, any> = {
     name: "p-group-1",
     description: "Basic group",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-group-1.tsx",
       type: "registry:block",
@@ -3323,7 +3323,7 @@ export const Index: Record<string, any> = {
     name: "p-group-2",
     description: "Group with input",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/input","@coss/tooltip","@coss/use-copy-to-clipboard"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/input","@shaddercn/tooltip","@shaddercn/use-copy-to-clipboard"],
     files: [{
       path: "registry/default/particles/p-group-2.tsx",
       type: "registry:block",
@@ -3341,7 +3341,7 @@ export const Index: Record<string, any> = {
     name: "p-group-3",
     description: "Small group",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-group-3.tsx",
       type: "registry:block",
@@ -3359,7 +3359,7 @@ export const Index: Record<string, any> = {
     name: "p-group-4",
     description: "Large group",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-group-4.tsx",
       type: "registry:block",
@@ -3377,7 +3377,7 @@ export const Index: Record<string, any> = {
     name: "p-group-5",
     description: "Group with disabled button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-group-5.tsx",
       type: "registry:block",
@@ -3395,7 +3395,7 @@ export const Index: Record<string, any> = {
     name: "p-group-6",
     description: "Group with default button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-group-6.tsx",
       type: "registry:block",
@@ -3413,7 +3413,7 @@ export const Index: Record<string, any> = {
     name: "p-group-7",
     description: "Group with start text",
     type: "registry:block",
-    registryDependencies: ["@coss/group","@coss/input","@coss/label"],
+    registryDependencies: ["@shaddercn/group","@shaddercn/input","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-group-7.tsx",
       type: "registry:block",
@@ -3431,7 +3431,7 @@ export const Index: Record<string, any> = {
     name: "p-group-8",
     description: "Group with end text",
     type: "registry:block",
-    registryDependencies: ["@coss/group","@coss/input","@coss/label"],
+    registryDependencies: ["@shaddercn/group","@shaddercn/input","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-group-8.tsx",
       type: "registry:block",
@@ -3449,7 +3449,7 @@ export const Index: Record<string, any> = {
     name: "p-group-9",
     description: "Vertical group",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group"],
     files: [{
       path: "registry/default/particles/p-group-9.tsx",
       type: "registry:block",
@@ -3467,7 +3467,7 @@ export const Index: Record<string, any> = {
     name: "p-group-10",
     description: "Nested groups",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group"],
     files: [{
       path: "registry/default/particles/p-group-10.tsx",
       type: "registry:block",
@@ -3485,7 +3485,7 @@ export const Index: Record<string, any> = {
     name: "p-group-11",
     description: "Group with popup",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/button","@coss/group","@coss/popover"],
+    registryDependencies: ["@shaddercn/badge","@shaddercn/button","@shaddercn/group","@shaddercn/popover"],
     files: [{
       path: "registry/default/particles/p-group-11.tsx",
       type: "registry:block",
@@ -3503,7 +3503,7 @@ export const Index: Record<string, any> = {
     name: "p-group-12",
     description: "Group with input group",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/input-group","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/input-group","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-group-12.tsx",
       type: "registry:block",
@@ -3521,7 +3521,7 @@ export const Index: Record<string, any> = {
     name: "p-group-13",
     description: "Group with menu",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-group-13.tsx",
       type: "registry:block",
@@ -3539,7 +3539,7 @@ export const Index: Record<string, any> = {
     name: "p-group-14",
     description: "Group with select",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/number-field","@coss/select"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/number-field","@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-group-14.tsx",
       type: "registry:block",
@@ -3557,7 +3557,7 @@ export const Index: Record<string, any> = {
     name: "p-group-15",
     description: "Group with search",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/input","@coss/select"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/input","@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-group-15.tsx",
       type: "registry:block",
@@ -3575,7 +3575,7 @@ export const Index: Record<string, any> = {
     name: "p-input-1",
     description: "Basic input",
     type: "registry:block",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-input-1.tsx",
       type: "registry:block",
@@ -3593,7 +3593,7 @@ export const Index: Record<string, any> = {
     name: "p-input-2",
     description: "Small input",
     type: "registry:block",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-input-2.tsx",
       type: "registry:block",
@@ -3611,7 +3611,7 @@ export const Index: Record<string, any> = {
     name: "p-input-3",
     description: "Large input",
     type: "registry:block",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-input-3.tsx",
       type: "registry:block",
@@ -3629,7 +3629,7 @@ export const Index: Record<string, any> = {
     name: "p-input-4",
     description: "Disabled input",
     type: "registry:block",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-input-4.tsx",
       type: "registry:block",
@@ -3647,7 +3647,7 @@ export const Index: Record<string, any> = {
     name: "p-input-5",
     description: "File input",
     type: "registry:block",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-input-5.tsx",
       type: "registry:block",
@@ -3665,7 +3665,7 @@ export const Index: Record<string, any> = {
     name: "p-input-6",
     description: "Input with label",
     type: "registry:block",
-    registryDependencies: ["@coss/input","@coss/label"],
+    registryDependencies: ["@shaddercn/input","@shaddercn/label"],
     files: [{
       path: "registry/default/particles/p-input-6.tsx",
       type: "registry:block",
@@ -3683,7 +3683,7 @@ export const Index: Record<string, any> = {
     name: "p-input-7",
     description: "Input with button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input"],
     files: [{
       path: "registry/default/particles/p-input-7.tsx",
       type: "registry:block",
@@ -3701,7 +3701,7 @@ export const Index: Record<string, any> = {
     name: "p-input-8",
     description: "Input with start text and end tooltip",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/popover"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/popover"],
     files: [{
       path: "registry/default/particles/p-input-8.tsx",
       type: "registry:block",
@@ -3719,7 +3719,7 @@ export const Index: Record<string, any> = {
     name: "p-input-9",
     description: "Password input with toggle visibility",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-9.tsx",
       type: "registry:block",
@@ -3737,7 +3737,7 @@ export const Index: Record<string, any> = {
     name: "p-input-10",
     description: "Input group mimicking a URL bar",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/popover"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/popover"],
     files: [{
       path: "registry/default/particles/p-input-10.tsx",
       type: "registry:block",
@@ -3755,7 +3755,7 @@ export const Index: Record<string, any> = {
     name: "p-input-11",
     description: "Input group with keyboard shortcut",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group","@coss/kbd"],
+    registryDependencies: ["@shaddercn/input-group","@shaddercn/kbd"],
     files: [{
       path: "registry/default/particles/p-input-11.tsx",
       type: "registry:block",
@@ -3773,7 +3773,7 @@ export const Index: Record<string, any> = {
     name: "p-input-12",
     description: "Input group with start loading spinner",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group","@coss/spinner"],
+    registryDependencies: ["@shaddercn/input-group","@shaddercn/spinner"],
     files: [{
       path: "registry/default/particles/p-input-12.tsx",
       type: "registry:block",
@@ -3791,7 +3791,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-1",
     description: "Basic input group",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group"],
+    registryDependencies: ["@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-1.tsx",
       type: "registry:block",
@@ -3809,7 +3809,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-2",
     description: "Input group with end icon",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group"],
+    registryDependencies: ["@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-2.tsx",
       type: "registry:block",
@@ -3827,7 +3827,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-3",
     description: "Input group with start text",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group"],
+    registryDependencies: ["@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-3.tsx",
       type: "registry:block",
@@ -3845,7 +3845,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-4",
     description: "Input group with end text",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group"],
+    registryDependencies: ["@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-4.tsx",
       type: "registry:block",
@@ -3863,7 +3863,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-5",
     description: "Input group with start and end text",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group"],
+    registryDependencies: ["@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-5.tsx",
       type: "registry:block",
@@ -3881,7 +3881,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-6",
     description: "Input group with number field",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group","@coss/number-field"],
+    registryDependencies: ["@shaddercn/input-group","@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-input-group-6.tsx",
       type: "registry:block",
@@ -3899,7 +3899,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-7",
     description: "Input group with end tooltip",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/popover"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/popover"],
     files: [{
       path: "registry/default/particles/p-input-group-7.tsx",
       type: "registry:block",
@@ -3917,7 +3917,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-8",
     description: "Input group with icon button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/tooltip","@coss/use-copy-to-clipboard"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/tooltip","@shaddercn/use-copy-to-clipboard"],
     files: [{
       path: "registry/default/particles/p-input-group-8.tsx",
       type: "registry:block",
@@ -3935,7 +3935,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-9",
     description: "Input group with button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-9.tsx",
       type: "registry:block",
@@ -3953,7 +3953,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-10",
     description: "Input group with badge",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/input-group"],
+    registryDependencies: ["@shaddercn/badge","@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-10.tsx",
       type: "registry:block",
@@ -3971,7 +3971,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-11",
     description: "Input group with keyboard shortcut",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group","@coss/kbd"],
+    registryDependencies: ["@shaddercn/input-group","@shaddercn/kbd"],
     files: [{
       path: "registry/default/particles/p-input-group-11.tsx",
       type: "registry:block",
@@ -3989,7 +3989,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-12",
     description: "Input group with inner label",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/label","@coss/popover"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/label","@shaddercn/popover"],
     files: [{
       path: "registry/default/particles/p-input-group-12.tsx",
       type: "registry:block",
@@ -4007,7 +4007,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-13",
     description: "Small input group",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group"],
+    registryDependencies: ["@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-13.tsx",
       type: "registry:block",
@@ -4025,7 +4025,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-14",
     description: "Large input group",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group"],
+    registryDependencies: ["@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-14.tsx",
       type: "registry:block",
@@ -4043,7 +4043,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-15",
     description: "Disabled input group",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group"],
     files: [{
       path: "registry/default/particles/p-input-group-15.tsx",
       type: "registry:block",
@@ -4061,7 +4061,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-16",
     description: "Input group with loading spinner",
     type: "registry:block",
-    registryDependencies: ["@coss/input-group","@coss/spinner"],
+    registryDependencies: ["@shaddercn/input-group","@shaddercn/spinner"],
     files: [{
       path: "registry/default/particles/p-input-group-16.tsx",
       type: "registry:block",
@@ -4079,7 +4079,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-17",
     description: "Input group with textarea",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/menu","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/menu","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-input-group-17.tsx",
       type: "registry:block",
@@ -4097,7 +4097,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-18",
     description: "Input group with badge and menu",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/button","@coss/input-group","@coss/menu"],
+    registryDependencies: ["@shaddercn/badge","@shaddercn/button","@shaddercn/input-group","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-input-group-18.tsx",
       type: "registry:block",
@@ -4115,7 +4115,7 @@ export const Index: Record<string, any> = {
     name: "p-input-group-19",
     description: "Mini editor built with input group and toggle",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/input-group","@coss/toggle"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input-group","@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-input-group-19.tsx",
       type: "registry:block",
@@ -4133,7 +4133,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-1",
     description: "Basic meter",
     type: "registry:block",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@shaddercn/meter"],
     files: [{
       path: "registry/default/particles/p-meter-1.tsx",
       type: "registry:block",
@@ -4151,7 +4151,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-2",
     description: "Simple meter",
     type: "registry:block",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@shaddercn/meter"],
     files: [{
       path: "registry/default/particles/p-meter-2.tsx",
       type: "registry:block",
@@ -4169,7 +4169,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-3",
     description: "Meter with formatted value",
     type: "registry:block",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@shaddercn/meter"],
     files: [{
       path: "registry/default/particles/p-meter-3.tsx",
       type: "registry:block",
@@ -4187,7 +4187,7 @@ export const Index: Record<string, any> = {
     name: "p-meter-4",
     description: "Meter with range",
     type: "registry:block",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@shaddercn/meter"],
     files: [{
       path: "registry/default/particles/p-meter-4.tsx",
       type: "registry:block",
@@ -4205,7 +4205,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-1",
     description: "Basic menu",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-1.tsx",
       type: "registry:block",
@@ -4223,7 +4223,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-2",
     description: "Menu with hover",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-2.tsx",
       type: "registry:block",
@@ -4241,7 +4241,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-3",
     description: "Menu with checkbox",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-3.tsx",
       type: "registry:block",
@@ -4259,7 +4259,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-9",
     description: "Menu with checkbox items as switches",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-9.tsx",
       type: "registry:block",
@@ -4277,7 +4277,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-4",
     description: "Menu with radio group",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-4.tsx",
       type: "registry:block",
@@ -4295,7 +4295,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-5",
     description: "Menu with link",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-5.tsx",
       type: "registry:block",
@@ -4313,7 +4313,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-6",
     description: "Menu with group labels",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-6.tsx",
       type: "registry:block",
@@ -4331,7 +4331,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-7",
     description: "Nested menu",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-7.tsx",
       type: "registry:block",
@@ -4349,7 +4349,7 @@ export const Index: Record<string, any> = {
     name: "p-menu-8",
     description: "Menu close on click",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/menu"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/menu"],
     files: [{
       path: "registry/default/particles/p-menu-8.tsx",
       type: "registry:block",
@@ -4367,7 +4367,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-1",
     description: "Basic number field",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-1.tsx",
       type: "registry:block",
@@ -4385,7 +4385,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-2",
     description: "Small number field",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-2.tsx",
       type: "registry:block",
@@ -4403,7 +4403,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-3",
     description: "Large number field",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-3.tsx",
       type: "registry:block",
@@ -4421,7 +4421,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-4",
     description: "Disabled number field",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-4.tsx",
       type: "registry:block",
@@ -4439,7 +4439,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-5",
     description: "Number field with label",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/number-field"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-5.tsx",
       type: "registry:block",
@@ -4457,7 +4457,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-6",
     description: "Number field with scrub",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-6.tsx",
       type: "registry:block",
@@ -4475,7 +4475,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-7",
     description: "Number field with range",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-7.tsx",
       type: "registry:block",
@@ -4493,7 +4493,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-8",
     description: "Number field with formatted value",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-8.tsx",
       type: "registry:block",
@@ -4511,7 +4511,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-9",
     description: "Number field with step",
     type: "registry:block",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-9.tsx",
       type: "registry:block",
@@ -4529,7 +4529,7 @@ export const Index: Record<string, any> = {
     name: "p-number-field-10",
     description: "Number field in form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/number-field"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/number-field"],
     files: [{
       path: "registry/default/particles/p-number-field-10.tsx",
       type: "registry:block",
@@ -4547,7 +4547,7 @@ export const Index: Record<string, any> = {
     name: "p-pagination-1",
     description: "Pagination example",
     type: "registry:block",
-    registryDependencies: ["@coss/pagination"],
+    registryDependencies: ["@shaddercn/pagination"],
     files: [{
       path: "registry/default/particles/p-pagination-1.tsx",
       type: "registry:block",
@@ -4565,7 +4565,7 @@ export const Index: Record<string, any> = {
     name: "p-pagination-2",
     description: "Pagination with previous and next buttons only",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/pagination"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/pagination"],
     files: [{
       path: "registry/default/particles/p-pagination-2.tsx",
       type: "registry:block",
@@ -4583,7 +4583,7 @@ export const Index: Record<string, any> = {
     name: "p-pagination-3",
     description: "Pagination with select, and previous and next buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/pagination","@coss/select"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/pagination","@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-pagination-3.tsx",
       type: "registry:block",
@@ -4601,7 +4601,7 @@ export const Index: Record<string, any> = {
     name: "p-popover-1",
     description: "Popover with a form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/popover","@coss/textarea"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/popover","@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-popover-1.tsx",
       type: "registry:block",
@@ -4619,7 +4619,7 @@ export const Index: Record<string, any> = {
     name: "p-popover-2",
     description: "Popover with close button",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/popover"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/popover"],
     files: [{
       path: "registry/default/particles/p-popover-2.tsx",
       type: "registry:block",
@@ -4637,7 +4637,7 @@ export const Index: Record<string, any> = {
     name: "p-popover-3",
     description: "Animated popovers",
     type: "registry:block",
-    registryDependencies: ["@coss/avatar","@coss/button","@coss/popover"],
+    registryDependencies: ["@shaddercn/avatar","@shaddercn/button","@shaddercn/popover"],
     files: [{
       path: "registry/default/particles/p-popover-3.tsx",
       type: "registry:block",
@@ -4655,7 +4655,7 @@ export const Index: Record<string, any> = {
     name: "p-preview-card-1",
     description: "Preview card with popup",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/preview-card"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/preview-card"],
     files: [{
       path: "registry/default/particles/p-preview-card-1.tsx",
       type: "registry:block",
@@ -4673,7 +4673,7 @@ export const Index: Record<string, any> = {
     name: "p-progress-1",
     description: "Basic progress bar",
     type: "registry:block",
-    registryDependencies: ["@coss/progress"],
+    registryDependencies: ["@shaddercn/progress"],
     files: [{
       path: "registry/default/particles/p-progress-1.tsx",
       type: "registry:block",
@@ -4691,7 +4691,7 @@ export const Index: Record<string, any> = {
     name: "p-progress-2",
     description: "Progress with label and value",
     type: "registry:block",
-    registryDependencies: ["@coss/progress"],
+    registryDependencies: ["@shaddercn/progress"],
     files: [{
       path: "registry/default/particles/p-progress-2.tsx",
       type: "registry:block",
@@ -4709,7 +4709,7 @@ export const Index: Record<string, any> = {
     name: "p-progress-3",
     description: "Progress with formatted value",
     type: "registry:block",
-    registryDependencies: ["@coss/progress"],
+    registryDependencies: ["@shaddercn/progress"],
     files: [{
       path: "registry/default/particles/p-progress-3.tsx",
       type: "registry:block",
@@ -4727,7 +4727,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-1",
     description: "Basic radio group",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/radio-group"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-1.tsx",
       type: "registry:block",
@@ -4745,7 +4745,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-2",
     description: "Disabled radio group",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/radio-group"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-2.tsx",
       type: "registry:block",
@@ -4763,7 +4763,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-3",
     description: "Radio group with description",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/radio-group"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-3.tsx",
       type: "registry:block",
@@ -4781,7 +4781,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-4",
     description: "Radio group card",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/radio-group"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-4.tsx",
       type: "registry:block",
@@ -4799,7 +4799,7 @@ export const Index: Record<string, any> = {
     name: "p-radio-group-5",
     description: "Radio group in form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/fieldset","@coss/form","@coss/radio-group"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/fieldset","@shaddercn/form","@shaddercn/radio-group"],
     files: [{
       path: "registry/default/particles/p-radio-group-5.tsx",
       type: "registry:block",
@@ -4817,7 +4817,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-1",
     description: "Basic scroll area",
     type: "registry:block",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-1.tsx",
       type: "registry:block",
@@ -4835,7 +4835,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-2",
     description: "Horizontal scroll area",
     type: "registry:block",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-2.tsx",
       type: "registry:block",
@@ -4853,7 +4853,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-3",
     description: "Scroll area with both directions",
     type: "registry:block",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-3.tsx",
       type: "registry:block",
@@ -4871,7 +4871,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-4",
     description: "Scroll area with fading edges",
     type: "registry:block",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-4.tsx",
       type: "registry:block",
@@ -4889,7 +4889,7 @@ export const Index: Record<string, any> = {
     name: "p-scroll-area-5",
     description: "Horizontal scroll area with scrollbar gutter",
     type: "registry:block",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@shaddercn/scroll-area"],
     files: [{
       path: "registry/default/particles/p-scroll-area-5.tsx",
       type: "registry:block",
@@ -4907,7 +4907,7 @@ export const Index: Record<string, any> = {
     name: "p-select-1",
     description: "Basic select",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-1.tsx",
       type: "registry:block",
@@ -4925,7 +4925,7 @@ export const Index: Record<string, any> = {
     name: "p-select-2",
     description: "Small select",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-2.tsx",
       type: "registry:block",
@@ -4943,7 +4943,7 @@ export const Index: Record<string, any> = {
     name: "p-select-3",
     description: "Large select",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-3.tsx",
       type: "registry:block",
@@ -4961,7 +4961,7 @@ export const Index: Record<string, any> = {
     name: "p-select-4",
     description: "Disabled select",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-4.tsx",
       type: "registry:block",
@@ -4979,7 +4979,7 @@ export const Index: Record<string, any> = {
     name: "p-select-5",
     description: "Select without item alignment",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-5.tsx",
       type: "registry:block",
@@ -4997,7 +4997,7 @@ export const Index: Record<string, any> = {
     name: "p-select-6",
     description: "Select with groups",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-6.tsx",
       type: "registry:block",
@@ -5015,7 +5015,7 @@ export const Index: Record<string, any> = {
     name: "p-select-7",
     description: "Multiple select",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-7.tsx",
       type: "registry:block",
@@ -5033,7 +5033,7 @@ export const Index: Record<string, any> = {
     name: "p-select-8",
     description: "Select with icon",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-8.tsx",
       type: "registry:block",
@@ -5051,7 +5051,7 @@ export const Index: Record<string, any> = {
     name: "p-select-9",
     description: "Select options with icon",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-9.tsx",
       type: "registry:block",
@@ -5069,7 +5069,7 @@ export const Index: Record<string, any> = {
     name: "p-select-10",
     description: "Select with object values",
     type: "registry:block",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-10.tsx",
       type: "registry:block",
@@ -5087,7 +5087,7 @@ export const Index: Record<string, any> = {
     name: "p-select-11",
     description: "Select in form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/select"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/select"],
     files: [{
       path: "registry/default/particles/p-select-11.tsx",
       type: "registry:block",
@@ -5105,7 +5105,7 @@ export const Index: Record<string, any> = {
     name: "p-separator-1",
     description: "Separator with horizontal and vertical orientations",
     type: "registry:block",
-    registryDependencies: ["@coss/separator"],
+    registryDependencies: ["@shaddercn/separator"],
     files: [{
       path: "registry/default/particles/p-separator-1.tsx",
       type: "registry:block",
@@ -5123,7 +5123,7 @@ export const Index: Record<string, any> = {
     name: "p-sheet-1",
     description: "Basic sheet",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/input","@coss/sheet"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/input","@shaddercn/sheet"],
     files: [{
       path: "registry/default/particles/p-sheet-1.tsx",
       type: "registry:block",
@@ -5141,7 +5141,7 @@ export const Index: Record<string, any> = {
     name: "p-sheet-2",
     description: "Sheet inset",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/input","@coss/sheet"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/input","@shaddercn/sheet"],
     files: [{
       path: "registry/default/particles/p-sheet-2.tsx",
       type: "registry:block",
@@ -5159,7 +5159,7 @@ export const Index: Record<string, any> = {
     name: "p-sheet-3",
     description: "Sheet position",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/sheet"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/sheet"],
     files: [{
       path: "registry/default/particles/p-sheet-3.tsx",
       type: "registry:block",
@@ -5177,7 +5177,7 @@ export const Index: Record<string, any> = {
     name: "p-skeleton-1",
     description: "Basic skeleton",
     type: "registry:block",
-    registryDependencies: ["@coss/avatar","@coss/button","@coss/skeleton"],
+    registryDependencies: ["@shaddercn/avatar","@shaddercn/button","@shaddercn/skeleton"],
     files: [{
       path: "registry/default/particles/p-skeleton-1.tsx",
       type: "registry:block",
@@ -5195,7 +5195,7 @@ export const Index: Record<string, any> = {
     name: "p-skeleton-2",
     description: "Skeleton only",
     type: "registry:block",
-    registryDependencies: ["@coss/skeleton"],
+    registryDependencies: ["@shaddercn/skeleton"],
     files: [{
       path: "registry/default/particles/p-skeleton-2.tsx",
       type: "registry:block",
@@ -5213,7 +5213,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-1",
     description: "Basic slider",
     type: "registry:block",
-    registryDependencies: ["@coss/slider"],
+    registryDependencies: ["@shaddercn/slider"],
     files: [{
       path: "registry/default/particles/p-slider-1.tsx",
       type: "registry:block",
@@ -5231,7 +5231,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-2",
     description: "Slider with label and value",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/slider"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/slider"],
     files: [{
       path: "registry/default/particles/p-slider-2.tsx",
       type: "registry:block",
@@ -5249,7 +5249,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-3",
     description: "Range slider",
     type: "registry:block",
-    registryDependencies: ["@coss/slider"],
+    registryDependencies: ["@shaddercn/slider"],
     files: [{
       path: "registry/default/particles/p-slider-3.tsx",
       type: "registry:block",
@@ -5267,7 +5267,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-4",
     description: "Vertical slider",
     type: "registry:block",
-    registryDependencies: ["@coss/slider"],
+    registryDependencies: ["@shaddercn/slider"],
     files: [{
       path: "registry/default/particles/p-slider-4.tsx",
       type: "registry:block",
@@ -5285,7 +5285,7 @@ export const Index: Record<string, any> = {
     name: "p-slider-5",
     description: "Slider in form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/slider"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/slider"],
     files: [{
       path: "registry/default/particles/p-slider-5.tsx",
       type: "registry:block",
@@ -5303,7 +5303,7 @@ export const Index: Record<string, any> = {
     name: "p-spinner-1",
     description: "Basic spinner",
     type: "registry:block",
-    registryDependencies: ["@coss/spinner"],
+    registryDependencies: ["@shaddercn/spinner"],
     files: [{
       path: "registry/default/particles/p-spinner-1.tsx",
       type: "registry:block",
@@ -5321,7 +5321,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-1",
     description: "Basic switch",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/switch"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/switch"],
     files: [{
       path: "registry/default/particles/p-switch-1.tsx",
       type: "registry:block",
@@ -5339,7 +5339,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-2",
     description: "Disabled switch",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/switch"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/switch"],
     files: [{
       path: "registry/default/particles/p-switch-2.tsx",
       type: "registry:block",
@@ -5357,7 +5357,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-3",
     description: "Switch with description",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/switch"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/switch"],
     files: [{
       path: "registry/default/particles/p-switch-3.tsx",
       type: "registry:block",
@@ -5375,7 +5375,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-4",
     description: "Switch card",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/switch"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/switch"],
     files: [{
       path: "registry/default/particles/p-switch-4.tsx",
       type: "registry:block",
@@ -5393,7 +5393,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-5",
     description: "Switch in form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/switch"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/switch"],
     files: [{
       path: "registry/default/particles/p-switch-5.tsx",
       type: "registry:block",
@@ -5411,7 +5411,7 @@ export const Index: Record<string, any> = {
     name: "p-switch-6",
     description: "Custom size switch",
     type: "registry:block",
-    registryDependencies: ["@coss/switch"],
+    registryDependencies: ["@shaddercn/switch"],
     files: [{
       path: "registry/default/particles/p-switch-6.tsx",
       type: "registry:block",
@@ -5429,7 +5429,7 @@ export const Index: Record<string, any> = {
     name: "p-table-1",
     description: "Basic table",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/table"],
+    registryDependencies: ["@shaddercn/badge","@shaddercn/table"],
     files: [{
       path: "registry/default/particles/p-table-1.tsx",
       type: "registry:block",
@@ -5447,7 +5447,7 @@ export const Index: Record<string, any> = {
     name: "p-table-2",
     description: "Framed table",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/frame","@coss/table"],
+    registryDependencies: ["@shaddercn/badge","@shaddercn/frame","@shaddercn/table"],
     files: [{
       path: "registry/default/particles/p-table-2.tsx",
       type: "registry:block",
@@ -5465,7 +5465,7 @@ export const Index: Record<string, any> = {
     name: "p-table-3",
     description: "Table with TanStack Table and checkboxes",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/checkbox","@coss/frame","@coss/table"],
+    registryDependencies: ["@shaddercn/badge","@shaddercn/checkbox","@shaddercn/frame","@shaddercn/table"],
     files: [{
       path: "registry/default/particles/p-table-3.tsx",
       type: "registry:block",
@@ -5483,7 +5483,7 @@ export const Index: Record<string, any> = {
     name: "p-table-4",
     description: "Table with TanStack Table, sorting, and pagination",
     type: "registry:block",
-    registryDependencies: ["@coss/badge","@coss/button","@coss/checkbox","@coss/frame","@coss/pagination","@coss/select","@coss/table"],
+    registryDependencies: ["@shaddercn/badge","@shaddercn/button","@shaddercn/checkbox","@shaddercn/frame","@shaddercn/pagination","@shaddercn/select","@shaddercn/table"],
     files: [{
       path: "registry/default/particles/p-table-4.tsx",
       type: "registry:block",
@@ -5501,7 +5501,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-1",
     description: "Basic tabs",
     type: "registry:block",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@shaddercn/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-1.tsx",
       type: "registry:block",
@@ -5519,7 +5519,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-2",
     description: "Tabs with underline",
     type: "registry:block",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@shaddercn/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-2.tsx",
       type: "registry:block",
@@ -5537,7 +5537,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-3",
     description: "Vertical tabs",
     type: "registry:block",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@shaddercn/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-3.tsx",
       type: "registry:block",
@@ -5555,7 +5555,7 @@ export const Index: Record<string, any> = {
     name: "p-tabs-4",
     description: "Vertical tabs with underline",
     type: "registry:block",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@shaddercn/tabs"],
     files: [{
       path: "registry/default/particles/p-tabs-4.tsx",
       type: "registry:block",
@@ -5573,7 +5573,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-1",
     description: "Basic textarea",
     type: "registry:block",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-1.tsx",
       type: "registry:block",
@@ -5591,7 +5591,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-2",
     description: "Small textarea",
     type: "registry:block",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-2.tsx",
       type: "registry:block",
@@ -5609,7 +5609,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-3",
     description: "Large textarea",
     type: "registry:block",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-3.tsx",
       type: "registry:block",
@@ -5627,7 +5627,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-4",
     description: "Disabled textarea",
     type: "registry:block",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-4.tsx",
       type: "registry:block",
@@ -5645,7 +5645,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-5",
     description: "Textarea with label",
     type: "registry:block",
-    registryDependencies: ["@coss/label","@coss/textarea"],
+    registryDependencies: ["@shaddercn/label","@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-5.tsx",
       type: "registry:block",
@@ -5663,7 +5663,7 @@ export const Index: Record<string, any> = {
     name: "p-textarea-6",
     description: "Textarea in form",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/field","@coss/form","@coss/textarea"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/field","@shaddercn/form","@shaddercn/textarea"],
     files: [{
       path: "registry/default/particles/p-textarea-6.tsx",
       type: "registry:block",
@@ -5681,7 +5681,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-1",
     description: "Basic toast",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/toast"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/toast"],
     files: [{
       path: "registry/default/particles/p-toast-1.tsx",
       type: "registry:block",
@@ -5699,7 +5699,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-2",
     description: "Toast with status",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/toast"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/toast"],
     files: [{
       path: "registry/default/particles/p-toast-2.tsx",
       type: "registry:block",
@@ -5717,7 +5717,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-3",
     description: "Loading toast",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/toast"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/toast"],
     files: [{
       path: "registry/default/particles/p-toast-3.tsx",
       type: "registry:block",
@@ -5735,7 +5735,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-4",
     description: "Toast with action",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/toast"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/toast"],
     files: [{
       path: "registry/default/particles/p-toast-4.tsx",
       type: "registry:block",
@@ -5753,7 +5753,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-5",
     description: "Promise toast",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/toast"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/toast"],
     files: [{
       path: "registry/default/particles/p-toast-5.tsx",
       type: "registry:block",
@@ -5771,7 +5771,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-6",
     description: "Toast with varying heights",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/toast"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/toast"],
     files: [{
       path: "registry/default/particles/p-toast-6.tsx",
       type: "registry:block",
@@ -5789,7 +5789,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-7",
     description: "Anchored toast with tooltip style",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/toast","@coss/tooltip","@coss/use-copy-to-clipboard"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/toast","@shaddercn/tooltip","@shaddercn/use-copy-to-clipboard"],
     files: [{
       path: "registry/default/particles/p-toast-7.tsx",
       type: "registry:block",
@@ -5807,7 +5807,7 @@ export const Index: Record<string, any> = {
     name: "p-toast-8",
     description: "Anchored toast",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/spinner","@coss/toast"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/spinner","@shaddercn/toast"],
     files: [{
       path: "registry/default/particles/p-toast-8.tsx",
       type: "registry:block",
@@ -5825,7 +5825,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-1",
     description: "Basic toggle group",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-1.tsx",
       type: "registry:block",
@@ -5843,7 +5843,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-2",
     description: "Small toggle group",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-2.tsx",
       type: "registry:block",
@@ -5861,7 +5861,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-3",
     description: "Large toggle group",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-3.tsx",
       type: "registry:block",
@@ -5879,7 +5879,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-4",
     description: "Toggle group with outline",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-4.tsx",
       type: "registry:block",
@@ -5897,7 +5897,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-5",
     description: "Vertical toggle group with outline",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-5.tsx",
       type: "registry:block",
@@ -5915,7 +5915,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-6",
     description: "Disabled toggle group",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-6.tsx",
       type: "registry:block",
@@ -5933,7 +5933,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-7",
     description: "Toggle group with disabled item",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-7.tsx",
       type: "registry:block",
@@ -5951,7 +5951,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-8",
     description: "Multiple selection toggle group",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@shaddercn/toggle-group"],
     files: [{
       path: "registry/default/particles/p-toggle-group-8.tsx",
       type: "registry:block",
@@ -5969,7 +5969,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-group-9",
     description: "Toggle group with tooltips",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/toggle-group","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-toggle-group-9.tsx",
       type: "registry:block",
@@ -5987,7 +5987,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-1",
     description: "Basic toggle",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-1.tsx",
       type: "registry:block",
@@ -6005,7 +6005,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-2",
     description: "Toggle with outline",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-2.tsx",
       type: "registry:block",
@@ -6023,7 +6023,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-3",
     description: "Toggle with icon",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-3.tsx",
       type: "registry:block",
@@ -6041,7 +6041,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-4",
     description: "Small toggle",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-4.tsx",
       type: "registry:block",
@@ -6059,7 +6059,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-5",
     description: "Large toggle",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-5.tsx",
       type: "registry:block",
@@ -6077,7 +6077,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-6",
     description: "Disabled toggle",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-6.tsx",
       type: "registry:block",
@@ -6095,7 +6095,7 @@ export const Index: Record<string, any> = {
     name: "p-toggle-7",
     description: "Toggle icon group",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@shaddercn/toggle"],
     files: [{
       path: "registry/default/particles/p-toggle-7.tsx",
       type: "registry:block",
@@ -6113,7 +6113,7 @@ export const Index: Record<string, any> = {
     name: "p-toolbar-1",
     description: "Toolbar with toggles, buttons, and select",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/select","@coss/toggle-group","@coss/toolbar","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/select","@shaddercn/toggle-group","@shaddercn/toolbar","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-toolbar-1.tsx",
       type: "registry:block",
@@ -6131,7 +6131,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-1",
     description: "Basic tooltip",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-1.tsx",
       type: "registry:block",
@@ -6149,7 +6149,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-2",
     description: "Grouped tooltips",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/toggle-group","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-2.tsx",
       type: "registry:block",
@@ -6167,7 +6167,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-3",
     description: "Toggle group animated tooltip",
     type: "registry:block",
-    registryDependencies: ["@coss/toggle-group","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/toggle-group","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-3.tsx",
       type: "registry:block",
@@ -6185,7 +6185,7 @@ export const Index: Record<string, any> = {
     name: "p-tooltip-4",
     description: "Vertical group with animated tooltip",
     type: "registry:block",
-    registryDependencies: ["@coss/button","@coss/group","@coss/tooltip"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/group","@shaddercn/tooltip"],
     files: [{
       path: "registry/default/particles/p-tooltip-4.tsx",
       type: "registry:block",

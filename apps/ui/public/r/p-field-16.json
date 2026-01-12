@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field with slider",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/slider"
+    "@shaddercn/field",
+    "@shaddercn/slider"
   ],
   "files": [
     {

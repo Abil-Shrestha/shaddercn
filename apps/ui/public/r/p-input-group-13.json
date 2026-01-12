@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Small input group",
   "registryDependencies": [
-    "@coss/input-group"
+    "@shaddercn/input-group"
   ],
   "files": [
     {

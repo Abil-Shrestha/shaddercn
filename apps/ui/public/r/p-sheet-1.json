@@ -4,11 +4,11 @@
   "type": "registry:block",
   "description": "Basic sheet",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/sheet"
+    "@shaddercn/button",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/input",
+    "@shaddercn/sheet"
   ],
   "files": [
     {

@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field with textarea",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/textarea"
+    "@shaddercn/field",
+    "@shaddercn/textarea"
   ],
   "files": [
     {

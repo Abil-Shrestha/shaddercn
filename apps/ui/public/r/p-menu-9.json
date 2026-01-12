@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Menu with checkbox items as switches",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/menu"
+    "@shaddercn/button",
+    "@shaddercn/menu"
   ],
   "files": [
     {

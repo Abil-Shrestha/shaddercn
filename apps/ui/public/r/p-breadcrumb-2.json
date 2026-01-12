@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Breadcrumb with custom separator",
   "registryDependencies": [
-    "@coss/breadcrumb"
+    "@shaddercn/breadcrumb"
   ],
   "files": [
     {

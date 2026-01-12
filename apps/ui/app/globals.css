@@ -1,4 +1,4 @@
-@import "@coss/ui/globals.css";
+@import "@shaddercn/ui/globals.css";
 
 @layer base {
   @supports (font: -apple-system-body) and (-webkit-appearance: none) {

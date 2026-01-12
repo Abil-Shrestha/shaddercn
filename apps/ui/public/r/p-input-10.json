@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Input group mimicking a URL bar",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/popover"
+    "@shaddercn/button",
+    "@shaddercn/input-group",
+    "@shaddercn/popover"
   ],
   "files": [
     {

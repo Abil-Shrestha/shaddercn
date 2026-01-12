@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "incremental": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@shaddercn/ui/*": ["./src/*"]
+    },
+    "types": ["react"]
+  },
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"],
+  "extends": "../typescript-config/react-library.json",
+  "include": ["."]
+}

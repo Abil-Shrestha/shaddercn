@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Vertical tabs with underline",
   "registryDependencies": [
-    "@coss/tabs"
+    "@shaddercn/tabs"
   ],
   "files": [
     {

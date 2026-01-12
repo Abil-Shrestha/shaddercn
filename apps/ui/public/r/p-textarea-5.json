@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Textarea with label",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/textarea"
+    "@shaddercn/label",
+    "@shaddercn/textarea"
   ],
   "files": [
     {

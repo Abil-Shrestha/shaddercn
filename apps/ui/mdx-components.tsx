@@ -1,5 +1,5 @@
-import { CopyButton } from "@coss/ui/shared/copy-button";
-import { getIconForLanguageExtension } from "@coss/ui/shared/icons";
+import { CopyButton } from "@shaddercn/ui/shared/copy-button";
+import { getIconForLanguageExtension } from "@shaddercn/ui/shared/icons";
 import { InfoIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

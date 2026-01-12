@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field with checkbox",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/field"
+    "@shaddercn/checkbox",
+    "@shaddercn/field"
   ],
   "files": [
     {

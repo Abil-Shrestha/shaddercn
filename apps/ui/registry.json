@@ -4,56 +4,56 @@
     {
       "name": "ui",
       "registryDependencies": [
-        "@coss/accordion",
-        "@coss/alert",
-        "@coss/alert-dialog",
-        "@coss/autocomplete",
-        "@coss/avatar",
-        "@coss/badge",
-        "@coss/breadcrumb",
-        "@coss/button",
-        "@coss/card",
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/collapsible",
-        "@coss/combobox",
-        "@coss/command",
-        "@coss/dialog",
-        "@coss/empty",
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/form",
-        "@coss/frame",
-        "@coss/group",
-        "@coss/input",
-        "@coss/input-group",
-        "@coss/kbd",
-        "@coss/label",
-        "@coss/menu",
-        "@coss/meter",
-        "@coss/number-field",
-        "@coss/pagination",
-        "@coss/popover",
-        "@coss/preview-card",
-        "@coss/progress",
-        "@coss/radio-group",
-        "@coss/scroll-area",
-        "@coss/select",
-        "@coss/separator",
-        "@coss/sheet",
-        "@coss/sidebar",
-        "@coss/skeleton",
-        "@coss/slider",
-        "@coss/spinner",
-        "@coss/switch",
-        "@coss/table",
-        "@coss/tabs",
-        "@coss/textarea",
-        "@coss/toast",
-        "@coss/toggle",
-        "@coss/toggle-group",
-        "@coss/toolbar",
-        "@coss/tooltip"
+        "@shaddercn/accordion",
+        "@shaddercn/alert",
+        "@shaddercn/alert-dialog",
+        "@shaddercn/autocomplete",
+        "@shaddercn/avatar",
+        "@shaddercn/badge",
+        "@shaddercn/breadcrumb",
+        "@shaddercn/button",
+        "@shaddercn/card",
+        "@shaddercn/checkbox",
+        "@shaddercn/checkbox-group",
+        "@shaddercn/collapsible",
+        "@shaddercn/combobox",
+        "@shaddercn/command",
+        "@shaddercn/dialog",
+        "@shaddercn/empty",
+        "@shaddercn/field",
+        "@shaddercn/fieldset",
+        "@shaddercn/form",
+        "@shaddercn/frame",
+        "@shaddercn/group",
+        "@shaddercn/input",
+        "@shaddercn/input-group",
+        "@shaddercn/kbd",
+        "@shaddercn/label",
+        "@shaddercn/menu",
+        "@shaddercn/meter",
+        "@shaddercn/number-field",
+        "@shaddercn/pagination",
+        "@shaddercn/popover",
+        "@shaddercn/preview-card",
+        "@shaddercn/progress",
+        "@shaddercn/radio-group",
+        "@shaddercn/scroll-area",
+        "@shaddercn/select",
+        "@shaddercn/separator",
+        "@shaddercn/sheet",
+        "@shaddercn/sidebar",
+        "@shaddercn/skeleton",
+        "@shaddercn/slider",
+        "@shaddercn/spinner",
+        "@shaddercn/switch",
+        "@shaddercn/table",
+        "@shaddercn/tabs",
+        "@shaddercn/textarea",
+        "@shaddercn/toast",
+        "@shaddercn/toggle",
+        "@shaddercn/toggle-group",
+        "@shaddercn/toolbar",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:ui"
     },
@@ -125,8 +125,8 @@
       ],
       "name": "autocomplete",
       "registryDependencies": [
-        "@coss/input",
-        "@coss/scroll-area"
+        "@shaddercn/input",
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:ui"
     },
@@ -274,8 +274,8 @@
       ],
       "name": "combobox",
       "registryDependencies": [
-        "@coss/input",
-        "@coss/scroll-area"
+        "@shaddercn/input",
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:ui"
     },
@@ -291,7 +291,7 @@
       ],
       "name": "command",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:ui"
     },
@@ -307,8 +307,8 @@
       ],
       "name": "dialog",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/scroll-area"
+        "@shaddercn/button",
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:ui"
     },
@@ -391,7 +391,7 @@
       ],
       "name": "group",
       "registryDependencies": [
-        "@coss/separator"
+        "@shaddercn/separator"
       ],
       "type": "registry:ui"
     },
@@ -417,8 +417,8 @@
       ],
       "name": "input-group",
       "registryDependencies": [
-        "@coss/input",
-        "@coss/textarea"
+        "@shaddercn/input",
+        "@shaddercn/textarea"
       ],
       "type": "registry:ui"
     },
@@ -491,7 +491,7 @@
       ],
       "name": "number-field",
       "registryDependencies": [
-        "@coss/label"
+        "@shaddercn/label"
       ],
       "type": "registry:ui"
     },
@@ -504,7 +504,7 @@
       ],
       "name": "pagination",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:ui"
     },
@@ -611,8 +611,8 @@
       ],
       "name": "sheet",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/scroll-area"
+        "@shaddercn/button",
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:ui"
     },
@@ -625,14 +625,14 @@
       ],
       "name": "sidebar",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input",
-        "@coss/scroll-area",
-        "@coss/separator",
-        "@coss/sheet",
-        "@coss/skeleton",
-        "@coss/tooltip",
-        "@coss/use-mobile"
+        "@shaddercn/button",
+        "@shaddercn/input",
+        "@shaddercn/scroll-area",
+        "@shaddercn/separator",
+        "@shaddercn/sheet",
+        "@shaddercn/skeleton",
+        "@shaddercn/tooltip",
+        "@shaddercn/use-mobile"
       ],
       "type": "registry:ui"
     },
@@ -742,7 +742,7 @@
       ],
       "name": "toast",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:ui"
     },
@@ -771,8 +771,8 @@
       ],
       "name": "toggle-group",
       "registryDependencies": [
-        "@coss/separator",
-        "@coss/toggle"
+        "@shaddercn/separator",
+        "@shaddercn/toggle"
       ],
       "type": "registry:ui"
     },
@@ -818,7 +818,7 @@
       },
       "name": "p-accordion-1",
       "registryDependencies": [
-        "@coss/accordion"
+        "@shaddercn/accordion"
       ],
       "type": "registry:block"
     },
@@ -838,7 +838,7 @@
       },
       "name": "p-accordion-2",
       "registryDependencies": [
-        "@coss/accordion"
+        "@shaddercn/accordion"
       ],
       "type": "registry:block"
     },
@@ -858,7 +858,7 @@
       },
       "name": "p-accordion-3",
       "registryDependencies": [
-        "@coss/accordion"
+        "@shaddercn/accordion"
       ],
       "type": "registry:block"
     },
@@ -878,8 +878,8 @@
       },
       "name": "p-accordion-4",
       "registryDependencies": [
-        "@coss/accordion",
-        "@coss/button"
+        "@shaddercn/accordion",
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -899,7 +899,7 @@
       },
       "name": "p-alert-1",
       "registryDependencies": [
-        "@coss/alert"
+        "@shaddercn/alert"
       ],
       "type": "registry:block"
     },
@@ -922,7 +922,7 @@
       },
       "name": "p-alert-2",
       "registryDependencies": [
-        "@coss/alert"
+        "@shaddercn/alert"
       ],
       "type": "registry:block"
     },
@@ -945,8 +945,8 @@
       },
       "name": "p-alert-3",
       "registryDependencies": [
-        "@coss/alert",
-        "@coss/button"
+        "@shaddercn/alert",
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -970,7 +970,7 @@
       },
       "name": "p-alert-4",
       "registryDependencies": [
-        "@coss/alert"
+        "@shaddercn/alert"
       ],
       "type": "registry:block"
     },
@@ -994,7 +994,7 @@
       },
       "name": "p-alert-5",
       "registryDependencies": [
-        "@coss/alert"
+        "@shaddercn/alert"
       ],
       "type": "registry:block"
     },
@@ -1018,7 +1018,7 @@
       },
       "name": "p-alert-6",
       "registryDependencies": [
-        "@coss/alert"
+        "@shaddercn/alert"
       ],
       "type": "registry:block"
     },
@@ -1042,7 +1042,7 @@
       },
       "name": "p-alert-7",
       "registryDependencies": [
-        "@coss/alert"
+        "@shaddercn/alert"
       ],
       "type": "registry:block"
     },
@@ -1060,8 +1060,8 @@
       ],
       "name": "p-alert-dialog-1",
       "registryDependencies": [
-        "@coss/alert-dialog",
-        "@coss/button"
+        "@shaddercn/alert-dialog",
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1079,8 +1079,8 @@
       ],
       "name": "p-alert-dialog-2",
       "registryDependencies": [
-        "@coss/alert-dialog",
-        "@coss/button"
+        "@shaddercn/alert-dialog",
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1101,7 +1101,7 @@
       },
       "name": "p-autocomplete-1",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1123,7 +1123,7 @@
       },
       "name": "p-autocomplete-2",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1144,7 +1144,7 @@
       },
       "name": "p-autocomplete-3",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1165,7 +1165,7 @@
       },
       "name": "p-autocomplete-4",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1186,8 +1186,8 @@
       },
       "name": "p-autocomplete-5",
       "registryDependencies": [
-        "@coss/autocomplete",
-        "@coss/label"
+        "@shaddercn/autocomplete",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -1208,7 +1208,7 @@
       },
       "name": "p-autocomplete-6",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1229,7 +1229,7 @@
       },
       "name": "p-autocomplete-7",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1250,7 +1250,7 @@
       },
       "name": "p-autocomplete-8",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1271,7 +1271,7 @@
       },
       "name": "p-autocomplete-9",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1292,7 +1292,7 @@
       },
       "name": "p-autocomplete-10",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1313,7 +1313,7 @@
       },
       "name": "p-autocomplete-11",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1335,8 +1335,8 @@
       },
       "name": "p-autocomplete-12",
       "registryDependencies": [
-        "@coss/autocomplete",
-        "@coss/spinner"
+        "@shaddercn/autocomplete",
+        "@shaddercn/spinner"
       ],
       "type": "registry:block"
     },
@@ -1358,10 +1358,10 @@
       },
       "name": "p-autocomplete-13",
       "registryDependencies": [
-        "@coss/autocomplete",
-        "@coss/button",
-        "@coss/field",
-        "@coss/form"
+        "@shaddercn/autocomplete",
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form"
       ],
       "type": "registry:block"
     },
@@ -1383,7 +1383,7 @@
       },
       "name": "p-autocomplete-14",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@shaddercn/autocomplete"
       ],
       "type": "registry:block"
     },
@@ -1400,7 +1400,7 @@
       ],
       "name": "p-avatar-1",
       "registryDependencies": [
-        "@coss/avatar"
+        "@shaddercn/avatar"
       ],
       "type": "registry:block"
     },
@@ -1417,7 +1417,7 @@
       ],
       "name": "p-avatar-2",
       "registryDependencies": [
-        "@coss/avatar"
+        "@shaddercn/avatar"
       ],
       "type": "registry:block"
     },
@@ -1434,7 +1434,7 @@
       ],
       "name": "p-avatar-3",
       "registryDependencies": [
-        "@coss/avatar"
+        "@shaddercn/avatar"
       ],
       "type": "registry:block"
     },
@@ -1451,7 +1451,7 @@
       ],
       "name": "p-avatar-4",
       "registryDependencies": [
-        "@coss/avatar"
+        "@shaddercn/avatar"
       ],
       "type": "registry:block"
     },
@@ -1468,7 +1468,7 @@
       ],
       "name": "p-avatar-5",
       "registryDependencies": [
-        "@coss/avatar"
+        "@shaddercn/avatar"
       ],
       "type": "registry:block"
     },
@@ -1485,7 +1485,7 @@
       ],
       "name": "p-badge-1",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1502,7 +1502,7 @@
       ],
       "name": "p-badge-2",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1519,7 +1519,7 @@
       ],
       "name": "p-badge-3",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1537,7 +1537,7 @@
       ],
       "name": "p-badge-4",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1555,7 +1555,7 @@
       ],
       "name": "p-badge-5",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1573,7 +1573,7 @@
       ],
       "name": "p-badge-6",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1591,7 +1591,7 @@
       ],
       "name": "p-badge-7",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1609,7 +1609,7 @@
       ],
       "name": "p-badge-8",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1626,7 +1626,7 @@
       ],
       "name": "p-badge-9",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1643,7 +1643,7 @@
       ],
       "name": "p-badge-10",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1663,7 +1663,7 @@
       ],
       "name": "p-badge-11",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1680,7 +1680,7 @@
       ],
       "name": "p-badge-12",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1697,7 +1697,7 @@
       ],
       "name": "p-badge-13",
       "registryDependencies": [
-        "@coss/badge"
+        "@shaddercn/badge"
       ],
       "type": "registry:block"
     },
@@ -1715,9 +1715,9 @@
       ],
       "name": "p-breadcrumb-1",
       "registryDependencies": [
-        "@coss/breadcrumb",
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/breadcrumb",
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -1734,7 +1734,7 @@
       ],
       "name": "p-breadcrumb-2",
       "registryDependencies": [
-        "@coss/breadcrumb"
+        "@shaddercn/breadcrumb"
       ],
       "type": "registry:block"
     },
@@ -1751,7 +1751,7 @@
       ],
       "name": "p-button-1",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1768,7 +1768,7 @@
       ],
       "name": "p-button-2",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1785,7 +1785,7 @@
       ],
       "name": "p-button-3",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1802,7 +1802,7 @@
       ],
       "name": "p-button-4",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1819,7 +1819,7 @@
       ],
       "name": "p-button-5",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1836,7 +1836,7 @@
       ],
       "name": "p-button-6",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1853,7 +1853,7 @@
       ],
       "name": "p-button-7",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1870,7 +1870,7 @@
       ],
       "name": "p-button-8",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1887,7 +1887,7 @@
       ],
       "name": "p-button-9",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1904,7 +1904,7 @@
       ],
       "name": "p-button-10",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1921,7 +1921,7 @@
       ],
       "name": "p-button-11",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1939,7 +1939,7 @@
       ],
       "name": "p-button-12",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1959,7 +1959,7 @@
       ],
       "name": "p-button-13",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1979,7 +1979,7 @@
       ],
       "name": "p-button-14",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -1999,7 +1999,7 @@
       ],
       "name": "p-button-15",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2019,7 +2019,7 @@
       ],
       "name": "p-button-16",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2036,7 +2036,7 @@
       ],
       "name": "p-button-17",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2054,8 +2054,8 @@
       ],
       "name": "p-button-18",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/spinner"
+        "@shaddercn/button",
+        "@shaddercn/spinner"
       ],
       "type": "registry:block"
     },
@@ -2075,7 +2075,7 @@
       ],
       "name": "p-button-19",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2095,7 +2095,7 @@
       ],
       "name": "p-button-20",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2115,7 +2115,7 @@
       ],
       "name": "p-button-21",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2135,7 +2135,7 @@
       ],
       "name": "p-button-22",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2155,7 +2155,7 @@
       ],
       "name": "p-button-23",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2175,7 +2175,7 @@
       ],
       "name": "p-button-24",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2195,7 +2195,7 @@
       ],
       "name": "p-button-26",
       "registryDependencies": [
-        "@coss/button"
+        "@shaddercn/button"
       ],
       "type": "registry:block"
     },
@@ -2215,12 +2215,12 @@
       },
       "name": "p-card-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/card",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input",
-        "@coss/select"
+        "@shaddercn/button",
+        "@shaddercn/card",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input",
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -2237,8 +2237,8 @@
       ],
       "name": "p-checkbox-1",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2256,8 +2256,8 @@
       ],
       "name": "p-checkbox-2",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2274,8 +2274,8 @@
       ],
       "name": "p-checkbox-3",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2292,8 +2292,8 @@
       ],
       "name": "p-checkbox-4",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2311,10 +2311,10 @@
       ],
       "name": "p-checkbox-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/checkbox",
-        "@coss/field",
-        "@coss/form"
+        "@shaddercn/button",
+        "@shaddercn/checkbox",
+        "@shaddercn/field",
+        "@shaddercn/form"
       ],
       "type": "registry:block"
     },
@@ -2332,9 +2332,9 @@
       ],
       "name": "p-checkbox-group-1",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/checkbox-group",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2353,9 +2353,9 @@
       ],
       "name": "p-checkbox-group-2",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/checkbox-group",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2373,9 +2373,9 @@
       ],
       "name": "p-checkbox-group-3",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/checkbox-group",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2393,9 +2393,9 @@
       ],
       "name": "p-checkbox-group-4",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/label"
+        "@shaddercn/checkbox",
+        "@shaddercn/checkbox-group",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2414,12 +2414,12 @@
       ],
       "name": "p-checkbox-group-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/form"
+        "@shaddercn/button",
+        "@shaddercn/checkbox",
+        "@shaddercn/checkbox-group",
+        "@shaddercn/field",
+        "@shaddercn/fieldset",
+        "@shaddercn/form"
       ],
       "type": "registry:block"
     },
@@ -2439,7 +2439,7 @@
       ],
       "name": "p-collapsible-1",
       "registryDependencies": [
-        "@coss/collapsible"
+        "@shaddercn/collapsible"
       ],
       "type": "registry:block"
     },
@@ -2460,7 +2460,7 @@
       },
       "name": "p-combobox-1",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2482,7 +2482,7 @@
       },
       "name": "p-combobox-2",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2503,7 +2503,7 @@
       },
       "name": "p-combobox-3",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2524,7 +2524,7 @@
       },
       "name": "p-combobox-4",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2545,8 +2545,8 @@
       },
       "name": "p-combobox-5",
       "registryDependencies": [
-        "@coss/combobox",
-        "@coss/label"
+        "@shaddercn/combobox",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -2567,7 +2567,7 @@
       },
       "name": "p-combobox-6",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2588,7 +2588,7 @@
       },
       "name": "p-combobox-7",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2609,7 +2609,7 @@
       },
       "name": "p-combobox-8",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2630,7 +2630,7 @@
       },
       "name": "p-combobox-9",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2654,8 +2654,8 @@
       },
       "name": "p-combobox-10",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/combobox"
+        "@shaddercn/button",
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2677,10 +2677,10 @@
       },
       "name": "p-combobox-11",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/combobox",
-        "@coss/field",
-        "@coss/form"
+        "@shaddercn/button",
+        "@shaddercn/combobox",
+        "@shaddercn/field",
+        "@shaddercn/form"
       ],
       "type": "registry:block"
     },
@@ -2702,10 +2702,10 @@
       },
       "name": "p-combobox-12",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/combobox",
-        "@coss/field",
-        "@coss/form"
+        "@shaddercn/button",
+        "@shaddercn/combobox",
+        "@shaddercn/field",
+        "@shaddercn/form"
       ],
       "type": "registry:block"
     },
@@ -2729,7 +2729,7 @@
       },
       "name": "p-combobox-13",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2753,7 +2753,7 @@
       },
       "name": "p-combobox-14",
       "registryDependencies": [
-        "@coss/combobox"
+        "@shaddercn/combobox"
       ],
       "type": "registry:block"
     },
@@ -2774,9 +2774,9 @@
       ],
       "name": "p-command-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/command",
-        "@coss/kbd"
+        "@shaddercn/button",
+        "@shaddercn/command",
+        "@shaddercn/kbd"
       ],
       "type": "registry:block"
     },
@@ -2797,14 +2797,14 @@
       ],
       "name": "p-command-2",
       "registryDependencies": [
-        "@coss/autocomplete",
-        "@coss/button",
-        "@coss/command",
-        "@coss/input",
-        "@coss/kbd",
-        "@coss/scroll-area",
-        "@coss/skeleton",
-        "@coss/spinner"
+        "@shaddercn/autocomplete",
+        "@shaddercn/button",
+        "@shaddercn/command",
+        "@shaddercn/input",
+        "@shaddercn/kbd",
+        "@shaddercn/scroll-area",
+        "@shaddercn/skeleton",
+        "@shaddercn/spinner"
       ],
       "type": "registry:block"
     },
@@ -2821,11 +2821,11 @@
       ],
       "name": "p-dialog-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/dialog",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input"
+        "@shaddercn/button",
+        "@shaddercn/dialog",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -2842,11 +2842,11 @@
       ],
       "name": "p-dialog-6",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/dialog",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input"
+        "@shaddercn/button",
+        "@shaddercn/dialog",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -2864,9 +2864,9 @@
       ],
       "name": "p-dialog-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/dialog",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/dialog",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -2883,10 +2883,10 @@
       ],
       "name": "p-dialog-3",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/dialog",
-        "@coss/field",
-        "@coss/input"
+        "@shaddercn/button",
+        "@shaddercn/dialog",
+        "@shaddercn/field",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -2904,12 +2904,12 @@
       ],
       "name": "p-dialog-4",
       "registryDependencies": [
-        "@coss/alert-dialog",
-        "@coss/button",
-        "@coss/dialog",
-        "@coss/field",
-        "@coss/form",
-        "@coss/textarea"
+        "@shaddercn/alert-dialog",
+        "@shaddercn/button",
+        "@shaddercn/dialog",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -2926,8 +2926,8 @@
       ],
       "name": "p-dialog-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/dialog"
+        "@shaddercn/button",
+        "@shaddercn/dialog"
       ],
       "type": "registry:block"
     },
@@ -2947,8 +2947,8 @@
       ],
       "name": "p-empty-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/empty"
+        "@shaddercn/button",
+        "@shaddercn/empty"
       ],
       "type": "registry:block"
     },
@@ -2969,8 +2969,8 @@
       },
       "name": "p-field-1",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/input"
+        "@shaddercn/field",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -2991,8 +2991,8 @@
       },
       "name": "p-field-2",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/input"
+        "@shaddercn/field",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3014,8 +3014,8 @@
       },
       "name": "p-field-3",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/input"
+        "@shaddercn/field",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3037,8 +3037,8 @@
       },
       "name": "p-field-4",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/input"
+        "@shaddercn/field",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3058,8 +3058,8 @@
       },
       "name": "p-field-5",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/input"
+        "@shaddercn/field",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3082,9 +3082,9 @@
       },
       "name": "p-field-6",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/input-group"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -3107,8 +3107,8 @@
       },
       "name": "p-field-7",
       "registryDependencies": [
-        "@coss/autocomplete",
-        "@coss/field"
+        "@shaddercn/autocomplete",
+        "@shaddercn/field"
       ],
       "type": "registry:block"
     },
@@ -3131,8 +3131,8 @@
       },
       "name": "p-field-8",
       "registryDependencies": [
-        "@coss/combobox",
-        "@coss/field"
+        "@shaddercn/combobox",
+        "@shaddercn/field"
       ],
       "type": "registry:block"
     },
@@ -3155,8 +3155,8 @@
       },
       "name": "p-field-9",
       "registryDependencies": [
-        "@coss/combobox",
-        "@coss/field"
+        "@shaddercn/combobox",
+        "@shaddercn/field"
       ],
       "type": "registry:block"
     },
@@ -3178,8 +3178,8 @@
       },
       "name": "p-field-10",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/textarea"
+        "@shaddercn/field",
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -3201,8 +3201,8 @@
       },
       "name": "p-field-11",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/select"
+        "@shaddercn/field",
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -3224,8 +3224,8 @@
       },
       "name": "p-field-12",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/field"
+        "@shaddercn/checkbox",
+        "@shaddercn/field"
       ],
       "type": "registry:block"
     },
@@ -3249,10 +3249,10 @@
       },
       "name": "p-field-13",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/field",
-        "@coss/fieldset"
+        "@shaddercn/checkbox",
+        "@shaddercn/checkbox-group",
+        "@shaddercn/field",
+        "@shaddercn/fieldset"
       ],
       "type": "registry:block"
     },
@@ -3275,9 +3275,9 @@
       },
       "name": "p-field-14",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/radio-group"
+        "@shaddercn/field",
+        "@shaddercn/fieldset",
+        "@shaddercn/radio-group"
       ],
       "type": "registry:block"
     },
@@ -3296,8 +3296,8 @@
       ],
       "name": "p-field-15",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/switch"
+        "@shaddercn/field",
+        "@shaddercn/switch"
       ],
       "type": "registry:block"
     },
@@ -3319,8 +3319,8 @@
       },
       "name": "p-field-16",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/slider"
+        "@shaddercn/field",
+        "@shaddercn/slider"
       ],
       "type": "registry:block"
     },
@@ -3343,8 +3343,8 @@
       },
       "name": "p-field-17",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/number-field"
+        "@shaddercn/field",
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -3369,12 +3369,12 @@
       },
       "name": "p-field-18",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/checkbox",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input",
-        "@coss/select"
+        "@shaddercn/button",
+        "@shaddercn/checkbox",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input",
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -3394,9 +3394,9 @@
       },
       "name": "p-fieldset-1",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/input"
+        "@shaddercn/field",
+        "@shaddercn/fieldset",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3419,10 +3419,10 @@
       },
       "name": "p-form-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3450,10 +3450,10 @@
       },
       "name": "p-form-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3473,7 +3473,7 @@
       },
       "name": "p-frame-1",
       "registryDependencies": [
-        "@coss/frame"
+        "@shaddercn/frame"
       ],
       "type": "registry:block"
     },
@@ -3493,7 +3493,7 @@
       },
       "name": "p-frame-3",
       "registryDependencies": [
-        "@coss/frame"
+        "@shaddercn/frame"
       ],
       "type": "registry:block"
     },
@@ -3513,8 +3513,8 @@
       },
       "name": "p-frame-4",
       "registryDependencies": [
-        "@coss/frame",
-        "@coss/separator"
+        "@shaddercn/frame",
+        "@shaddercn/separator"
       ],
       "type": "registry:block"
     },
@@ -3538,9 +3538,9 @@
       },
       "name": "p-frame-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/collapsible",
-        "@coss/frame"
+        "@shaddercn/button",
+        "@shaddercn/collapsible",
+        "@shaddercn/frame"
       ],
       "type": "registry:block"
     },
@@ -3557,7 +3557,7 @@
       ],
       "name": "p-kbd-1",
       "registryDependencies": [
-        "@coss/kbd"
+        "@shaddercn/kbd"
       ],
       "type": "registry:block"
     },
@@ -3574,9 +3574,9 @@
       ],
       "name": "p-group-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -3594,11 +3594,11 @@
       ],
       "name": "p-group-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/input",
-        "@coss/tooltip",
-        "@coss/use-copy-to-clipboard"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/input",
+        "@shaddercn/tooltip",
+        "@shaddercn/use-copy-to-clipboard"
       ],
       "type": "registry:block"
     },
@@ -3615,9 +3615,9 @@
       ],
       "name": "p-group-3",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -3634,9 +3634,9 @@
       ],
       "name": "p-group-4",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -3654,9 +3654,9 @@
       ],
       "name": "p-group-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -3674,9 +3674,9 @@
       ],
       "name": "p-group-6",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -3693,9 +3693,9 @@
       ],
       "name": "p-group-7",
       "registryDependencies": [
-        "@coss/group",
-        "@coss/input",
-        "@coss/label"
+        "@shaddercn/group",
+        "@shaddercn/input",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -3712,9 +3712,9 @@
       ],
       "name": "p-group-8",
       "registryDependencies": [
-        "@coss/group",
-        "@coss/input",
-        "@coss/label"
+        "@shaddercn/group",
+        "@shaddercn/input",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -3731,8 +3731,8 @@
       ],
       "name": "p-group-9",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group"
+        "@shaddercn/button",
+        "@shaddercn/group"
       ],
       "type": "registry:block"
     },
@@ -3749,8 +3749,8 @@
       ],
       "name": "p-group-10",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group"
+        "@shaddercn/button",
+        "@shaddercn/group"
       ],
       "type": "registry:block"
     },
@@ -3767,10 +3767,10 @@
       ],
       "name": "p-group-11",
       "registryDependencies": [
-        "@coss/badge",
-        "@coss/button",
-        "@coss/group",
-        "@coss/popover"
+        "@shaddercn/badge",
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/popover"
       ],
       "type": "registry:block"
     },
@@ -3788,10 +3788,10 @@
       ],
       "name": "p-group-12",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/input-group",
-        "@coss/tooltip"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/input-group",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -3809,9 +3809,9 @@
       ],
       "name": "p-group-13",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -3829,10 +3829,10 @@
       ],
       "name": "p-group-14",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/number-field",
-        "@coss/select"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/number-field",
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -3850,10 +3850,10 @@
       ],
       "name": "p-group-15",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/input",
-        "@coss/select"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/input",
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -3873,7 +3873,7 @@
       },
       "name": "p-input-1",
       "registryDependencies": [
-        "@coss/input"
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3893,7 +3893,7 @@
       },
       "name": "p-input-2",
       "registryDependencies": [
-        "@coss/input"
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3913,7 +3913,7 @@
       },
       "name": "p-input-3",
       "registryDependencies": [
-        "@coss/input"
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3933,7 +3933,7 @@
       },
       "name": "p-input-4",
       "registryDependencies": [
-        "@coss/input"
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3953,7 +3953,7 @@
       },
       "name": "p-input-5",
       "registryDependencies": [
-        "@coss/input"
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -3974,8 +3974,8 @@
       },
       "name": "p-input-6",
       "registryDependencies": [
-        "@coss/input",
-        "@coss/label"
+        "@shaddercn/input",
+        "@shaddercn/label"
       ],
       "type": "registry:block"
     },
@@ -3996,8 +3996,8 @@
       },
       "name": "p-input-7",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input"
+        "@shaddercn/button",
+        "@shaddercn/input"
       ],
       "type": "registry:block"
     },
@@ -4020,9 +4020,9 @@
       },
       "name": "p-input-8",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/popover"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/popover"
       ],
       "type": "registry:block"
     },
@@ -4045,9 +4045,9 @@
       },
       "name": "p-input-9",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/tooltip"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -4070,9 +4070,9 @@
       },
       "name": "p-input-10",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/popover"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/popover"
       ],
       "type": "registry:block"
     },
@@ -4095,8 +4095,8 @@
       },
       "name": "p-input-11",
       "registryDependencies": [
-        "@coss/input-group",
-        "@coss/kbd"
+        "@shaddercn/input-group",
+        "@shaddercn/kbd"
       ],
       "type": "registry:block"
     },
@@ -4119,8 +4119,8 @@
       },
       "name": "p-input-12",
       "registryDependencies": [
-        "@coss/input-group",
-        "@coss/spinner"
+        "@shaddercn/input-group",
+        "@shaddercn/spinner"
       ],
       "type": "registry:block"
     },
@@ -4140,7 +4140,7 @@
       },
       "name": "p-input-group-1",
       "registryDependencies": [
-        "@coss/input-group"
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4163,7 +4163,7 @@
       },
       "name": "p-input-group-2",
       "registryDependencies": [
-        "@coss/input-group"
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4183,7 +4183,7 @@
       },
       "name": "p-input-group-3",
       "registryDependencies": [
-        "@coss/input-group"
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4203,7 +4203,7 @@
       },
       "name": "p-input-group-4",
       "registryDependencies": [
-        "@coss/input-group"
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4223,7 +4223,7 @@
       },
       "name": "p-input-group-5",
       "registryDependencies": [
-        "@coss/input-group"
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4244,8 +4244,8 @@
       },
       "name": "p-input-group-6",
       "registryDependencies": [
-        "@coss/input-group",
-        "@coss/number-field"
+        "@shaddercn/input-group",
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4269,9 +4269,9 @@
       },
       "name": "p-input-group-7",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/popover"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/popover"
       ],
       "type": "registry:block"
     },
@@ -4295,10 +4295,10 @@
       },
       "name": "p-input-group-8",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/tooltip",
-        "@coss/use-copy-to-clipboard"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/tooltip",
+        "@shaddercn/use-copy-to-clipboard"
       ],
       "type": "registry:block"
     },
@@ -4319,8 +4319,8 @@
       },
       "name": "p-input-group-9",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group"
+        "@shaddercn/button",
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4341,8 +4341,8 @@
       },
       "name": "p-input-group-10",
       "registryDependencies": [
-        "@coss/badge",
-        "@coss/input-group"
+        "@shaddercn/badge",
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4363,8 +4363,8 @@
       },
       "name": "p-input-group-11",
       "registryDependencies": [
-        "@coss/input-group",
-        "@coss/kbd"
+        "@shaddercn/input-group",
+        "@shaddercn/kbd"
       ],
       "type": "registry:block"
     },
@@ -4385,10 +4385,10 @@
       },
       "name": "p-input-group-12",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/label",
-        "@coss/popover"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/label",
+        "@shaddercn/popover"
       ],
       "type": "registry:block"
     },
@@ -4408,7 +4408,7 @@
       },
       "name": "p-input-group-13",
       "registryDependencies": [
-        "@coss/input-group"
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4428,7 +4428,7 @@
       },
       "name": "p-input-group-14",
       "registryDependencies": [
-        "@coss/input-group"
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4448,8 +4448,8 @@
       },
       "name": "p-input-group-15",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group"
+        "@shaddercn/button",
+        "@shaddercn/input-group"
       ],
       "type": "registry:block"
     },
@@ -4470,8 +4470,8 @@
       },
       "name": "p-input-group-16",
       "registryDependencies": [
-        "@coss/input-group",
-        "@coss/spinner"
+        "@shaddercn/input-group",
+        "@shaddercn/spinner"
       ],
       "type": "registry:block"
     },
@@ -4492,10 +4492,10 @@
       },
       "name": "p-input-group-17",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/menu",
-        "@coss/tooltip"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/menu",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -4520,10 +4520,10 @@
       },
       "name": "p-input-group-18",
       "registryDependencies": [
-        "@coss/badge",
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/menu"
+        "@shaddercn/badge",
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4549,9 +4549,9 @@
       },
       "name": "p-input-group-19",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/input-group",
-        "@coss/toggle"
+        "@shaddercn/button",
+        "@shaddercn/input-group",
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -4571,7 +4571,7 @@
       },
       "name": "p-meter-1",
       "registryDependencies": [
-        "@coss/meter"
+        "@shaddercn/meter"
       ],
       "type": "registry:block"
     },
@@ -4591,7 +4591,7 @@
       },
       "name": "p-meter-2",
       "registryDependencies": [
-        "@coss/meter"
+        "@shaddercn/meter"
       ],
       "type": "registry:block"
     },
@@ -4611,7 +4611,7 @@
       },
       "name": "p-meter-3",
       "registryDependencies": [
-        "@coss/meter"
+        "@shaddercn/meter"
       ],
       "type": "registry:block"
     },
@@ -4631,7 +4631,7 @@
       },
       "name": "p-meter-4",
       "registryDependencies": [
-        "@coss/meter"
+        "@shaddercn/meter"
       ],
       "type": "registry:block"
     },
@@ -4648,8 +4648,8 @@
       ],
       "name": "p-menu-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4666,8 +4666,8 @@
       ],
       "name": "p-menu-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4684,8 +4684,8 @@
       ],
       "name": "p-menu-3",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4703,8 +4703,8 @@
       ],
       "name": "p-menu-9",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4721,8 +4721,8 @@
       ],
       "name": "p-menu-4",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4739,8 +4739,8 @@
       ],
       "name": "p-menu-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4757,8 +4757,8 @@
       ],
       "name": "p-menu-6",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4775,8 +4775,8 @@
       ],
       "name": "p-menu-7",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4793,8 +4793,8 @@
       ],
       "name": "p-menu-8",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/menu"
+        "@shaddercn/button",
+        "@shaddercn/menu"
       ],
       "type": "registry:block"
     },
@@ -4814,7 +4814,7 @@
       },
       "name": "p-number-field-1",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4834,7 +4834,7 @@
       },
       "name": "p-number-field-2",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4854,7 +4854,7 @@
       },
       "name": "p-number-field-3",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4874,7 +4874,7 @@
       },
       "name": "p-number-field-4",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4894,8 +4894,8 @@
       },
       "name": "p-number-field-5",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/number-field"
+        "@shaddercn/label",
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4915,7 +4915,7 @@
       },
       "name": "p-number-field-6",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4935,7 +4935,7 @@
       },
       "name": "p-number-field-7",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4955,7 +4955,7 @@
       },
       "name": "p-number-field-8",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -4975,7 +4975,7 @@
       },
       "name": "p-number-field-9",
       "registryDependencies": [
-        "@coss/number-field"
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -5001,10 +5001,10 @@
       },
       "name": "p-number-field-10",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/number-field"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/number-field"
       ],
       "type": "registry:block"
     },
@@ -5021,7 +5021,7 @@
       ],
       "name": "p-pagination-1",
       "registryDependencies": [
-        "@coss/pagination"
+        "@shaddercn/pagination"
       ],
       "type": "registry:block"
     },
@@ -5041,8 +5041,8 @@
       },
       "name": "p-pagination-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/pagination"
+        "@shaddercn/button",
+        "@shaddercn/pagination"
       ],
       "type": "registry:block"
     },
@@ -5063,9 +5063,9 @@
       },
       "name": "p-pagination-3",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/pagination",
-        "@coss/select"
+        "@shaddercn/button",
+        "@shaddercn/pagination",
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5086,11 +5086,11 @@
       ],
       "name": "p-popover-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/popover",
-        "@coss/textarea"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/popover",
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -5111,8 +5111,8 @@
       ],
       "name": "p-popover-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/popover"
+        "@shaddercn/button",
+        "@shaddercn/popover"
       ],
       "type": "registry:block"
     },
@@ -5134,9 +5134,9 @@
       ],
       "name": "p-popover-3",
       "registryDependencies": [
-        "@coss/avatar",
-        "@coss/button",
-        "@coss/popover"
+        "@shaddercn/avatar",
+        "@shaddercn/button",
+        "@shaddercn/popover"
       ],
       "type": "registry:block"
     },
@@ -5156,8 +5156,8 @@
       ],
       "name": "p-preview-card-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/preview-card"
+        "@shaddercn/button",
+        "@shaddercn/preview-card"
       ],
       "type": "registry:block"
     },
@@ -5177,7 +5177,7 @@
       },
       "name": "p-progress-1",
       "registryDependencies": [
-        "@coss/progress"
+        "@shaddercn/progress"
       ],
       "type": "registry:block"
     },
@@ -5197,7 +5197,7 @@
       },
       "name": "p-progress-2",
       "registryDependencies": [
-        "@coss/progress"
+        "@shaddercn/progress"
       ],
       "type": "registry:block"
     },
@@ -5217,7 +5217,7 @@
       },
       "name": "p-progress-3",
       "registryDependencies": [
-        "@coss/progress"
+        "@shaddercn/progress"
       ],
       "type": "registry:block"
     },
@@ -5234,8 +5234,8 @@
       ],
       "name": "p-radio-group-1",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/radio-group"
+        "@shaddercn/label",
+        "@shaddercn/radio-group"
       ],
       "type": "registry:block"
     },
@@ -5252,8 +5252,8 @@
       ],
       "name": "p-radio-group-2",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/radio-group"
+        "@shaddercn/label",
+        "@shaddercn/radio-group"
       ],
       "type": "registry:block"
     },
@@ -5270,8 +5270,8 @@
       ],
       "name": "p-radio-group-3",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/radio-group"
+        "@shaddercn/label",
+        "@shaddercn/radio-group"
       ],
       "type": "registry:block"
     },
@@ -5288,8 +5288,8 @@
       ],
       "name": "p-radio-group-4",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/radio-group"
+        "@shaddercn/label",
+        "@shaddercn/radio-group"
       ],
       "type": "registry:block"
     },
@@ -5307,11 +5307,11 @@
       ],
       "name": "p-radio-group-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/form",
-        "@coss/radio-group"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/fieldset",
+        "@shaddercn/form",
+        "@shaddercn/radio-group"
       ],
       "type": "registry:block"
     },
@@ -5331,7 +5331,7 @@
       },
       "name": "p-scroll-area-1",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:block"
     },
@@ -5348,7 +5348,7 @@
       ],
       "name": "p-scroll-area-2",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:block"
     },
@@ -5365,7 +5365,7 @@
       ],
       "name": "p-scroll-area-3",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:block"
     },
@@ -5385,7 +5385,7 @@
       },
       "name": "p-scroll-area-4",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:block"
     },
@@ -5402,7 +5402,7 @@
       ],
       "name": "p-scroll-area-5",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@shaddercn/scroll-area"
       ],
       "type": "registry:block"
     },
@@ -5422,7 +5422,7 @@
       },
       "name": "p-select-1",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5442,7 +5442,7 @@
       },
       "name": "p-select-2",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5462,7 +5462,7 @@
       },
       "name": "p-select-3",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5482,7 +5482,7 @@
       },
       "name": "p-select-4",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5502,7 +5502,7 @@
       },
       "name": "p-select-5",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5522,7 +5522,7 @@
       },
       "name": "p-select-6",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5542,7 +5542,7 @@
       },
       "name": "p-select-7",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5565,7 +5565,7 @@
       },
       "name": "p-select-8",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5588,7 +5588,7 @@
       },
       "name": "p-select-9",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5608,7 +5608,7 @@
       },
       "name": "p-select-10",
       "registryDependencies": [
-        "@coss/select"
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5628,10 +5628,10 @@
       },
       "name": "p-select-11",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/select"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/select"
       ],
       "type": "registry:block"
     },
@@ -5648,7 +5648,7 @@
       ],
       "name": "p-separator-1",
       "registryDependencies": [
-        "@coss/separator"
+        "@shaddercn/separator"
       ],
       "type": "registry:block"
     },
@@ -5665,11 +5665,11 @@
       ],
       "name": "p-sheet-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input",
-        "@coss/sheet"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input",
+        "@shaddercn/sheet"
       ],
       "type": "registry:block"
     },
@@ -5686,11 +5686,11 @@
       ],
       "name": "p-sheet-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/input",
-        "@coss/sheet"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/input",
+        "@shaddercn/sheet"
       ],
       "type": "registry:block"
     },
@@ -5707,8 +5707,8 @@
       ],
       "name": "p-sheet-3",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/sheet"
+        "@shaddercn/button",
+        "@shaddercn/sheet"
       ],
       "type": "registry:block"
     },
@@ -5728,9 +5728,9 @@
       },
       "name": "p-skeleton-1",
       "registryDependencies": [
-        "@coss/avatar",
-        "@coss/button",
-        "@coss/skeleton"
+        "@shaddercn/avatar",
+        "@shaddercn/button",
+        "@shaddercn/skeleton"
       ],
       "type": "registry:block"
     },
@@ -5750,7 +5750,7 @@
       },
       "name": "p-skeleton-2",
       "registryDependencies": [
-        "@coss/skeleton"
+        "@shaddercn/skeleton"
       ],
       "type": "registry:block"
     },
@@ -5770,7 +5770,7 @@
       },
       "name": "p-slider-1",
       "registryDependencies": [
-        "@coss/slider"
+        "@shaddercn/slider"
       ],
       "type": "registry:block"
     },
@@ -5790,8 +5790,8 @@
       },
       "name": "p-slider-2",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/slider"
+        "@shaddercn/label",
+        "@shaddercn/slider"
       ],
       "type": "registry:block"
     },
@@ -5811,7 +5811,7 @@
       },
       "name": "p-slider-3",
       "registryDependencies": [
-        "@coss/slider"
+        "@shaddercn/slider"
       ],
       "type": "registry:block"
     },
@@ -5828,7 +5828,7 @@
       ],
       "name": "p-slider-4",
       "registryDependencies": [
-        "@coss/slider"
+        "@shaddercn/slider"
       ],
       "type": "registry:block"
     },
@@ -5848,10 +5848,10 @@
       },
       "name": "p-slider-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/slider"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/slider"
       ],
       "type": "registry:block"
     },
@@ -5868,7 +5868,7 @@
       ],
       "name": "p-spinner-1",
       "registryDependencies": [
-        "@coss/spinner"
+        "@shaddercn/spinner"
       ],
       "type": "registry:block"
     },
@@ -5885,8 +5885,8 @@
       ],
       "name": "p-switch-1",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/switch"
+        "@shaddercn/label",
+        "@shaddercn/switch"
       ],
       "type": "registry:block"
     },
@@ -5903,8 +5903,8 @@
       ],
       "name": "p-switch-2",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/switch"
+        "@shaddercn/label",
+        "@shaddercn/switch"
       ],
       "type": "registry:block"
     },
@@ -5921,8 +5921,8 @@
       ],
       "name": "p-switch-3",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/switch"
+        "@shaddercn/label",
+        "@shaddercn/switch"
       ],
       "type": "registry:block"
     },
@@ -5939,8 +5939,8 @@
       ],
       "name": "p-switch-4",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/switch"
+        "@shaddercn/label",
+        "@shaddercn/switch"
       ],
       "type": "registry:block"
     },
@@ -5957,10 +5957,10 @@
       ],
       "name": "p-switch-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/switch"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/switch"
       ],
       "type": "registry:block"
     },
@@ -5977,7 +5977,7 @@
       ],
       "name": "p-switch-6",
       "registryDependencies": [
-        "@coss/switch"
+        "@shaddercn/switch"
       ],
       "type": "registry:block"
     },
@@ -5998,8 +5998,8 @@
       },
       "name": "p-table-1",
       "registryDependencies": [
-        "@coss/badge",
-        "@coss/table"
+        "@shaddercn/badge",
+        "@shaddercn/table"
       ],
       "type": "registry:block"
     },
@@ -6021,9 +6021,9 @@
       },
       "name": "p-table-2",
       "registryDependencies": [
-        "@coss/badge",
-        "@coss/frame",
-        "@coss/table"
+        "@shaddercn/badge",
+        "@shaddercn/frame",
+        "@shaddercn/table"
       ],
       "type": "registry:block"
     },
@@ -6049,10 +6049,10 @@
       },
       "name": "p-table-3",
       "registryDependencies": [
-        "@coss/badge",
-        "@coss/checkbox",
-        "@coss/frame",
-        "@coss/table"
+        "@shaddercn/badge",
+        "@shaddercn/checkbox",
+        "@shaddercn/frame",
+        "@shaddercn/table"
       ],
       "type": "registry:block"
     },
@@ -6081,13 +6081,13 @@
       },
       "name": "p-table-4",
       "registryDependencies": [
-        "@coss/badge",
-        "@coss/button",
-        "@coss/checkbox",
-        "@coss/frame",
-        "@coss/pagination",
-        "@coss/select",
-        "@coss/table"
+        "@shaddercn/badge",
+        "@shaddercn/button",
+        "@shaddercn/checkbox",
+        "@shaddercn/frame",
+        "@shaddercn/pagination",
+        "@shaddercn/select",
+        "@shaddercn/table"
       ],
       "type": "registry:block"
     },
@@ -6104,7 +6104,7 @@
       ],
       "name": "p-tabs-1",
       "registryDependencies": [
-        "@coss/tabs"
+        "@shaddercn/tabs"
       ],
       "type": "registry:block"
     },
@@ -6121,7 +6121,7 @@
       ],
       "name": "p-tabs-2",
       "registryDependencies": [
-        "@coss/tabs"
+        "@shaddercn/tabs"
       ],
       "type": "registry:block"
     },
@@ -6141,7 +6141,7 @@
       },
       "name": "p-tabs-3",
       "registryDependencies": [
-        "@coss/tabs"
+        "@shaddercn/tabs"
       ],
       "type": "registry:block"
     },
@@ -6161,7 +6161,7 @@
       },
       "name": "p-tabs-4",
       "registryDependencies": [
-        "@coss/tabs"
+        "@shaddercn/tabs"
       ],
       "type": "registry:block"
     },
@@ -6181,7 +6181,7 @@
       },
       "name": "p-textarea-1",
       "registryDependencies": [
-        "@coss/textarea"
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -6201,7 +6201,7 @@
       },
       "name": "p-textarea-2",
       "registryDependencies": [
-        "@coss/textarea"
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -6221,7 +6221,7 @@
       },
       "name": "p-textarea-3",
       "registryDependencies": [
-        "@coss/textarea"
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -6241,7 +6241,7 @@
       },
       "name": "p-textarea-4",
       "registryDependencies": [
-        "@coss/textarea"
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -6261,8 +6261,8 @@
       },
       "name": "p-textarea-5",
       "registryDependencies": [
-        "@coss/label",
-        "@coss/textarea"
+        "@shaddercn/label",
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -6282,10 +6282,10 @@
       },
       "name": "p-textarea-6",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/field",
-        "@coss/form",
-        "@coss/textarea"
+        "@shaddercn/button",
+        "@shaddercn/field",
+        "@shaddercn/form",
+        "@shaddercn/textarea"
       ],
       "type": "registry:block"
     },
@@ -6302,8 +6302,8 @@
       ],
       "name": "p-toast-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/toast"
+        "@shaddercn/button",
+        "@shaddercn/toast"
       ],
       "type": "registry:block"
     },
@@ -6320,8 +6320,8 @@
       ],
       "name": "p-toast-2",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/toast"
+        "@shaddercn/button",
+        "@shaddercn/toast"
       ],
       "type": "registry:block"
     },
@@ -6338,8 +6338,8 @@
       ],
       "name": "p-toast-3",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/toast"
+        "@shaddercn/button",
+        "@shaddercn/toast"
       ],
       "type": "registry:block"
     },
@@ -6356,8 +6356,8 @@
       ],
       "name": "p-toast-4",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/toast"
+        "@shaddercn/button",
+        "@shaddercn/toast"
       ],
       "type": "registry:block"
     },
@@ -6374,8 +6374,8 @@
       ],
       "name": "p-toast-5",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/toast"
+        "@shaddercn/button",
+        "@shaddercn/toast"
       ],
       "type": "registry:block"
     },
@@ -6392,8 +6392,8 @@
       ],
       "name": "p-toast-6",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/toast"
+        "@shaddercn/button",
+        "@shaddercn/toast"
       ],
       "type": "registry:block"
     },
@@ -6410,10 +6410,10 @@
       ],
       "name": "p-toast-7",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/toast",
-        "@coss/tooltip",
-        "@coss/use-copy-to-clipboard"
+        "@shaddercn/button",
+        "@shaddercn/toast",
+        "@shaddercn/tooltip",
+        "@shaddercn/use-copy-to-clipboard"
       ],
       "type": "registry:block"
     },
@@ -6430,9 +6430,9 @@
       ],
       "name": "p-toast-8",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/spinner",
-        "@coss/toast"
+        "@shaddercn/button",
+        "@shaddercn/spinner",
+        "@shaddercn/toast"
       ],
       "type": "registry:block"
     },
@@ -6450,7 +6450,7 @@
       ],
       "name": "p-toggle-group-1",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6468,7 +6468,7 @@
       ],
       "name": "p-toggle-group-2",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6486,7 +6486,7 @@
       ],
       "name": "p-toggle-group-3",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6504,7 +6504,7 @@
       ],
       "name": "p-toggle-group-4",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6522,7 +6522,7 @@
       ],
       "name": "p-toggle-group-5",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6540,7 +6540,7 @@
       ],
       "name": "p-toggle-group-6",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6558,7 +6558,7 @@
       ],
       "name": "p-toggle-group-7",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6576,7 +6576,7 @@
       ],
       "name": "p-toggle-group-8",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@shaddercn/toggle-group"
       ],
       "type": "registry:block"
     },
@@ -6594,8 +6594,8 @@
       ],
       "name": "p-toggle-group-9",
       "registryDependencies": [
-        "@coss/toggle-group",
-        "@coss/tooltip"
+        "@shaddercn/toggle-group",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -6612,7 +6612,7 @@
       ],
       "name": "p-toggle-1",
       "registryDependencies": [
-        "@coss/toggle"
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -6629,7 +6629,7 @@
       ],
       "name": "p-toggle-2",
       "registryDependencies": [
-        "@coss/toggle"
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -6649,7 +6649,7 @@
       ],
       "name": "p-toggle-3",
       "registryDependencies": [
-        "@coss/toggle"
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -6666,7 +6666,7 @@
       ],
       "name": "p-toggle-4",
       "registryDependencies": [
-        "@coss/toggle"
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -6683,7 +6683,7 @@
       ],
       "name": "p-toggle-5",
       "registryDependencies": [
-        "@coss/toggle"
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -6700,7 +6700,7 @@
       ],
       "name": "p-toggle-6",
       "registryDependencies": [
-        "@coss/toggle"
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -6720,7 +6720,7 @@
       ],
       "name": "p-toggle-7",
       "registryDependencies": [
-        "@coss/toggle"
+        "@shaddercn/toggle"
       ],
       "type": "registry:block"
     },
@@ -6740,11 +6740,11 @@
       ],
       "name": "p-toolbar-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/select",
-        "@coss/toggle-group",
-        "@coss/toolbar",
-        "@coss/tooltip"
+        "@shaddercn/button",
+        "@shaddercn/select",
+        "@shaddercn/toggle-group",
+        "@shaddercn/toolbar",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -6761,8 +6761,8 @@
       ],
       "name": "p-tooltip-1",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/tooltip"
+        "@shaddercn/button",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -6779,8 +6779,8 @@
       ],
       "name": "p-tooltip-2",
       "registryDependencies": [
-        "@coss/toggle-group",
-        "@coss/tooltip"
+        "@shaddercn/toggle-group",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -6797,8 +6797,8 @@
       ],
       "name": "p-tooltip-3",
       "registryDependencies": [
-        "@coss/toggle-group",
-        "@coss/tooltip"
+        "@shaddercn/toggle-group",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },
@@ -6815,9 +6815,9 @@
       ],
       "name": "p-tooltip-4",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/group",
-        "@coss/tooltip"
+        "@shaddercn/button",
+        "@shaddercn/group",
+        "@shaddercn/tooltip"
       ],
       "type": "registry:block"
     },

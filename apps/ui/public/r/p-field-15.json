@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field with toggle switch",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/switch"
+    "@shaddercn/field",
+    "@shaddercn/switch"
   ],
   "files": [
     {

@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Input group with start loading spinner",
   "registryDependencies": [
-    "@coss/input-group",
-    "@coss/spinner"
+    "@shaddercn/input-group",
+    "@shaddercn/spinner"
   ],
   "files": [
     {

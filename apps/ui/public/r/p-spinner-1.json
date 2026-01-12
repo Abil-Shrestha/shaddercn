@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Basic spinner",
   "registryDependencies": [
-    "@coss/spinner"
+    "@shaddercn/spinner"
   ],
   "files": [
     {

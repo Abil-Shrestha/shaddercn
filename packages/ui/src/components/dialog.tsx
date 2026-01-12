@@ -2,9 +2,9 @@
 
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog";
 import { XIcon } from "lucide-react";
-import { cn } from "@coss/ui/lib/utils";
-import { Button } from "@coss/ui/components/button";
-import { ScrollArea } from "@coss/ui/components/scroll-area";
+import { cn } from "@shaddercn/ui/lib/utils";
+import { Button } from "@shaddercn/ui/components/button";
+import { ScrollArea } from "@shaddercn/ui/components/scroll-area";
 
 const DialogCreateHandle = DialogPrimitive.createHandle;
 

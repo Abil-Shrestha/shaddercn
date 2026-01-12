@@ -1,6 +1,6 @@
-# coss ui
+# shaddercn
 
-**coss ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
+**shaddercn** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
 
 We think Base UI is the best foundation for modern web applications. We've taken its powerful, unstyled primitives and given them a design system that's ready to go, right out of the box.
 
@@ -20,7 +20,7 @@ Run development server:
 bun run dev
 ```
 
-Open http://localhost:4000 with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
 ## Development
 

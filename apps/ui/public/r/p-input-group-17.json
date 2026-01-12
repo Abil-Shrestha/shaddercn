@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Input group with textarea",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/menu",
-    "@coss/tooltip"
+    "@shaddercn/button",
+    "@shaddercn/input-group",
+    "@shaddercn/menu",
+    "@shaddercn/tooltip"
   ],
   "files": [
     {

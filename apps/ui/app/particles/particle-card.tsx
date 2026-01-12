@@ -1,6 +1,6 @@
-import { Icons } from "@coss/ui/shared/icons";
 import { InformationCircleIcon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import { Icons } from "@shaddercn/ui/shared/icons";
 import { cache } from "react";
 import { CodeBlockCommand } from "@/components/code-block-command";
 import { ComponentSource } from "@/components/component-source";
@@ -40,7 +40,8 @@ export async function ParticleCard({
   className?: string;
   colSpan?: number;
 }) {
-  const cossuiUrl = process.env.NEXT_PUBLIC_APP_URL || "https://coss.com/ui";
+  const shaddercnUiUrl =
+    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000/ui";
 
   const particle = await getCachedRegistryItem(name);
 
@@ -75,7 +76,7 @@ export async function ParticleCard({
               </Button>
             )}
             <CopyRegistry
-              value={`${cossuiUrl}/r/${name}.json`}
+              value={`${shaddercnUiUrl}/r/${name}.json`}
               variant="outline"
             />
             <Sheet>
@@ -95,10 +96,10 @@ export async function ParticleCard({
                     <h2 className="mb-4 font-heading text-xl">Installation</h2>
                     <figure data-rehype-pretty-code-figure>
                       <CodeBlockCommand
-                        __bun__={`bunx --bun shadcn@latest add @coss/${name}`}
-                        __npm__={`npx shadcn@latest add @coss/${name}`}
-                        __pnpm__={`pnpm dlx shadcn@latest add @coss/${name}`}
-                        __yarn__={`yarn dlx shadcn@latest add @coss/${name}`}
+                        __bun__={`bunx --bun shadcn@latest add @shaddercn/${name}`}
+                        __npm__={`npx shadcn@latest add @shaddercn/${name}`}
+                        __pnpm__={`pnpm dlx shadcn@latest add @shaddercn/${name}`}
+                        __yarn__={`yarn dlx shadcn@latest add @shaddercn/${name}`}
                       />
                     </figure>
                   </div>
@@ -108,7 +109,7 @@ export async function ParticleCard({
                       <Button
                         render={
                           <a
-                            href={`https://v0.dev/chat/api/open?url=${encodeURIComponent(`${cossuiUrl}/r/${name}.json`)}`}
+                            href={`https://v0.dev/chat/api/open?url=${encodeURIComponent(`${shaddercnUiUrl}/r/${name}.json`)}`}
                             rel="noopener noreferrer"
                             target="_blank"
                           >

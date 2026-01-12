@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Autocomplete with label",
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/label"
+    "@shaddercn/autocomplete",
+    "@shaddercn/label"
   ],
   "files": [
     {

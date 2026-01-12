@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Input group with field",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/input-group"
+    "@shaddercn/button",
+    "@shaddercn/field",
+    "@shaddercn/input-group"
   ],
   "files": [
     {

@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Large textarea",
   "registryDependencies": [
-    "@coss/textarea"
+    "@shaddercn/textarea"
   ],
   "files": [
     {

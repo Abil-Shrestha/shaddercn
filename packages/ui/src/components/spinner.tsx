@@ -1,5 +1,5 @@
 import { Loader2Icon } from "lucide-react";
-import { cn } from "@coss/ui/lib/utils";
+import { cn } from "@shaddercn/ui/lib/utils";
 
 function Spinner({
   className,

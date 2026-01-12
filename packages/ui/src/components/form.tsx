@@ -2,7 +2,7 @@
 
 import { Form as FormPrimitive } from "@base-ui/react/form";
 
-import { cn } from "@coss/ui/lib/utils";
+import { cn } from "@shaddercn/ui/lib/utils";
 
 function Form({ className, ...props }: FormPrimitive.Props) {
   return (

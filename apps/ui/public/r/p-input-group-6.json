@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Input group with number field",
   "registryDependencies": [
-    "@coss/input-group",
-    "@coss/number-field"
+    "@shaddercn/input-group",
+    "@shaddercn/number-field"
   ],
   "files": [
     {

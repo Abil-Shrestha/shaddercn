@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Combobox form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/combobox",
-    "@coss/field",
-    "@coss/form"
+    "@shaddercn/button",
+    "@shaddercn/combobox",
+    "@shaddercn/field",
+    "@shaddercn/form"
   ],
   "files": [
     {

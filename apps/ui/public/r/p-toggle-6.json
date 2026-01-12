@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Disabled toggle",
   "registryDependencies": [
-    "@coss/toggle"
+    "@shaddercn/toggle"
   ],
   "files": [
     {

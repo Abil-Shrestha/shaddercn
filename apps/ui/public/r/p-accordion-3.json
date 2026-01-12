@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Accordion allowing multiple panels open",
   "registryDependencies": [
-    "@coss/accordion"
+    "@shaddercn/accordion"
   ],
   "files": [
     {

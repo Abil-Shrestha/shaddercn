@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Secondary button",
   "registryDependencies": [
-    "@coss/button"
+    "@shaddercn/button"
   ],
   "files": [
     {

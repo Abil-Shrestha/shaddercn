@@ -7,9 +7,9 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/command",
-    "@coss/kbd"
+    "@shaddercn/button",
+    "@shaddercn/command",
+    "@shaddercn/kbd"
   ],
   "files": [
     {

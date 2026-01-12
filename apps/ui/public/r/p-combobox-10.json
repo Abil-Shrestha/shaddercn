@@ -7,8 +7,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/combobox"
+    "@shaddercn/button",
+    "@shaddercn/combobox"
   ],
   "files": [
     {

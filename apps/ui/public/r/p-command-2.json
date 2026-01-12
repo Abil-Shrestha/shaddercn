@@ -7,14 +7,14 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/button",
-    "@coss/command",
-    "@coss/input",
-    "@coss/kbd",
-    "@coss/scroll-area",
-    "@coss/skeleton",
-    "@coss/spinner"
+    "@shaddercn/autocomplete",
+    "@shaddercn/button",
+    "@shaddercn/command",
+    "@shaddercn/input",
+    "@shaddercn/kbd",
+    "@shaddercn/scroll-area",
+    "@shaddercn/skeleton",
+    "@shaddercn/spinner"
   ],
   "files": [
     {

@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Basic frame",
   "registryDependencies": [
-    "@coss/frame"
+    "@shaddercn/frame"
   ],
   "files": [
     {

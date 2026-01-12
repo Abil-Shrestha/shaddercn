@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Group with input group",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/input-group",
-    "@coss/tooltip"
+    "@shaddercn/button",
+    "@shaddercn/group",
+    "@shaddercn/input-group",
+    "@shaddercn/tooltip"
   ],
   "files": [
     {

@@ -13,7 +13,7 @@
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
-    "@coss/typescript-config": "workspace:*",
+    "@shaddercn/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4.1.17",
     "@turbo/gen": "^2.6.1",
     "@types/node": "^24.10.1",
@@ -34,7 +34,7 @@
     "./shared/*": "./src/shared/*.tsx"
   },
   "license": "AGPL-3.0-or-later",
-  "name": "@coss/ui",
+  "name": "@shaddercn/ui",
   "peerDependencies": {
     "next": "^16.0.0",
     "react": "^19.2.0"

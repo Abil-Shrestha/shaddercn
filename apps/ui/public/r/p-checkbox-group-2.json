@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Checkbox group with disabled items",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/checkbox-group",
-    "@coss/label"
+    "@shaddercn/checkbox",
+    "@shaddercn/checkbox-group",
+    "@shaddercn/label"
   ],
   "files": [
     {

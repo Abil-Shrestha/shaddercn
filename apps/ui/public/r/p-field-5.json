@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Show field validity state",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/input"
+    "@shaddercn/field",
+    "@shaddercn/input"
   ],
   "files": [
     {

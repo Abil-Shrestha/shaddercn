@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Field with checkbox group",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/checkbox-group",
-    "@coss/field",
-    "@coss/fieldset"
+    "@shaddercn/checkbox",
+    "@shaddercn/checkbox-group",
+    "@shaddercn/field",
+    "@shaddercn/fieldset"
   ],
   "files": [
     {

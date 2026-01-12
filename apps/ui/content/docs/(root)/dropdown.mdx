@@ -1,0 +1,270 @@
+---
+title: Dropdown
+description: An iOS-inspired morphing dropdown menu with smooth animations and submenu support.
+---
+
+import { DropdownDemo } from '@/components/dropdown-demo'
+
+<div className="not-prose my-8">
+  <DropdownDemo />
+</div>
+
+## Overview
+
+A morphing dropdown menu with fluid spring animations. The component transforms from a compact button into a full menu with support for multiple expansion directions, flexible positioning, and nested submenus.
+
+## Features
+
+- **Multi-directional expansion** - Opens from top, bottom, left, or right
+- **Flexible positioning** - Anchor to start, center, or end alignment
+- **Nested submenus** - Smooth transitions between menu levels
+- **Spring physics** - Natural, physics-based animations
+- **Reduced motion support** - Respects user accessibility preferences
+- **Dark mode** - Full theming support with design tokens
+- **Controlled and uncontrolled** - Works with external state or standalone
+
+## Installation
+
+```bash
+bun add framer-motion
+```
+
+The Dropdown component is built on top of Framer Motion for animations.
+
+## Usage
+
+### Basic Example
+
+```tsx
+import { Dropdown } from '@/shaddercn/components/dropdown'
+import { MoreHorizontal, Pencil, Copy, Share, Archive } from 'lucide-react'
+
+export default function BasicDropdown() {
+  return (
+    <Dropdown.Root direction="top" anchor="start">
+      <Dropdown.Container
+        buttonSize={40}
+        menuWidth={160}
+        menuRadius={12}
+        className="bg-white shadow-lg ring-1 ring-black/5"
+      >
+        <Dropdown.Trigger>
+          <div className="flex h-10 w-10 items-center justify-center">
+            <MoreHorizontal className="h-5 w-5 text-neutral-500" />
+          </div>
+        </Dropdown.Trigger>
+        
+        <Dropdown.Content className="p-1">
+          <Dropdown.Item
+            className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm hover:bg-neutral-100"
+            onSelect={() => console.log('Edit')}
+          >
+            <Pencil className="h-4 w-4" />
+            Edit
+          </Dropdown.Item>
+          
+          <Dropdown.Item
+            className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm hover:bg-neutral-100"
+            onSelect={() => console.log('Copy')}
+          >
+            <Copy className="h-4 w-4" />
+            Copy
+          </Dropdown.Item>
+          
+          <Dropdown.Item
+            className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm hover:bg-neutral-100"
+            onSelect={() => console.log('Share')}
+          >
+            <Share className="h-4 w-4" />
+            Share
+          </Dropdown.Item>
+          
+          <Dropdown.Item
+            className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm hover:bg-neutral-100"
+            onSelect={() => console.log('Archive')}
+          >
+            <Archive className="h-4 w-4" />
+            Archive
+          </Dropdown.Item>
+        </Dropdown.Content>
+      </Dropdown.Container>
+    </Dropdown.Root>
+  )
+}
+```
+
+### With Submenu
+
+```tsx
+import { Dropdown } from '@/shaddercn/components/dropdown'
+import { ChevronRight, Twitter, Mail, Link2 } from 'lucide-react'
+
+export default function DropdownWithSubmenu() {
+  return (
+    <Dropdown.Root direction="top" anchor="start">
+      <Dropdown.Container
+        buttonSize={40}
+        menuWidth={160}
+        menuRadius={12}
+        className="bg-white shadow-lg ring-1 ring-black/5"
+      >
+        <Dropdown.Trigger>
+          <MoreIcon />
+        </Dropdown.Trigger>
+        
+        <Dropdown.Content className="p-1">
+          <Dropdown.Item className="...">
+            Edit
+          </Dropdown.Item>
+          
+          <Dropdown.SubMenu id="share">
+            <Dropdown.SubMenuTrigger className="flex w-full items-center justify-between rounded-lg px-2 py-2 text-sm hover:bg-neutral-100">
+              {(isActive) => (
+                <>
+                  <span className="flex items-center gap-2">
+                    <Share className="h-4 w-4" />
+                    Share
+                  </span>
+                  <ChevronRight
+                    className="h-4 w-4 transition-transform"
+                    style={{ transform: isActive ? 'rotate(90deg)' : 'rotate(0)' }}
+                  />
+                </>
+              )}
+            </Dropdown.SubMenuTrigger>
+            
+            <Dropdown.SubMenuContent className="rounded-xl bg-white p-1 shadow-lg ring-1 ring-black/5">
+              <Dropdown.Item className="...">
+                <Twitter className="h-4 w-4" />
+                Twitter
+              </Dropdown.Item>
+              <Dropdown.Item className="...">
+                <Mail className="h-4 w-4" />
+                Email
+              </Dropdown.Item>
+              <Dropdown.Item className="...">
+                <Link2 className="h-4 w-4" />
+                Copy Link
+              </Dropdown.Item>
+            </Dropdown.SubMenuContent>
+          </Dropdown.SubMenu>
+          
+          <Dropdown.Item className="...">
+            Archive
+          </Dropdown.Item>
+        </Dropdown.Content>
+      </Dropdown.Container>
+    </Dropdown.Root>
+  )
+}
+```
+
+## API Reference
+
+### Root
+
+Provides state and configuration context for the dropdown.
+
+**Props:**
+- `direction?: 'top' | 'bottom' | 'left' | 'right'` - Menu expansion direction (default: 'top')
+- `anchor?: 'start' | 'center' | 'end'` - Anchor alignment (default: 'start'). Note: left/right directions only support 'center'
+- `open?: boolean` - Controlled open state
+- `onOpenChange?: (open: boolean) => void` - Open state change callback
+- `defaultOpen?: boolean` - Default open state for uncontrolled usage
+- `visualDuration?: number` - Spring animation duration in seconds (default: 0.25)
+- `bounce?: number` - Spring animation bounce (default: 0.2)
+- `closeOnClickOutside?: boolean` - Close when clicking outside (default: true)
+- `closeOnEscape?: boolean` - Close on Escape key (default: true)
+
+### Container
+
+The morphing element that animates from button to menu.
+
+**Props:**
+- `buttonSize?: number | { width: number; height: number }` - Closed button size (default: 40)
+- `menuWidth?: number` - Open menu width (default: 200)
+- `menuRadius?: number` - Open menu border-radius (default: 24)
+- `buttonRadius?: number` - Closed button border-radius (defaults to pill shape)
+- `className?: string` - Additional class names
+- `style?: CSSProperties` - Additional styles
+
+### Trigger
+
+The content displayed when the menu is closed.
+
+**Props:**
+- `children: ReactNode` - Trigger content
+- `disabled?: boolean` - Disable the trigger
+- `className?: string` - Additional class names
+- `style?: CSSProperties` - Additional styles
+
+### Content
+
+Container for menu items with fade-in animation.
+
+**Props:**
+- `children: ReactNode` - Menu items
+- `className?: string` - Additional class names
+- `style?: CSSProperties` - Additional styles
+
+### Item
+
+Individual menu items with hover highlighting.
+
+**Props:**
+- `children: ReactNode` - Item content
+- `onSelect?: () => void` - Selection callback
+- `disabled?: boolean` - Disable the item
+- `closeOnSelect?: boolean` - Close menu on select (default: true)
+- `className?: string` - Additional class names
+- `style?: CSSProperties` - Additional styles
+
+### SubMenu
+
+Wrapper for nested submenu functionality.
+
+**Props:**
+- `id: string` - Unique identifier for this submenu
+- `children: ReactNode` - SubMenuTrigger and SubMenuContent
+
+### SubMenuTrigger
+
+The item that opens the submenu with render prop support.
+
+**Props:**
+- `children: ReactNode | ((isActive: boolean) => ReactNode)` - Content or render prop
+- `disabled?: boolean` - Disable the trigger
+- `className?: string` - Additional class names
+- `style?: CSSProperties` - Additional styles
+
+### SubMenuContent
+
+Container for submenu items that morphs from the trigger.
+
+**Props:**
+- `children: ReactNode` - Submenu items
+- `className?: string` - Additional class names
+- `style?: CSSProperties` - Additional styles
+
+## Animation Details
+
+The Dropdown uses spring physics for natural, fluid animations:
+
+- **Container morph**: Smooth transition of size, shape, and position
+- **Lift animation**: Menu lifts 75% of button height toward expansion direction
+- **Content fade**: Blur and opacity transition with 0.03s delay
+- **Submenu scale**: Parent scales to 0.96, submenu pops to 1.06
+- **Reduced motion**: Automatically respects user preferences
+
+## Accessibility
+
+The dropdown implements semantic HTML and ARIA patterns:
+
+- Click outside or press Escape to close
+- Proper focus management on open and close
+- ARIA attributes for menu roles and states
+- Keyboard support for Enter and Space on items
+
+## Inspiration
+
+Inspired by [Bloom Menu](https://github.com/joshpuckett/bloom) by Josh Puckett.

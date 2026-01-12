@@ -1,9 +1,9 @@
+import { RiArrowLeftLine } from "@remixicon/react";
 import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@coss/ui/shared/page-header";
-import { RiArrowLeftLine } from "@remixicon/react";
+} from "@shaddercn/ui/shared/page-header";
 import type { Metadata } from "next";
 import Link from "next/link";
 

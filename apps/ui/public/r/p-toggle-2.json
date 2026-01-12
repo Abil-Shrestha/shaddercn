@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Toggle with outline",
   "registryDependencies": [
-    "@coss/toggle"
+    "@shaddercn/toggle"
   ],
   "files": [
     {

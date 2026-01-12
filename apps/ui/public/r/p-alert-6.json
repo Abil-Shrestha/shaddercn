@@ -7,7 +7,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/alert"
+    "@shaddercn/alert"
   ],
   "files": [
     {

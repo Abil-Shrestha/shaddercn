@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Nested dialogs",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/field",
-    "@coss/input"
+    "@shaddercn/button",
+    "@shaddercn/dialog",
+    "@shaddercn/field",
+    "@shaddercn/input"
   ],
   "files": [
     {

@@ -18,7 +18,7 @@ export default function Particle() {
       <InputGroupInput
         aria-label="Set your URL"
         className="*:[input]:ps-0!"
-        placeholder="coss.com"
+        placeholder="shaddercn.com"
         type="text"
       />
       <InputGroupAddon>https://</InputGroupAddon>

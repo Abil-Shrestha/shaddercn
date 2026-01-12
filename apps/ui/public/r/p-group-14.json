@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Group with select",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/number-field",
-    "@coss/select"
+    "@shaddercn/button",
+    "@shaddercn/group",
+    "@shaddercn/number-field",
+    "@shaddercn/select"
   ],
   "files": [
     {

@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { CodeBlock } from "@coss/ui/shared/code-block";
+import { CodeBlock } from "@shaddercn/ui/shared/code-block";
 import type * as React from "react";
 
 import { CodeCollapsibleWrapper } from "@/components/code-collapsible-wrapper";

@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Overlapping avatar group",
   "registryDependencies": [
-    "@coss/avatar"
+    "@shaddercn/avatar"
   ],
   "files": [
     {

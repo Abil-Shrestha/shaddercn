@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Large toggle group",
   "registryDependencies": [
-    "@coss/toggle-group"
+    "@shaddercn/toggle-group"
   ],
   "files": [
     {

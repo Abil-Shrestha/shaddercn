@@ -6,7 +6,7 @@
     "@base-ui/react"
   ],
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@shaddercn/autocomplete"
   ],
   "files": [
     {

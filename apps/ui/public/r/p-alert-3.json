@@ -7,8 +7,8 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/alert",
-    "@coss/button"
+    "@shaddercn/alert",
+    "@shaddercn/button"
   ],
   "files": [
     {

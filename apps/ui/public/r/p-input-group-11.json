@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Input group with keyboard shortcut",
   "registryDependencies": [
-    "@coss/input-group",
-    "@coss/kbd"
+    "@shaddercn/input-group",
+    "@shaddercn/kbd"
   ],
   "files": [
     {

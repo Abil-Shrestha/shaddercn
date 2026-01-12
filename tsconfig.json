@@ -10,13 +10,13 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "paths": {
-      "@coss/ui/*": ["packages/ui/src/*"]
+      "@shaddercn/ui/*": ["packages/ui/src/*"]
     },
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext"
   },
-  "display": "coss",
+  "display": "shaddercn",
   "exclude": ["node_modules", "dist"],
   "references": [{ "path": "packages/ui" }]
 }

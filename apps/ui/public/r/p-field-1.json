@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field with description",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/input"
+    "@shaddercn/field",
+    "@shaddercn/input"
   ],
   "files": [
     {

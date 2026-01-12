@@ -4,14 +4,14 @@
   "type": "registry:block",
   "description": "Input with start text and end tooltip",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/popover"
+    "@shaddercn/button",
+    "@shaddercn/input-group",
+    "@shaddercn/popover"
   ],
   "files": [
     {
       "path": "registry/default/particles/p-input-8.tsx",
-      "content": "import { InfoIcon } from \"lucide-react\";\n\nimport { Button } from \"@/registry/default/ui/button\";\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n} from \"@/registry/default/ui/input-group\";\nimport {\n  Popover,\n  PopoverPopup,\n  PopoverTrigger,\n} from \"@/registry/default/ui/popover\";\n\nexport default function Particle() {\n  return (\n    <InputGroup>\n      <InputGroupInput\n        aria-label=\"Set your URL\"\n        className=\"*:[input]:ps-0!\"\n        placeholder=\"coss.com\"\n        type=\"text\"\n      />\n      <InputGroupAddon>https://</InputGroupAddon>\n      <InputGroupAddon align=\"inline-end\">\n        <Popover>\n          <PopoverTrigger\n            openOnHover\n            render={\n              <Button aria-label=\"More info\" size=\"icon-xs\" variant=\"ghost\" />\n            }\n          >\n            <InfoIcon />\n          </PopoverTrigger>\n          <PopoverPopup side=\"top\" tooltipStyle>\n            <p>The URL of your website</p>\n          </PopoverPopup>\n        </Popover>\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
+      "content": "import { InfoIcon } from \"lucide-react\";\n\nimport { Button } from \"@/registry/default/ui/button\";\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n} from \"@/registry/default/ui/input-group\";\nimport {\n  Popover,\n  PopoverPopup,\n  PopoverTrigger,\n} from \"@/registry/default/ui/popover\";\n\nexport default function Particle() {\n  return (\n    <InputGroup>\n      <InputGroupInput\n        aria-label=\"Set your URL\"\n        className=\"*:[input]:ps-0!\"\n        placeholder=\"shaddercn.com\"\n        type=\"text\"\n      />\n      <InputGroupAddon>https://</InputGroupAddon>\n      <InputGroupAddon align=\"inline-end\">\n        <Popover>\n          <PopoverTrigger\n            openOnHover\n            render={\n              <Button aria-label=\"More info\" size=\"icon-xs\" variant=\"ghost\" />\n            }\n          >\n            <InfoIcon />\n          </PopoverTrigger>\n          <PopoverPopup side=\"top\" tooltipStyle>\n            <p>The URL of your website</p>\n          </PopoverPopup>\n        </Popover>\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
       "type": "registry:block"
     }
   ],

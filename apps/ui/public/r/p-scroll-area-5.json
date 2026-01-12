@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Horizontal scroll area with scrollbar gutter",
   "registryDependencies": [
-    "@coss/scroll-area"
+    "@shaddercn/scroll-area"
   ],
   "files": [
     {

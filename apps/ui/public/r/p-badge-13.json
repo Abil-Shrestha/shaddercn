@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Badge with count",
   "registryDependencies": [
-    "@coss/badge"
+    "@shaddercn/badge"
   ],
   "files": [
     {

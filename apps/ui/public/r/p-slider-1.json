@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Basic slider",
   "registryDependencies": [
-    "@coss/slider"
+    "@shaddercn/slider"
   ],
   "files": [
     {

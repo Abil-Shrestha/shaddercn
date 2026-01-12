@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Destructive badge",
   "registryDependencies": [
-    "@coss/badge"
+    "@shaddercn/badge"
   ],
   "files": [
     {

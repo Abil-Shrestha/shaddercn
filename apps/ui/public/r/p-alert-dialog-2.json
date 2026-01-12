@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Alert dialog with bare footer",
   "registryDependencies": [
-    "@coss/alert-dialog",
-    "@coss/button"
+    "@shaddercn/alert-dialog",
+    "@shaddercn/button"
   ],
   "files": [
     {

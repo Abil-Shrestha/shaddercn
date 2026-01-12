@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Sheet position",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/sheet"
+    "@shaddercn/button",
+    "@shaddercn/sheet"
   ],
   "files": [
     {

@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Disabled checkbox",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/label"
+    "@shaddercn/checkbox",
+    "@shaddercn/label"
   ],
   "files": [
     {

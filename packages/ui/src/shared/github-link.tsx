@@ -1,8 +1,8 @@
-import { Button } from "@coss/ui/components/button";
-import { Skeleton } from "@coss/ui/components/skeleton";
-import { siteConfig } from "@coss/ui/lib/config";
 import { GithubIcon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import { Button } from "@shaddercn/ui/components/button";
+import { Skeleton } from "@shaddercn/ui/components/skeleton";
+import { siteConfig } from "@shaddercn/ui/lib/config";
 import Link from "next/link";
 import * as React from "react";
 
@@ -28,9 +28,12 @@ export function GitHubLink() {
 
 export async function StarsCount() {
   try {
-    const data = await fetch("https://api.github.com/repos/cosscom/coss", {
-      next: { revalidate: 86400 }, // Cache for 1 day (86400 seconds)
-    });
+    const data = await fetch(
+      "https://api.github.com/repos/shaddercn/shaddercn",
+      {
+        next: { revalidate: 86400 }, // Cache for 1 day (86400 seconds)
+      },
+    );
 
     if (!data.ok) {
       throw new Error(`GitHub API error: ${data.status}`);

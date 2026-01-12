@@ -1,19 +1,19 @@
-import localFont from "next/font/local";
+import { Geist, Geist_Mono } from "next/font/google";
 
-export const fontMono = localFont({
+export const fontSans = Geist({
   display: "swap",
-  src: "./PaperMono-Regular.woff2",
-  variable: "--font-mono",
-});
-
-export const fontSans = localFont({
-  display: "swap",
-  src: "./CalSansUI[MODE,wght].woff2",
+  subsets: ["latin"],
   variable: "--font-sans",
 });
 
-export const fontHeading = localFont({
+export const fontHeading = Geist({
   display: "swap",
-  src: "./CalSans-Regular.woff2",
+  subsets: ["latin"],
   variable: "--font-heading",
+});
+
+export const fontMono = Geist_Mono({
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-mono",
 });

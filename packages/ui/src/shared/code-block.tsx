@@ -1,7 +1,7 @@
-import { ScrollArea } from "@coss/ui/components/scroll-area";
-import { highlightCode } from "@coss/ui/lib/highlight-code";
-import { CopyButton } from "@coss/ui/shared/copy-button";
-import { getIconForLanguageExtension } from "@coss/ui/shared/icons";
+import { ScrollArea } from "@shaddercn/ui/components/scroll-area";
+import { highlightCode } from "@shaddercn/ui/lib/highlight-code";
+import { CopyButton } from "@shaddercn/ui/shared/copy-button";
+import { getIconForLanguageExtension } from "@shaddercn/ui/shared/icons";
 
 export async function CodeBlock({
   code,

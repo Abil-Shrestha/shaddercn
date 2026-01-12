@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Breadcrumb with menu example",
   "registryDependencies": [
-    "@coss/breadcrumb",
-    "@coss/button",
-    "@coss/menu"
+    "@shaddercn/breadcrumb",
+    "@shaddercn/button",
+    "@shaddercn/menu"
   ],
   "files": [
     {

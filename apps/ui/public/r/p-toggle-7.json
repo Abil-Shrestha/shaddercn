@@ -7,7 +7,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/toggle"
+    "@shaddercn/toggle"
   ],
   "files": [
     {

@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Toast with action",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/toast"
+    "@shaddercn/button",
+    "@shaddercn/toast"
   ],
   "files": [
     {

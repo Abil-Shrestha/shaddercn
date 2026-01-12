@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Pagination with select, and previous and next buttons",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/pagination",
-    "@coss/select"
+    "@shaddercn/button",
+    "@shaddercn/pagination",
+    "@shaddercn/select"
   ],
   "files": [
     {

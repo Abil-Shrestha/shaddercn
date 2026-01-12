@@ -4,11 +4,11 @@
   "type": "registry:block",
   "description": "Dialog with bare footer",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input"
+    "@shaddercn/button",
+    "@shaddercn/dialog",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/input"
   ],
   "files": [
     {

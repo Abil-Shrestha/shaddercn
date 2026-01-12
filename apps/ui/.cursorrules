@@ -40,8 +40,8 @@ For each new particle, add an object with the following fields:
 - **description**: concise, ≤ 15 words, clear to end users.
   - Example: `"Input with helper label"`.
 - **type**: `"registry:block"`.
-- **registryDependencies**: Array of `@coss/*` package names for the UI primitives used.
-  - Example: `["@coss/input", "@coss/label"]`
+- **registryDependencies**: Array of `@shaddercn/*` package names for the UI primitives used.
+  - Example: `["@shaddercn/input", "@shaddercn/label"]`
 - **dependencies**: npm package dependencies if needed (often empty for simple particles).
   - Example: `["lucide-react"]`
 - **files**: include exactly one file pointing to the particle source:
@@ -69,7 +69,7 @@ Example entry:
     className: "**:data-[slot=preview]:w-full **:data-[slot=preview]:max-w-64",
   },
   name: "p-input-6",
-  registryDependencies: ["@coss/input", "@coss/label"],
+  registryDependencies: ["@shaddercn/input", "@shaddercn/label"],
   type: "registry:block",
 }
 ```
@@ -169,7 +169,7 @@ async, copy, disabled, error, file, filter, info, loading, multiselect, password
 
 ### Dependencies
 - Be accurate with `dependencies` and `registryDependencies` - these are used for installation
-- `registryDependencies` should reference `@coss/*` package names
+- `registryDependencies` should reference `@shaddercn/*` package names
 - `dependencies` should list external npm packages (e.g., `["lucide-react"]`)
 
 ### Numbering

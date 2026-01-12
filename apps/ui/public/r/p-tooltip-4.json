@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Vertical group with animated tooltip",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/tooltip"
+    "@shaddercn/button",
+    "@shaddercn/group",
+    "@shaddercn/tooltip"
   ],
   "files": [
     {

@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Input with label",
   "registryDependencies": [
-    "@coss/input",
-    "@coss/label"
+    "@shaddercn/input",
+    "@shaddercn/label"
   ],
   "files": [
     {

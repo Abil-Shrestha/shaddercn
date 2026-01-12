@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Loading button",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/spinner"
+    "@shaddercn/button",
+    "@shaddercn/spinner"
   ],
   "files": [
     {

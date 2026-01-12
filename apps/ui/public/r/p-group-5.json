@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Group with disabled button",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/group",
-    "@coss/menu"
+    "@shaddercn/button",
+    "@shaddercn/group",
+    "@shaddercn/menu"
   ],
   "files": [
     {

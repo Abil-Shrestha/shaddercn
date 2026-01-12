@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Autocomplete auto highlighting the first option",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@shaddercn/autocomplete"
   ],
   "files": [
     {

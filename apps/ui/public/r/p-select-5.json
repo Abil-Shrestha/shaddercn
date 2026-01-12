@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Select without item alignment",
   "registryDependencies": [
-    "@coss/select"
+    "@shaddercn/select"
   ],
   "files": [
     {

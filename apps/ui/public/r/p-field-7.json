@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field with autocomplete",
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/field"
+    "@shaddercn/autocomplete",
+    "@shaddercn/field"
   ],
   "files": [
     {

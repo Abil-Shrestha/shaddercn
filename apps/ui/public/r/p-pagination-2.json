@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Pagination with previous and next buttons only",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/pagination"
+    "@shaddercn/button",
+    "@shaddercn/pagination"
   ],
   "files": [
     {

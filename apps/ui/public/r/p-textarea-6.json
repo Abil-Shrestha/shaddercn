@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Textarea in form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/textarea"
+    "@shaddercn/button",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/textarea"
   ],
   "files": [
     {

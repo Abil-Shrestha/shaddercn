@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Disabled switch",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/switch"
+    "@shaddercn/label",
+    "@shaddercn/switch"
   ],
   "files": [
     {

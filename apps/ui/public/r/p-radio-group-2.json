@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Disabled radio group",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/radio-group"
+    "@shaddercn/label",
+    "@shaddercn/radio-group"
   ],
   "files": [
     {

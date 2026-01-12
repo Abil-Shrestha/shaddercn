@@ -20,9 +20,9 @@ const registryParticlesFile = path.join(
 );
 const registryUIFile = path.join(process.cwd(), "registry/registry-ui.ts");
 
-// Map component name to @coss package name
+// Map component name to @shaddercn package name
 function getRegistryPackageName(componentName: string): string {
-  return `@coss/${componentName}`;
+  return `@shaddercn/${componentName}`;
 }
 
 // Extract component name from file path
@@ -84,10 +84,10 @@ function parseImports(content: string): {
       continue;
     }
 
-    // Check if it's already a @coss import
-    if (importPath.startsWith("@coss/")) {
-      // Skip @coss/utils as it's a common utility that shouldn't be treated as a dependency
-      if (importPath !== "@coss/utils") {
+    // Check if it's already a @shaddercn import
+    if (importPath.startsWith("@shaddercn/")) {
+      // Skip @shaddercn/utils as it's a common utility that shouldn't be treated as a dependency
+      if (importPath !== "@shaddercn/utils") {
         registryDeps.add(importPath);
       }
       continue;
@@ -149,8 +149,8 @@ function extractRegistryItemDeps(itemContent: string): {
   if (regDepsMatch) {
     regDepsMatch[1].split(",").forEach((item) => {
       const cleaned = item.trim().replace(/["']/g, "").replace(/\n/g, "");
-      // Skip @coss/utils as it's a common utility that shouldn't be validated
-      if (cleaned && cleaned !== "@coss/utils") {
+      // Skip @shaddercn/utils as it's a common utility that shouldn't be validated
+      if (cleaned && cleaned !== "@shaddercn/utils") {
         regDeps.push(cleaned);
       }
     });
@@ -229,8 +229,8 @@ async function isDependencyCoveredByRegistry(
 ): Promise<boolean> {
   // For each registry dependency, check if its component file imports this dependency
   for (const regDep of registryDeps) {
-    // Extract component name from @coss/component-name
-    const componentMatch = regDep.match(/@coss\/(.+)/);
+    // Extract component name from @shaddercn/component-name
+    const componentMatch = regDep.match(/@shaddercn\/(.+)/);
     if (!componentMatch) continue;
 
     const componentName = componentMatch[1];

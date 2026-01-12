@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Small button",
   "registryDependencies": [
-    "@coss/button"
+    "@shaddercn/button"
   ],
   "files": [
     {

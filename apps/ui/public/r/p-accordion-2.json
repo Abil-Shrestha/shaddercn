@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Accordion with one panel open",
   "registryDependencies": [
-    "@coss/accordion"
+    "@shaddercn/accordion"
   ],
   "files": [
     {

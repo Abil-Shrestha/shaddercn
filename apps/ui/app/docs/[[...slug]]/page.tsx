@@ -4,7 +4,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DocsCopyPage } from "@/components/docs-copy-page";
 import { DocsTableOfContents } from "@/components/docs-toc";
-import { SiteFooter } from "@/components/site-footer";
 import { source } from "@/lib/source";
 import { mdxComponents } from "@/mdx-components";
 import { Button } from "@/registry/default/ui/button";
@@ -36,7 +35,7 @@ export async function generateMetadata(props: {
 
   return {
     description: doc.description,
-    title: `${doc.title} - coss ui`,
+    title: `${doc.title} - Shaddercn`,
   };
 }
 
@@ -58,8 +57,8 @@ export default async function Page(props: {
   return (
     <div className="flex items-stretch xl:w-full" data-slot="docs">
       <div className="relative flex w-full min-w-0 flex-1 flex-col before:pointer-events-none before:absolute before:inset-px before:rounded-[calc(var(--radius-2xl)-1px)] before:bg-background lg:mt-8 lg:mr-4 lg:mb-8">
-        <div className="after:-inset-[5px] after:-z-1 relative flex min-w-0 flex-1 flex-col bg-muted/72 not-dark:bg-clip-padding shadow-sm/5 before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:shadow-[0_1px_--theme(--color-black/6%)] after:pointer-events-none after:absolute after:rounded-[calc(var(--radius-2xl)+4px)] after:border after:border-border/64 lg:rounded-2xl lg:border dark:before:shadow-[0_-1px_--theme(--color-white/6%)]">
-          <div className="-m-px relative flex min-w-0 flex-1 flex-col border bg-background bg-clip-padding px-4 py-6 before:pointer-events-none before:absolute before:inset-0 before:rounded-[calc(var(--radius-xl)-1px)] max-lg:before:hidden sm:px-6 lg:rounded-t-2xl lg:rounded-b-xl lg:p-8 dark:before:shadow-[0_-1px_--theme(--color-white/8%)] lg:[clip-path:inset(1px_1px_-1rem_1px_round_var(--radius-2xl)_var(--radius-2xl)_0_0)]">
+        <div className="after:-inset-[5px] after:-z-1 relative flex min-w-0 flex-1 flex-col bg-muted/72 not-dark:bg-clip-padding shadow-sm/5 before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:shadow-[0_1px_--theme(--color-black/6%)] after:pointer-events-none after:absolute after:rounded-[calc(var(--radius-2xl)+4px)] lg:rounded-2xl dark:before:shadow-[0_-1px_--theme(--color-white/6%)]">
+          <div className="-m-px relative flex min-w-0 flex-1 flex-col bg-background bg-clip-padding px-4 py-6 before:pointer-events-none before:absolute before:inset-0 before:rounded-[calc(var(--radius-xl)-1px)] max-lg:before:hidden sm:px-6 lg:rounded-t-2xl lg:rounded-b-xl lg:p-8 dark:before:shadow-[0_-1px_--theme(--color-white/8%)] lg:[clip-path:inset(1px_1px_-1rem_1px_round_var(--radius-2xl)_var(--radius-2xl)_0_0)]">
             <div className="mx-auto w-full max-w-3xl">
               <div className="flex min-w-0 flex-col gap-8">
                 <div className="flex flex-col gap-2">
@@ -101,9 +100,6 @@ export default async function Page(props: {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="px-4 py-6 lg:rounded-b-2xl lg:px-8">
-            <SiteFooter />
           </div>
         </div>
       </div>

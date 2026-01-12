@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Skeleton only",
   "registryDependencies": [
-    "@coss/skeleton"
+    "@shaddercn/skeleton"
   ],
   "files": [
     {

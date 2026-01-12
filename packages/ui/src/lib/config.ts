@@ -1,11 +1,11 @@
 export const siteConfig = {
-  description: "coss.com - the everything but AI company.",
+  description: "shaddercn.com - the agent-native design system.",
   links: {
-    github: "https://github.com/cosscom/coss",
-    twitter: "https://x.com/coss_com",
+    github: "https://github.com/shaddercn/shaddercn",
+    twitter: "https://x.com/shaddercn",
   },
-  name: "coss.com",
-  ogImage: "https://coss.com/og.jpg",
+  name: "shaddercn.com",
+  ogImage: "https://shaddercn.com/og.jpg",
   products: [
     {
       href: "/",
@@ -52,5 +52,5 @@ export const siteConfig = {
       upcoming: true,
     },
   ],
-  url: "https://coss.com",
+  url: "https://shaddercn.com",
 };

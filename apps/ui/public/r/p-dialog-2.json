@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Dialog opened from menu",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/menu"
+    "@shaddercn/button",
+    "@shaddercn/dialog",
+    "@shaddercn/menu"
   ],
   "files": [
     {

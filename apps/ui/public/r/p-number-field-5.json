@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Number field with label",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/number-field"
+    "@shaddercn/label",
+    "@shaddercn/number-field"
   ],
   "files": [
     {

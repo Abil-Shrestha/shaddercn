@@ -11,7 +11,7 @@ export default function Particle() {
       <InputGroupInput
         aria-label="Set your URL"
         className="*:[input]:ps-0!"
-        placeholder="coss"
+        placeholder="shaddercn"
         type="search"
       />
       <InputGroupAddon>

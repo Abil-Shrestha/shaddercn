@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Horizontal scroll area",
   "registryDependencies": [
-    "@coss/scroll-area"
+    "@shaddercn/scroll-area"
   ],
   "files": [
     {

@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Group with popup",
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button",
-    "@coss/group",
-    "@coss/popover"
+    "@shaddercn/badge",
+    "@shaddercn/button",
+    "@shaddercn/group",
+    "@shaddercn/popover"
   ],
   "files": [
     {

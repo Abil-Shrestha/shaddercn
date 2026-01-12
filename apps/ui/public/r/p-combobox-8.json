@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Combobox with grouped items",
   "registryDependencies": [
-    "@coss/combobox"
+    "@shaddercn/combobox"
   ],
   "files": [
     {

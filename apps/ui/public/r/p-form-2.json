@@ -7,10 +7,10 @@
     "zod"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input"
+    "@shaddercn/button",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/input"
   ],
   "files": [
     {

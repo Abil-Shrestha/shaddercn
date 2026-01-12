@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Meter with formatted value",
   "registryDependencies": [
-    "@coss/meter"
+    "@shaddercn/meter"
   ],
   "files": [
     {

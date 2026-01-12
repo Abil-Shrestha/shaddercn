@@ -7,10 +7,10 @@
     "@tanstack/react-table"
   ],
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/checkbox",
-    "@coss/frame",
-    "@coss/table"
+    "@shaddercn/badge",
+    "@shaddercn/checkbox",
+    "@shaddercn/frame",
+    "@shaddercn/table"
   ],
   "files": [
     {

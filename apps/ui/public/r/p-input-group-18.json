@@ -7,15 +7,15 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button",
-    "@coss/input-group",
-    "@coss/menu"
+    "@shaddercn/badge",
+    "@shaddercn/button",
+    "@shaddercn/input-group",
+    "@shaddercn/menu"
   ],
   "files": [
     {
       "path": "registry/default/particles/p-input-group-18.tsx",
-      "content": "import { EllipsisIcon } from \"lucide-react\";\n\nimport { Badge } from \"@/registry/default/ui/badge\";\nimport { Button } from \"@/registry/default/ui/button\";\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n} from \"@/registry/default/ui/input-group\";\nimport {\n  Menu,\n  MenuItem,\n  MenuPopup,\n  MenuTrigger,\n} from \"@/registry/default/ui/menu\";\n\nexport default function Particle() {\n  return (\n    <InputGroup>\n      <InputGroupInput\n        defaultValue=\"hello@coss.com\"\n        placeholder=\"Enter email\"\n        type=\"email\"\n      />\n      <InputGroupAddon align=\"inline-end\">\n        <Badge variant=\"info\">Primary</Badge>\n        <Menu>\n          <MenuTrigger\n            render={\n              <Button aria-label=\"Open menu\" size=\"icon-xs\" variant=\"ghost\" />\n            }\n          >\n            <EllipsisIcon />\n          </MenuTrigger>\n          <MenuPopup align=\"end\" alignOffset={-4} sideOffset={8}>\n            <MenuItem disabled>Make Primary</MenuItem>\n            <MenuItem variant=\"destructive\">Delete</MenuItem>\n          </MenuPopup>\n        </Menu>\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
+      "content": "import { EllipsisIcon } from \"lucide-react\";\n\nimport { Badge } from \"@/registry/default/ui/badge\";\nimport { Button } from \"@/registry/default/ui/button\";\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n} from \"@/registry/default/ui/input-group\";\nimport {\n  Menu,\n  MenuItem,\n  MenuPopup,\n  MenuTrigger,\n} from \"@/registry/default/ui/menu\";\n\nexport default function Particle() {\n  return (\n    <InputGroup>\n      <InputGroupInput\n        defaultValue=\"hello@shaddercn.com\"\n        placeholder=\"Enter email\"\n        type=\"email\"\n      />\n      <InputGroupAddon align=\"inline-end\">\n        <Badge variant=\"info\">Primary</Badge>\n        <Menu>\n          <MenuTrigger\n            render={\n              <Button aria-label=\"Open menu\" size=\"icon-xs\" variant=\"ghost\" />\n            }\n          >\n            <EllipsisIcon />\n          </MenuTrigger>\n          <MenuPopup align=\"end\" alignOffset={-4} sideOffset={8}>\n            <MenuItem disabled>Make Primary</MenuItem>\n            <MenuItem variant=\"destructive\">Delete</MenuItem>\n          </MenuPopup>\n        </Menu>\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
       "type": "registry:block"
     }
   ],

@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field in disabled state",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/input"
+    "@shaddercn/field",
+    "@shaddercn/input"
   ],
   "files": [
     {

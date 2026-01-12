@@ -3,8 +3,8 @@
   "name": "input-group",
   "type": "registry:ui",
   "registryDependencies": [
-    "@coss/input",
-    "@coss/textarea"
+    "@shaddercn/input",
+    "@shaddercn/textarea"
   ],
   "files": [
     {

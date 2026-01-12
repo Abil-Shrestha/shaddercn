@@ -8,7 +8,7 @@ type Config = {
 
 const configAtom = atomWithStorage<Config>("config", {
   installationType: "cli",
-  packageManager: "pnpm",
+  packageManager: "bun",
 });
 
 export function useConfig() {

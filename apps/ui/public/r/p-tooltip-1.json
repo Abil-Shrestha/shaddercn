@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Basic tooltip",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/tooltip"
+    "@shaddercn/button",
+    "@shaddercn/tooltip"
   ],
   "files": [
     {

@@ -1,5 +1,5 @@
-import { Separator } from "@coss/ui/components/separator";
-import { SiteHeader as WorkspaceSiteHeader } from "@coss/ui/shared/site-header";
+import { Separator } from "@shaddercn/ui/components/separator";
+import { SiteHeader as WorkspaceSiteHeader } from "@shaddercn/ui/shared/site-header";
 
 import { CommandMenu } from "@/components/command-menu";
 import { MainNav } from "@/components/main-nav";
@@ -12,7 +12,6 @@ export function SiteHeader() {
 
   return (
     <WorkspaceSiteHeader
-      currentProduct="ui"
       mobileNav={
         <MobileNav
           className="flex lg:hidden"

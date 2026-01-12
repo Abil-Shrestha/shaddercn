@@ -1,3 +1,3 @@
-import { postcssConfig } from "@coss/ui/postcss.config";
+import { postcssConfig } from "@shaddercn/ui/postcss.config";
 
 export default postcssConfig;

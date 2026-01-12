@@ -6,8 +6,8 @@
     "@base-ui/react"
   ],
   "registryDependencies": [
-    "@coss/input",
-    "@coss/scroll-area"
+    "@shaddercn/input",
+    "@shaddercn/scroll-area"
   ],
   "files": [
     {

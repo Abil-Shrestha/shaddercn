@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Autocomplete form",
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/button",
-    "@coss/field",
-    "@coss/form"
+    "@shaddercn/autocomplete",
+    "@shaddercn/button",
+    "@shaddercn/field",
+    "@shaddercn/form"
   ],
   "files": [
     {

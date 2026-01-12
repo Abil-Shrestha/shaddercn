@@ -24,7 +24,7 @@ export default function Particle() {
     <InputGroup>
       <InputGroupInput
         aria-label="Url"
-        defaultValue="https://coss.com"
+        defaultValue="https://shaddercn.com"
         ref={inputRef}
         type="text"
       />

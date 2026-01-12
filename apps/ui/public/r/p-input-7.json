@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Input with button",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input"
+    "@shaddercn/button",
+    "@shaddercn/input"
   ],
   "files": [
     {

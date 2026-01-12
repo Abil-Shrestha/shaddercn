@@ -4,11 +4,11 @@
   "type": "registry:block",
   "description": "Popover with a form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/popover",
-    "@coss/textarea"
+    "@shaddercn/button",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/popover",
+    "@shaddercn/textarea"
   ],
   "files": [
     {

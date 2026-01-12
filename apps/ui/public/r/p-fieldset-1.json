@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Fieldset with multiple fields",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/input"
+    "@shaddercn/field",
+    "@shaddercn/fieldset",
+    "@shaddercn/input"
   ],
   "files": [
     {

@@ -18,7 +18,7 @@ export default function Particle() {
   return (
     <InputGroup>
       <InputGroupInput
-        defaultValue="hello@coss.com"
+        defaultValue="hello@shaddercn.com"
         placeholder="Enter email"
         type="email"
       />

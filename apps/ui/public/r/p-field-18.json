@@ -4,12 +4,12 @@
   "type": "registry:block",
   "description": "Complete form built with field",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/checkbox",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/select"
+    "@shaddercn/button",
+    "@shaddercn/checkbox",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/input",
+    "@shaddercn/select"
   ],
   "files": [
     {

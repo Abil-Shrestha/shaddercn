@@ -4,12 +4,12 @@
   "type": "registry:block",
   "description": "Checkbox group form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/checkbox",
-    "@coss/checkbox-group",
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/form"
+    "@shaddercn/button",
+    "@shaddercn/checkbox",
+    "@shaddercn/checkbox-group",
+    "@shaddercn/field",
+    "@shaddercn/fieldset",
+    "@shaddercn/form"
   ],
   "files": [
     {

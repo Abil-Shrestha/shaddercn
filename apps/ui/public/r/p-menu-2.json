@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Menu with hover",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/menu"
+    "@shaddercn/button",
+    "@shaddercn/menu"
   ],
   "files": [
     {

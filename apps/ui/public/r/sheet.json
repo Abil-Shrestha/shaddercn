@@ -6,8 +6,8 @@
     "@base-ui/react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/scroll-area"
+    "@shaddercn/button",
+    "@shaddercn/scroll-area"
   ],
   "files": [
     {

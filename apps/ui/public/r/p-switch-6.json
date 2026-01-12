@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Custom size switch",
   "registryDependencies": [
-    "@coss/switch"
+    "@shaddercn/switch"
   ],
   "files": [
     {

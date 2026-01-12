@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Basic tabs",
   "registryDependencies": [
-    "@coss/tabs"
+    "@shaddercn/tabs"
   ],
   "files": [
     {

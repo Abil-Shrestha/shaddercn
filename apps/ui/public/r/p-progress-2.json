@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Progress with label and value",
   "registryDependencies": [
-    "@coss/progress"
+    "@shaddercn/progress"
   ],
   "files": [
     {

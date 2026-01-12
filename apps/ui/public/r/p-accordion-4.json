@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Controlled accordion",
   "registryDependencies": [
-    "@coss/accordion",
-    "@coss/button"
+    "@shaddercn/accordion",
+    "@shaddercn/button"
   ],
   "files": [
     {

@@ -1,10 +1,14 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
-import { Sheet, SheetPopup, SheetTrigger } from "@coss/ui/components/sheet";
-import { cn } from "@coss/ui/lib/utils";
 import { Menu09Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import { Button } from "@shaddercn/ui/components/button";
+import {
+  Sheet,
+  SheetPopup,
+  SheetTrigger,
+} from "@shaddercn/ui/components/sheet";
+import { cn } from "@shaddercn/ui/lib/utils";
 import Link, { type LinkProps } from "next/link";
 import * as React from "react";
 

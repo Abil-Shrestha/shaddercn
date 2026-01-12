@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge } from "@coss/ui/components/badge";
+import { Badge } from "@shaddercn/ui/components/badge";
 import { usePathname } from "next/navigation";
 
 interface ProductsDropdownProps {

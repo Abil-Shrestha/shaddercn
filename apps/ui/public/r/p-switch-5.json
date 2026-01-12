@@ -4,10 +4,10 @@
   "type": "registry:block",
   "description": "Switch in form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/switch"
+    "@shaddercn/button",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/switch"
   ],
   "files": [
     {

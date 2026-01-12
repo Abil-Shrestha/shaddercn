@@ -1,12 +1,12 @@
 "use client";
 
-import { useCopyToClipboard } from "@coss/ui/hooks/use-copy-to-clipboard";
 import {
   ComputerTerminal02Icon,
   Copy01Icon,
   Tick02Icon,
 } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import { useCopyToClipboard } from "@shaddercn/ui/hooks/use-copy-to-clipboard";
 import * as React from "react";
 
 import { useConfig } from "@/hooks/use-config";
@@ -33,7 +33,7 @@ export function CodeBlockCommand({
   const [config, setConfig] = useConfig();
   const { isCopied, copyToClipboard } = useCopyToClipboard();
 
-  const packageManager = config.packageManager || "pnpm";
+  const packageManager = config.packageManager || "bun";
   const tabs = React.useMemo(() => {
     return {
       bun: __bun__,

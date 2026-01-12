@@ -4,9 +4,9 @@
   "type": "registry:block",
   "description": "Field with radio group",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/radio-group"
+    "@shaddercn/field",
+    "@shaddercn/fieldset",
+    "@shaddercn/radio-group"
   ],
   "files": [
     {

@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Select with groups",
   "registryDependencies": [
-    "@coss/select"
+    "@shaddercn/select"
   ],
   "files": [
     {

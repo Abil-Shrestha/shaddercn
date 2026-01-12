@@ -5,12 +5,12 @@
     "esModuleInterop": true,
     "paths": {
       "@/*": ["./*"],
-      "@coss/ui/*": ["../../packages/ui/src/*"],
+      "@shaddercn/ui/*": ["../../packages/ui/src/*"],
       "@source/*": ["./.source/*"]
     }
   },
   "exclude": ["node_modules"],
-  "extends": "@coss/typescript-config/nextjs.json",
+  "extends": "../../packages/typescript-config/nextjs.json",
   "include": [
     "next-env.d.ts",
     "next.config.ts",

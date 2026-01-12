@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Input group with badge",
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/input-group"
+    "@shaddercn/badge",
+    "@shaddercn/input-group"
   ],
   "files": [
     {

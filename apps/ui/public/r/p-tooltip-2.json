@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Grouped tooltips",
   "registryDependencies": [
-    "@coss/toggle-group",
-    "@coss/tooltip"
+    "@shaddercn/toggle-group",
+    "@shaddercn/tooltip"
   ],
   "files": [
     {

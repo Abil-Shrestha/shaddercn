@@ -3,7 +3,7 @@
   "name": "pagination",
   "type": "registry:ui",
   "registryDependencies": [
-    "@coss/button"
+    "@shaddercn/button"
   ],
   "files": [
     {

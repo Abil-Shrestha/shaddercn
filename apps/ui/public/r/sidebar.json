@@ -3,14 +3,14 @@
   "name": "sidebar",
   "type": "registry:ui",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/input",
-    "@coss/scroll-area",
-    "@coss/separator",
-    "@coss/sheet",
-    "@coss/skeleton",
-    "@coss/tooltip",
-    "@coss/use-mobile"
+    "@shaddercn/button",
+    "@shaddercn/input",
+    "@shaddercn/scroll-area",
+    "@shaddercn/separator",
+    "@shaddercn/sheet",
+    "@shaddercn/skeleton",
+    "@shaddercn/tooltip",
+    "@shaddercn/use-mobile"
   ],
   "files": [
     {

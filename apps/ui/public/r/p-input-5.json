@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "File input",
   "registryDependencies": [
-    "@coss/input"
+    "@shaddercn/input"
   ],
   "files": [
     {

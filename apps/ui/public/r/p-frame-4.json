@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Frame with multiple stacked panels",
   "registryDependencies": [
-    "@coss/frame",
-    "@coss/separator"
+    "@shaddercn/frame",
+    "@shaddercn/separator"
   ],
   "files": [
     {

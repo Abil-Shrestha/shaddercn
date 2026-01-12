@@ -6,11 +6,11 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "@coss/ui/*": ["./src/*"]
+      "@shaddercn/ui/*": ["./src/*"]
     },
     "types": ["next", "react", "node", "bun-types"]
   },
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"],
-  "extends": "@coss/typescript-config/react-library.json",
+  "extends": "../typescript-config/react-library.json",
   "include": ["."]
 }

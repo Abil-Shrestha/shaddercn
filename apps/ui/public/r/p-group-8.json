@@ -4,14 +4,14 @@
   "type": "registry:block",
   "description": "Group with end text",
   "registryDependencies": [
-    "@coss/group",
-    "@coss/input",
-    "@coss/label"
+    "@shaddercn/group",
+    "@shaddercn/input",
+    "@shaddercn/label"
   ],
   "files": [
     {
       "path": "registry/default/particles/p-group-8.tsx",
-      "content": "import { Group, GroupSeparator, GroupText } from \"@/registry/default/ui/group\";\nimport { Input } from \"@/registry/default/ui/input\";\nimport { Label } from \"@/registry/default/ui/label\";\n\nexport default function Particle() {\n  return (\n    <Group aria-label=\"Domain input\">\n      <Input\n        aria-label=\"Domain\"\n        defaultValue=\"coss\"\n        id=\"domain-suffix\"\n        type=\"text\"\n      />\n      <GroupSeparator />\n      <GroupText\n        render={<Label aria-label=\"Domain suffix\" htmlFor=\"domain-suffix\" />}\n      >\n        .com\n      </GroupText>\n    </Group>\n  );\n}\n",
+      "content": "import { Group, GroupSeparator, GroupText } from \"@/registry/default/ui/group\";\nimport { Input } from \"@/registry/default/ui/input\";\nimport { Label } from \"@/registry/default/ui/label\";\n\nexport default function Particle() {\n  return (\n    <Group aria-label=\"Domain input\">\n      <Input\n        aria-label=\"Domain\"\n        defaultValue=\"shaddercn\"\n        id=\"domain-suffix\"\n        type=\"text\"\n      />\n      <GroupSeparator />\n      <GroupText\n        render={<Label aria-label=\"Domain suffix\" htmlFor=\"domain-suffix\" />}\n      >\n        .com\n      </GroupText>\n    </Group>\n  );\n}\n",
       "type": "registry:block"
     }
   ],

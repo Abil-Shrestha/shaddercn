@@ -9,8 +9,8 @@ import {
   TriangleAlertIcon,
 } from "lucide-react";
 
-import { cn } from "@coss/ui/lib/utils";
-import { buttonVariants } from "@coss/ui/components/button";
+import { cn } from "@shaddercn/ui/lib/utils";
+import { buttonVariants } from "@shaddercn/ui/components/button";
 
 const toastManager = Toast.createToastManager();
 const anchoredToastManager = Toast.createToastManager();

@@ -1,15 +1,15 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Copy01Icon, Tick02Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { Button } from "@shaddercn/ui/components/button";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@coss/ui/components/tooltip";
-import { useCopyToClipboard } from "@coss/ui/hooks/use-copy-to-clipboard";
-import { cn } from "@coss/ui/lib/utils";
-import { Copy01Icon, Tick02Icon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
+} from "@shaddercn/ui/components/tooltip";
+import { useCopyToClipboard } from "@shaddercn/ui/hooks/use-copy-to-clipboard";
+import { cn } from "@shaddercn/ui/lib/utils";
 import type * as React from "react";
 
 export function CopyButton({

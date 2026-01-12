@@ -7,7 +7,7 @@ This directory contains shared font files and configurations used across all app
 Import fonts directly from the shared UI package:
 
 ```tsx
-import { fontSans, fontHeading } from "@coss/ui/fonts";
+import { fontSans, fontHeading } from "@shaddercn/ui/fonts";
 
 export default function RootLayout({ children }) {
   return (
@@ -22,8 +22,9 @@ export default function RootLayout({ children }) {
 
 ## Available Fonts
 
-- `fontSans` - Cal Sans UI variable font (supports multiple weights and modes)
-- `fontHeading` - Cal Sans Regular font
+- `fontSans` - Geist (Next.js default template)
+- `fontHeading` - Geist (used for headings)
+- `fontMono` - Geist Mono
 
 ## Adding New Fonts
 
@@ -38,7 +39,7 @@ export const yourNewFont = localFont({
 });
 ```
 
-3. Use it in any app by importing from `@coss/ui/fonts`
+3. Use it in any app by importing from `@shaddercn/ui/fonts`
 
 ## Benefits of This Approach
 

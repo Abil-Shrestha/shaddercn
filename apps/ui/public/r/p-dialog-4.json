@@ -4,12 +4,12 @@
   "type": "registry:block",
   "description": "Dialog with close confirmation",
   "registryDependencies": [
-    "@coss/alert-dialog",
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/field",
-    "@coss/form",
-    "@coss/textarea"
+    "@shaddercn/alert-dialog",
+    "@shaddercn/button",
+    "@shaddercn/dialog",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/textarea"
   ],
   "files": [
     {

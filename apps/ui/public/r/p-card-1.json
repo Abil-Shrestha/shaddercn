@@ -4,12 +4,12 @@
   "type": "registry:block",
   "description": "Card with header, content, and footer",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/card",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/select"
+    "@shaddercn/button",
+    "@shaddercn/card",
+    "@shaddercn/field",
+    "@shaddercn/form",
+    "@shaddercn/input",
+    "@shaddercn/select"
   ],
   "files": [
     {

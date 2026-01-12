@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Disabled combobox",
   "registryDependencies": [
-    "@coss/combobox"
+    "@shaddercn/combobox"
   ],
   "files": [
     {

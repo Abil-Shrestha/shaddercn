@@ -4,8 +4,8 @@
   "type": "registry:block",
   "description": "Field with combobox",
   "registryDependencies": [
-    "@coss/combobox",
-    "@coss/field"
+    "@shaddercn/combobox",
+    "@shaddercn/field"
   ],
   "files": [
     {

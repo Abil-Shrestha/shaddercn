@@ -1,19 +1,19 @@
 ---
 title: Radix / shadcn Migration
-description: A comprehensive guide for migrating from Radix UI and shadcn/ui to coss ui components.
+description: A comprehensive guide for migrating from Radix UI and shadcn/ui to shaddercn components.
 ---
 
-This guide is designed for developers who already have applications built with **shadcn/ui** or **Radix UI** and want to adopt **coss ui** components. **coss ui is fundamentally built with Base UI from the ground up—it is not an adaptation from Radix UI.** Recognizing that many teams are migrating from Radix-based libraries, this page consolidates all migration instructions for a smooth transition.
+This guide is designed for developers who already have applications built with **shadcn/ui** or **Radix UI** and want to adopt **shaddercn** components. **shaddercn is fundamentally built with Base UI from the ground up—it is not an adaptation from Radix UI.** Recognizing that many teams are migrating from Radix-based libraries, this page consolidates all migration instructions for a smooth transition.
 
 ## Overview
 
-coss ui components are built on **Base UI**, not Radix. This means the architecture and API patterns are different by design. However, we've worked to make the migration path as clear as possible by:
+shaddercn components are built on **Base UI**, not Radix. This means the architecture and API patterns are different by design. However, we've worked to make the migration path as clear as possible by:
 
 - Providing detailed component-by-component migration guides below
 - Maintaining similar component names and structures where it makes sense
 - Offering clear prop mappings and code examples
 
-**Tip:** This migration guide is structured to be LLM-friendly. You can provide this page to AI coding assistants (like Claude, ChatGPT, etc.) to help automate the conversion of your Radix/shadcn components to coss ui.
+**Tip:** This migration guide is structured to be LLM-friendly. You can provide this page to AI coding assistants (like Claude, ChatGPT, etc.) to help automate the conversion of your Radix/shadcn components to shaddercn.
 
 ## General Migration Patterns
 
@@ -31,7 +31,7 @@ The most common change across all components is replacing Radix UI's `asChild` p
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 <MenuTrigger render={<Button />}>Edit profile</MenuTrigger>
 ```
@@ -80,7 +80,7 @@ Some components have updated names for clarity and consistency:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:multiple={true}]
 // [!code word:\{\["item-1"\]\}]
 <Accordion multiple={true} defaultValue={["item-1"]}>
@@ -154,7 +154,7 @@ Ensure you have the following variables imported in your CSS file:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 // [!code word:AlertDialogClose]
 // [!code word:<AlertDialogPanel>Content</AlertDialogPanel>]
@@ -203,7 +203,7 @@ Ensure you have the following variables imported in your CSS file:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 <Avatar render={<Link href="/profile" />}>
   <AvatarImage src="avatar.jpg" alt="User" />
@@ -221,7 +221,7 @@ Ensure you have the following variables imported in your CSS file:
 
 Compared to shadcn/ui, our `Badge` component includes size variants for better density control. shadcn/ui badges have a fixed size, while our component offers flexible sizing with `sm`, `default`, and `lg` options.
 
-So, if you want to preserve the original shadcn/ui badge size, you should use the `lg` size in coss ui.
+So, if you want to preserve the original shadcn/ui badge size, you should use the `lg` size in shaddercn.
 
 **New Variants:**
 
@@ -256,7 +256,7 @@ Ensure you have the following variables imported in your CSS file:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 <Badge render={<Link href="/new" />}>New</Badge>
 ```
@@ -269,9 +269,9 @@ Ensure you have the following variables imported in your CSS file:
 
 **Size Comparison:**
 
-coss ui button sizes are more compact compared to shadcn/ui, making them better suited for dense applications. We also introduce new sizes (`xs`, `xl`, `icon-sm`, `icon-lg`) for more granular control:
+shaddercn button sizes are more compact compared to shadcn/ui, making them better suited for dense applications. We also introduce new sizes (`xs`, `xl`, `icon-sm`, `icon-lg`) for more granular control:
 
-| Size      | Height (shadcn/ui) | Height (coss ui) |
+| Size      | Height (shadcn/ui) | Height (shaddercn) |
 | --------- | ------------------ | ---------------- |
 | `xs`      | -                  | 24px             |
 | `sm`      | 32px               | 28px             |
@@ -282,7 +282,7 @@ coss ui button sizes are more compact compared to shadcn/ui, making them better 
 | `icon-sm` | -                  | 28px             |
 | `icon-lg` | -                  | 36px             |
 
-So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in coss ui.
+So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in shaddercn.
 
 **New Variants:**
 
@@ -303,7 +303,7 @@ We've added a new `destructive-outline` variant for better UX patterns:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 <Button render={<Link href="/login" />}>Login</Button>
 ```
@@ -341,7 +341,7 @@ We've added a new `destructive-outline` variant for better UX patterns:
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 // [!code word:CollapsiblePanel]
 <Collapsible>
@@ -396,7 +396,7 @@ The API is significantly different from shadcn/ui (cmdk). Please review both doc
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 // [!code word:<DialogPanel>Content</DialogPanel>]
 <Dialog>
@@ -428,7 +428,7 @@ The API is significantly different from shadcn/ui (cmdk). Please review both doc
 
 Compared to shadcn/ui, our `Input` component includes size variants for better density control. shadcn/ui inputs have a fixed height of 36px, while our component offers flexible sizing with `sm` (28px), `default` (32px), and `lg` (36px) options.
 
-So, if you want to preserve the original shadcn/ui input height (36px), you should use the `lg` size in coss ui.
+So, if you want to preserve the original shadcn/ui input height (36px), you should use the `lg` size in shaddercn.
 
 ### Input Group
 
@@ -477,7 +477,7 @@ So, if you want to preserve the original shadcn/ui input height (36px), you shou
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:onClick]
 <Menu>
   <MenuTrigger>Open menu</MenuTrigger>
@@ -525,7 +525,7 @@ Base UI introduces `PopoverTitle` and `PopoverDescription` to structure headings
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:PopoverTitle]
 // [!code word:PopoverDescription]
 // [!code word:PopoverClose]
@@ -566,7 +566,7 @@ Base UI introduces `PopoverTitle` and `PopoverDescription` to structure headings
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 <PreviewCard>
   <PreviewCardTrigger render={<Button variant="outline" />}>
@@ -619,15 +619,15 @@ Base UI introduces separate parts — `ProgressLabel`, `ProgressValue`, `Progres
 
 **Size Comparison:**
 
-coss ui select sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
+shaddercn select sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
 
-| Size      | Height (shadcn/ui) | Height (coss ui) |
+| Size      | Height (shadcn/ui) | Height (shaddercn) |
 | --------- | ------------------ | ---------------- |
 | `sm`      | 32px               | 28px             |
 | `default` | 36px               | 32px             |
 | `lg`      | -                  | 36px             |
 
-So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in coss ui.
+So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in shaddercn.
 
 **Additional Notes:**
 
@@ -652,7 +652,7 @@ Base UI introduces the `alignItemWithTrigger` prop to control whether the `Selec
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:alignItemWithTrigger={false}]
 // [!code word:items:2]
 <Select
@@ -710,7 +710,7 @@ Base UI introduces the `alignItemWithTrigger` prop to control whether the `Selec
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 // [!code word:<SheetPanel>Content here</SheetPanel>]
 <Sheet>
@@ -733,7 +733,7 @@ Base UI introduces the `alignItemWithTrigger` prop to control whether the `Selec
 ### Slider
 
 **Quick Checklist:**
-- coss ui `Slider` uses Base UI's multiple value approach
+- shaddercn `Slider` uses Base UI's multiple value approach
 - Always pass values as arrays (e.g., `value={[50]}` instead of `value={50}`)
 - `onValueChange` receives an array of numbers
 - Multiple thumbs are supported natively via array length
@@ -774,7 +774,7 @@ Compared to shadcn/ui, our `TabsList` component adds `variant` prop, which allow
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:TabsPanel]
 <Tabs defaultValue="tab-1">
   <TabsList>
@@ -831,7 +831,7 @@ toast("Event has been created", {
 })
 ```
 
-**coss ui (Base UI)**
+**shaddercn (Base UI)**
 
 ```tsx title="app/layout.tsx"
 import { ToastProvider } from "@/components/ui/toast"
@@ -886,15 +886,15 @@ onClick={() => {
 
 **Size Comparison:**
 
-coss ui toggle group sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
+shaddercn toggle group sizes are more compact compared to shadcn/ui, making them better suited for dense applications:
 
-| Size      | Height (shadcn/ui) | Height (coss ui) |
+| Size      | Height (shadcn/ui) | Height (shaddercn) |
 | --------- | ------------------ | ---------------- |
 | `sm`      | 32px               | 28px             |
 | `default` | 36px               | 32px             |
 | `lg`      | -                  | 36px             |
 
-So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in coss ui.
+So, for example, if you were using the `default` size in shadcn/ui and you want to preserve the original height, you should use the `lg` size in shaddercn.
 
 **Comparison Example:**
 
@@ -910,7 +910,7 @@ So, for example, if you were using the `default` size in shadcn/ui and you want 
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:multiple]
 <ToggleGroup multiple defaultValue={["bold"]}>
   <Toggle value="bold">B</Toggle>
@@ -941,7 +941,7 @@ So, for example, if you were using the `default` size in shadcn/ui and you want 
 </span>
 
 <span data-lib="base-ui">
-```tsx title="coss ui"
+```tsx title="shaddercn"
 // [!code word:render]
 <Tooltip>
   <TooltipTrigger render={<Button variant="outline" />}>

@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Simple meter",
   "registryDependencies": [
-    "@coss/meter"
+    "@shaddercn/meter"
   ],
   "files": [
     {
