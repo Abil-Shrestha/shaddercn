@@ -41,7 +41,7 @@ export async function ParticleCard({
   colSpan?: number;
 }) {
   const shaddercnUiUrl =
-    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000/ui";
+    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
   const particle = await getCachedRegistryItem(name);
 

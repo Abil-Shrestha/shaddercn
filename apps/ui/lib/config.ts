@@ -12,5 +12,5 @@ export const appConfig = {
     },
   ],
   ogImage: "/og.jpg",
-  url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000/ui",
+  url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
 };
