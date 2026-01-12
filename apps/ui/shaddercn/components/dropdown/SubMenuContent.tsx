@@ -58,7 +58,9 @@ export function SubMenuContent({
   // Measure content height (spacer + items)
   useLayoutEffect(() => {
     if (isActive && measureRef.current) {
-      setContentHeight(measureRef.current.offsetHeight);
+      // Force a slight delay to ensure DOM is fully rendered
+      const height = measureRef.current.offsetHeight;
+      setContentHeight(height);
     }
   }, [isActive]);
 
