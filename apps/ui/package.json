@@ -6,6 +6,7 @@
     "@remixicon/react": "^4.7.0",
     "@shaddercn/ui": "workspace:*",
     "@tanstack/react-table": "^8.21.3",
+    "@vercel/analytics": "^1.6.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "fumadocs-core": "16.4.6",

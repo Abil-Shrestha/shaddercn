@@ -47,13 +47,14 @@ export function SubMenuContent({
 
   const isActive = activeSubmenu === id;
 
-  // Measure all dimensions in a single layout pass to prevent mid-animation retarget
+  // Measure all dimensions in a single layout pass without relying on spacer height
   useLayoutEffect(() => {
     if (!isActive || !triggerRef.current || !measureRef.current) return;
 
     const nextTriggerTop = triggerRef.current.offsetTop;
     const nextTriggerHeight = triggerRef.current.offsetHeight;
-    const nextContentHeight = measureRef.current.offsetHeight;
+    const itemsHeight = measureRef.current.offsetHeight;
+    const nextContentHeight = itemsHeight + nextTriggerHeight;
 
     // Batch updates in one render
     setTriggerTop(nextTriggerTop);
@@ -195,21 +196,18 @@ export function SubMenuContent({
           }}
           transition={springConfig}
         >
-          {/* Inner wrapper for measuring natural height */}
-          <div ref={measureRef}>
-            {/* Spacer - SubMenuTrigger appears here visually via z-index stacking */}
-            <div aria-hidden="true" style={{ height: triggerHeight }} />
+          {/* Spacer - SubMenuTrigger appears here visually via z-index stacking */}
+          <div aria-hidden="true" style={{ height: triggerHeight }} />
 
-            {/* Content with fade-in animation */}
-            <motion.div
-              animate="visible"
-              exit="exit"
-              initial="hidden"
-              variants={contentVariants}
-            >
-              {children}
-            </motion.div>
-          </div>
+          {/* Content with fade-in animation */}
+          <motion.div
+            animate="visible"
+            exit="exit"
+            initial="hidden"
+            variants={contentVariants}
+          >
+            <div ref={measureRef}>{children}</div>
+          </motion.div>
         </motion.div>
       )}
     </AnimatePresence>

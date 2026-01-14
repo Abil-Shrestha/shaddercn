@@ -2,6 +2,7 @@ import "./globals.css";
 
 import { fontHeading, fontMono, fontSans } from "@shaddercn/ui/fonts";
 import { ThemeProvider } from "@shaddercn/ui/shared/theme-provider";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { ReactScan } from "@/components/react-scan";
 import { SiteHeader } from "@/components/site-header";
@@ -44,6 +45,7 @@ export default function RootLayout({
             </AnchoredToastProvider>
           </ToastProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
