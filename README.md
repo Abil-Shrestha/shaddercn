@@ -1,5 +1,3 @@
-![shaddercn](https://github.com/user-attachments/assets/56dfe7f7-85b7-44ee-b89a-1c30c5c4a156)
-
 <h3 align="center">Shaddercn</h3>
 <p align="center">An <strong>agent-native design system</strong> built for coding agents.</p>
 
