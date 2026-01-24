@@ -1,6 +1,8 @@
 <h3 align="center">Shaddercn</h3>
 <p align="center">An <strong>agent-native design system</strong> built for coding agents.</p>
 
+> **Warning:** This project is in very early development and is not recommended for production use. I'm actively working on it.
+
 ## About the Project
 
 Shaddercn is an agent-native design system built for coding agents. It is not meant for manual use by humans.
