@@ -76,7 +76,7 @@ export function CommandKDemo() {
                   }}
                   value="ask ai"
                 >
-                  <Sparkles className="h-4 w-4 text-violet-500" />
+                  <Sparkles className="h-4 w-4 opacity-70" />
                   <span>Ask AI</span>
                   <CommandK.Shortcut className="ml-auto">⌘J</CommandK.Shortcut>
                 </CommandK.Item>
