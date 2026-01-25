@@ -54,7 +54,7 @@ function PaletteSlider({
     (nextValue: number | number[]) => {
       const normalized = Array.isArray(nextValue) ? nextValue : [nextValue];
       if (Array.isArray(value)) {
-        const [start, end] = normalized as number[];
+        const [start, end] = normalized;
         if (start === undefined || end === undefined) {
           return;
         }
@@ -74,7 +74,7 @@ function PaletteSlider({
     (nextValue: number | number[]) => {
       const normalized = Array.isArray(nextValue) ? nextValue : [nextValue];
       if (Array.isArray(value)) {
-        const [start, end] = normalized as number[];
+        const [start, end] = normalized;
         if (start === undefined || end === undefined) {
           return;
         }
@@ -99,8 +99,7 @@ function PaletteSlider({
         onValueChange={handleChange}
         onValueCommitted={handleCommit}
         step={step}
-        thumbAlignment="edge"
-        value={value}
+        value={values}
       >
         <SliderPrimitive.Control className="w-full">
           <SliderPrimitive.Track className="h-7 w-full grow overflow-hidden rounded-md bg-foreground/5 group-has-[:focus-visible]:outline group-has-[:focus-visible]:outline-2 group-has-[:focus-visible]:outline-[#FDFF79] group-has-[:focus-visible]:outline-offset-2 dark:bg-white/5">
