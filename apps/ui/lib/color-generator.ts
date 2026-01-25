@@ -13,6 +13,8 @@ export interface ColorCell {
   hue: number;
   saturation: number;
   luminance: number;
+  columnId: string;
+  cellId: string;
 }
 
 export const defaultConfig: PaletteConfig = {
@@ -26,13 +28,17 @@ export const defaultConfig: PaletteConfig = {
 export function generatePalette(config: PaletteConfig): ColorCell[][] {
   const { saturation, hueRange, hueSteps, luminanceRange, luminanceSteps } =
     config;
+  const safeHueRange: [number, number] = [
+    hueRange[0],
+    hueRange[1] === 360 ? 359.999 : hueRange[1],
+  ];
   const palette: ColorCell[][] = [];
 
   for (let h = 0; h < hueSteps; h++) {
     const column: ColorCell[] = [];
     const hueIncrement =
-      hueSteps > 1 ? (hueRange[1] - hueRange[0]) / (hueSteps - 1) : 0;
-    const hue = (hueRange[0] + hueIncrement * h) % 360;
+      hueSteps > 1 ? (safeHueRange[1] - safeHueRange[0]) / (hueSteps - 1) : 0;
+    const hue = (safeHueRange[0] + hueIncrement * h) % 360;
 
     for (let l = 0; l < luminanceSteps; l++) {
       const lumIncrement =
@@ -48,6 +54,8 @@ export function generatePalette(config: PaletteConfig): ColorCell[][] {
       color.hsluvToHex();
 
       column.push({
+        cellId: `cell-${h}-${l}`,
+        columnId: `col-${h}`,
         hex: color.hex,
         hue,
         luminance,

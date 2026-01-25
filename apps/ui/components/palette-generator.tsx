@@ -292,7 +292,7 @@ export function PaletteGenerator() {
           {palette.map((column) => (
             <div
               className="flex flex-1 flex-col gap-1"
-              key={`col-${column[0]?.hue ?? column.length}`}
+              key={column[0]?.columnId}
             >
               {column.map((cell) => (
                 <button
@@ -300,7 +300,7 @@ export function PaletteGenerator() {
                     activeTokenKey,
                   )}`}
                   className="group relative h-9 w-full rounded-md shadow-inner transition-transform hover:z-10 hover:scale-105 focus-visible:ring-2 focus-visible:ring-ring"
-                  key={`${cell.hue}-${cell.luminance}-${cell.hex}`}
+                  key={cell.cellId}
                   onClick={() => handleColorClick(cell.hex)}
                   style={{ backgroundColor: cell.hex }}
                   title={`${cell.hex}\nH: ${cell.hue.toFixed(0)}° S: ${cell.saturation.toFixed(0)}% L: ${cell.luminance.toFixed(0)}%`}
