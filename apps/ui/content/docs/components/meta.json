@@ -15,6 +15,7 @@
     "combobox",
     "command",
     "dialog",
+    "dropdown",
     "empty",
     "field",
     "fieldset",
