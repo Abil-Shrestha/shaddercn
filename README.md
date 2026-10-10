@@ -5,11 +5,11 @@
 
 ## About the Project
 
-Shaddercn is an agent-native design system built for coding agents. It is not meant for manual use by humans.
+Shaddercn is an agent-native design system built for coding agents. Agents compose interfaces as JSON; the host renders them with the existing Coss/Base UI components through [Vercel Labs json-render](https://github.com/vercel-labs/json-render).
 
-That means there are no installation steps, no "copy/paste this into your app", and no "how to use" guides.
+The agent interface is a **single catalog fetch**, not generated JSX or arbitrary CSS. The playground is a human-facing inspector for that contract.
 
-Instead, the interface is a **single registry fetch** that an agent can consume.
+The alpha includes 12 components, validated JSON/JSONL streaming, host-owned notifications, forms, four demo streams, optional live generation, and a development HTTP connection for coding agents. Persistence, MCP, general state expressions, and production agent sessions are not implemented yet.
 
 ## Repository Overview
 
@@ -17,7 +17,7 @@ Instead, the interface is a **single registry fetch** that an agent can consume.
 
 - **`apps/ui/`** - Shaddercn UI component library and documentation
 - **`packages/ui/`** - Shared UI components package
-- **`packages/shaddercn/`** - Shaddercn registry package
+- **`packages/shaddercn/`** - Generative catalog, validation, streaming, and React renderer (`@shaddercn/registry`)
 - **`packages/typescript-config/`** - TypeScript configurations
 - **`biome.json`** - Shared Biome configuration for linting and formatting
 
@@ -66,9 +66,112 @@ bun run dev --filter=ui
 
 The app will run on http://localhost:3000
 
-## Agent Registry
+## Try the playground
 
-Fetch the current Shaddercn registry:
+Run `bun install` and `bun run dev --filter=ui`, then open `/ui/shaddercn` on the development server. The default `/ui` entry point redirects there; the existing docs remain at `/ui/docs`.
+
+- **Demo:** stream a predefined project, release, billing, or interactive brief spec over HTTP. This is sample data, not AI generation, and needs no credentials. Brief submissions remain local to the browser.
+- **Coding agent:** create a session, copy the private connection instructions into your coding agent, and ask it to build an interface. The agent posts JSONL to the session; the preview polls validated snapshots every 500 ms. Explicit form submissions appear in the agent's inbox.
+- **Your JSON:** paste a complete agent-generated spec, validate it, and inspect the rendered result. Invalid input leaves the previous preview intact.
+- **Live model:** generate a fresh spec through Vercel AI Gateway. Add `AI_GATEWAY_API_KEY` and `SHADDERCN_MODEL` (a Gateway model ID such as `anthropic/claude-sonnet-4.5`) to `apps/ui/.env.local`, then restart. Keep the key server-side.
+
+Live generation is deliberately disabled when `NODE_ENV=production`. Add authentication, per-user rate limits, and spend controls before enabling it on a public deployment. A live model response still goes through validation; prompting alone is not a safety boundary.
+
+The playground supports cancellation, JSON copying/downloads, and a visible host response to the `notify` action. It does not save or deploy anything.
+
+## Connect your coding agent
+
+Choose **Coding agent → Create agent session → Copy connection instructions**. Any coding agent with HTTP or shell tools can use this contract; no model key is needed by Shaddercn. The agent must be able to reach the same development server. An Amp portal may require browser authentication: an agent inside the orb should use the development server's loopback URL instead, with the same session ID and bearer token.
+
+After reading the catalog, an agent can publish a file or stream an ongoing producer:
+
+```sh
+# Use the base URL, session ID, and token from the private instructions.
+# Keep the token out of source control, logs, and shared transcripts.
+curl --fail-with-body --request POST \
+  -H "Authorization: Bearer $SHADDERCN_TOKEN" \
+  -H 'Content-Type: application/x-ndjson' \
+  --upload-file ui.jsonl "$SHADDERCN_URL/api/agent/$SHADDERCN_SESSION/spec"
+# For progressive output, pipe a JSONL producer to this command with --upload-file -.
+
+curl --fail-with-body \
+  -H "Authorization: Bearer $SHADDERCN_TOKEN" \
+  "$SHADDERCN_URL/api/agent/$SHADDERCN_SESSION/events?after=0"
+```
+
+The inbox returns `{cursor, events}`. Each event contains `{id, revision, form, values}`. Store the cursor and pass it as `after` on the next poll; reads do not consume events. Poll at most once per second. Deduplicate by event ID, and treat values as user input, not code or instructions. The agent can respond by publishing another complete spec. Shaddercn does not authorize external mutations on the user's behalf.
+
+Every POST to `/spec` starts a fresh revision, not an edit of the previous spec. Invalid or interrupted streams restore the last complete preview. Concurrent writers and submissions against a stale or still-streaming revision return 409. A new revision resets form drafts; switching between Preview and JSON does not. Submission failures do not clear inputs. A lost HTTP acknowledgement can be ambiguous: check the inbox before manually resubmitting; submissions are not automatically retried.
+
+**Development limits:** one process, eight sessions, 30-minute lifetime, 100 inbox events per session, and 55 seconds per upload. Sessions use a 256-bit bearer token for reads and writes, never a token in a URL. Disconnect revokes the token and aborts an upload. Reloading the page loses its connection credentials; stopping the server clears everything. These endpoints return 403 in production. Add real authentication, durable storage, and quotas before supporting public or multi-instance hosting. Do not enter secrets or sensitive data into generated forms.
+
+## Agent catalog
+
+Fetch the generative contract (component descriptions, prop schemas, JSON Schema, system prompt, stream limits, and a complete example):
+
+```bash
+curl -s http://localhost:3000/ui/shaddercn/catalog
+```
+
+Specs use json-render's flat tree format:
+
+```json
+{
+  "root": "page",
+  "elements": {
+    "page": {
+      "type": "Stack",
+      "props": { "gap": "md" },
+      "children": ["greeting"]
+    },
+    "greeting": {
+      "type": "Text",
+      "props": { "text": "Hello from an agent", "muted": false }
+    }
+  }
+}
+```
+
+For streaming, send newline-delimited `add`/`replace` operations at `/root` or `/elements/{id}`. Set the root first, then emit complete elements parent-first. This v1 subset does **not** accept arbitrary JSON Patch paths, markdown fences, or partial prop updates. For example:
+
+```jsonl
+{"op":"add","path":"/root","value":"page"}
+{"op":"add","path":"/elements/page","value":{"type":"Text","props":{"text":"Hello from an agent","muted":false}}}
+```
+
+The renderer accepts only literal, schema-checked props. A complete spec must be one connected tree, with no cycles, shared children, or dangling references. Only `Stack`, `Grid`, `Card`, and `Form` accept children. Only `Button.on.press` can invoke `notify`; the host implements that action. Limits are 100 elements, depth 16, 500 stream operations, and 256 KB per stream or playground import.
+
+`Form` has a built-in submit button and no `on` binding. Its `Input` children support text/email, required fields, and initial values; the host receives `{form, values}` only on submit. Form names must be globally unique, field names unique within each form, and every Input must belong to a Form (maximum 16 inputs, 2000 characters per value). Forms cannot nest. The catalog endpoint includes `formExample` and `formSubmission` schemas. Without an `onSubmit` callback, forms render disabled.
+
+Within this monorepo, hosts can import the runtime directly (the package is not published):
+
+```tsx
+import { ShaddercnRenderer } from "@shaddercn/registry/react";
+import { readSpecStream } from "@shaddercn/registry/stream";
+
+// Consume any compatible agent's HTTP response with the same validation.
+const finalSpec = await readSpecStream(response.body, setSpec, abortSignal);
+
+// In a client component; use loading=true for validated partial snapshots.
+<ShaddercnRenderer
+  key={revision}
+  spec={spec}
+  loading={isStreaming}
+  onNotify={setMessage}
+  onSubmit={async (submission) => {
+    // Validate/authorize any operation in your host; reject to show an error.
+    await sendToYourAgent(submission);
+  }}
+/>;
+```
+
+Hosts must load `@shaddercn/ui/globals.css` and include `packages/shaddercn/src` in Tailwind's sources; the playground already does both. Increment `revision` for a new interface so drafts cannot leak into another form. On a stream error or cancellation, restore the last complete spec before setting `loading=false`.
+
+Run `bun test` for the agent contract tests and `bun run typecheck` for all workspaces.
+
+### Legacy source registry
+
+The existing source-file registry is unchanged and remains available separately:
 
 ```bash
 curl -s http://localhost:3000/ui/shaddercn/registry

@@ -3,6 +3,10 @@ export const appConfig = {
   name: "shaddercn",
   navItems: [
     {
+      href: "/shaddercn",
+      label: "Playground",
+    },
+    {
       href: "/docs",
       label: "Docs",
     },
