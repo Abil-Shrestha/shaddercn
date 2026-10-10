@@ -70,7 +70,7 @@ describe("Separator", () => {
     const call = lastSeparatorCall();
     const className = call.className as string;
     expect(className).toContain("shrink-0");
-    expect(className).toContain("bg-input");
+    expect(className).toContain("bg-border");
     expect(className).toContain("data-[orientation=horizontal]:h-px");
     expect(className).toContain("data-[orientation=horizontal]:w-full");
   });
@@ -96,7 +96,7 @@ describe("Separator", () => {
     const call = lastSeparatorCall();
     const className = call.className as string;
     expect(className).toContain("shrink-0");
-    expect(className).toContain("bg-input");
+    expect(className).toContain("bg-border");
     expect(className).toContain("custom-separator-class");
   });
 

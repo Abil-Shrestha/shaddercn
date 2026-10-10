@@ -1,6 +1,8 @@
 import { BoldIcon, ItalicIcon, UnderlineIcon } from "lucide-react";
-
-import { Toggle, ToggleGroup } from "@/registry/default/ui/toggle-group";
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from "@/registry/default/ui/toggle-group";
 import {
   Tooltip,
   TooltipPopup,
@@ -14,7 +16,7 @@ export default function Particle() {
       <ToggleGroup defaultValue={["bold"]} multiple>
         <Tooltip>
           <TooltipTrigger
-            render={<Toggle aria-label="Toggle bold" value="bold" />}
+            render={<ToggleGroupItem aria-label="Toggle bold" value="bold" />}
           >
             <BoldIcon />
           </TooltipTrigger>
@@ -22,7 +24,9 @@ export default function Particle() {
         </Tooltip>
         <Tooltip>
           <TooltipTrigger
-            render={<Toggle aria-label="Toggle italic" value="italic" />}
+            render={
+              <ToggleGroupItem aria-label="Toggle italic" value="italic" />
+            }
           >
             <ItalicIcon />
           </TooltipTrigger>
@@ -30,7 +34,12 @@ export default function Particle() {
         </Tooltip>
         <Tooltip>
           <TooltipTrigger
-            render={<Toggle aria-label="Toggle underline" value="underline" />}
+            render={
+              <ToggleGroupItem
+                aria-label="Toggle underline"
+                value="underline"
+              />
+            }
           >
             <UnderlineIcon />
           </TooltipTrigger>

@@ -171,11 +171,34 @@ Run `bun test` for the agent contract tests and `bun run typecheck` for all work
 
 ### Legacy source registry
 
-The existing source-file registry is unchanged and remains available separately:
+The source-file registry remains available separately from the agent catalog:
 
 ```bash
 curl -s http://localhost:3000/ui/shaddercn/registry
 ```
+
+## Updating the Coss UI foundation
+
+The component layer is based on [cosscom/coss](https://github.com/cosscom/coss), last imported from [81151ba8 (October 7, 2026)](https://github.com/cosscom/coss/commit/81151ba8fd3fae78c58beff7577594ce5deda5a8).
+This is a **selective source import, not a full fork merge**. It includes 54 UI primitives, their hooks/helpers and registry metadata, with Base UI 1.8.0, DayPicker 10.0.1, Next 16.2.5, and React 19.2.6. Shaddercn's branding, theme tokens, generative runtime, playground, and TanStack Table v8 remain ours. Coss's apps and Table v9 migration are not imported. New primitives do not automatically become part of the agent catalog.
+
+For the next update, use a clean branch and fetch `https://github.com/cosscom/coss.git`. Compare against the pinned commit above. Review changes under `apps/ui/registry/default/{ui,hooks,lib,base-ui}`, their `registry-*.ts` metadata, required CSS, and dependencies; do not replace the whole app. Keep registry namespaces as `@shaddercn/*`. Migrate consumers and docs when an API changes (this update replaces group `Toggle` with `ToggleGroupItem`, `SheetPopup inset` with `variant="inset"`, and `use-mobile` with `use-media-query`).
+
+`Form` and `Fieldset` no longer supply layout classes. Existing Shaddercn consumers set their flex layout, width, and spacing explicitly.
+
+The source of truth is `apps/ui/registry/default`, not the generated package or JSON files. After integrating upstream source changes:
+
+```sh
+bun install
+bun run --cwd apps/ui ui:sync
+bun run --cwd apps/ui registry:build
+bun run --cwd apps/ui registry:validate-deps
+bun run typecheck
+bun run test
+bun run build --filter=ui
+```
+
+`ui:sync` copies local sources into `packages/ui`; it does **not** fetch Coss. Neither generator removes obsolete files: review deletions in `packages/ui/src` and `apps/ui/public/r` explicitly. Check the playground, forms, component docs, and palette in a browser at desktop/mobile widths and in light/dark themes. Record the new upstream commit here only after verification. On small orbs, stop the dev server and browser before building.
 
 ## Inspiration
 

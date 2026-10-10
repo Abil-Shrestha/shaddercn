@@ -20,7 +20,10 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { toastManager } from "@/registry/default/ui/toast";
-import { Toggle, ToggleGroup } from "@/registry/default/ui/toggle-group";
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from "@/registry/default/ui/toggle-group";
 import type { Anchor, Direction } from "@/shaddercn/components/dropdown";
 import { Dropdown } from "@/shaddercn/components/dropdown";
 
@@ -188,18 +191,18 @@ export function DropdownDemo() {
             value={[direction]}
             variant="outline"
           >
-            <Toggle aria-label="Expand up" value="top">
+            <ToggleGroupItem aria-label="Expand up" value="top">
               <ArrowUp className="h-4 w-4" />
-            </Toggle>
-            <Toggle aria-label="Expand down" value="bottom">
+            </ToggleGroupItem>
+            <ToggleGroupItem aria-label="Expand down" value="bottom">
               <ArrowDown className="h-4 w-4" />
-            </Toggle>
-            <Toggle aria-label="Expand left" value="left">
+            </ToggleGroupItem>
+            <ToggleGroupItem aria-label="Expand left" value="left">
               <ArrowLeft className="h-4 w-4" />
-            </Toggle>
-            <Toggle aria-label="Expand right" value="right">
+            </ToggleGroupItem>
+            <ToggleGroupItem aria-label="Expand right" value="right">
               <ArrowRight className="h-4 w-4" />
-            </Toggle>
+            </ToggleGroupItem>
           </ToggleGroup>
         </div>
 
@@ -218,23 +221,23 @@ export function DropdownDemo() {
             value={[anchor]}
             variant="outline"
           >
-            <Toggle
+            <ToggleGroupItem
               aria-label="Align to start"
               disabled={isHorizontal}
               value="start"
             >
               <AlignStartVertical className="h-4 w-4" />
-            </Toggle>
-            <Toggle aria-label="Align to center" value="center">
+            </ToggleGroupItem>
+            <ToggleGroupItem aria-label="Align to center" value="center">
               <AlignCenterVertical className="h-4 w-4" />
-            </Toggle>
-            <Toggle
+            </ToggleGroupItem>
+            <ToggleGroupItem
               aria-label="Align to end"
               disabled={isHorizontal}
               value="end"
             >
               <AlignEndVertical className="h-4 w-4" />
-            </Toggle>
+            </ToggleGroupItem>
           </ToggleGroup>
         </div>
 
@@ -253,12 +256,12 @@ export function DropdownDemo() {
             value={[hasSubmenu ? "on" : "off"]}
             variant="outline"
           >
-            <Toggle aria-label="No submenu" value="off">
+            <ToggleGroupItem aria-label="No submenu" value="off">
               Off
-            </Toggle>
-            <Toggle aria-label="With submenu" value="on">
+            </ToggleGroupItem>
+            <ToggleGroupItem aria-label="With submenu" value="on">
               On
-            </Toggle>
+            </ToggleGroupItem>
           </ToggleGroup>
         </div>
       </div>

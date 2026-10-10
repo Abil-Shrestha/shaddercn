@@ -55,7 +55,11 @@ export default function Particle() {
   };
 
   return (
-    <Form className="max-w-64" errors={errors} onSubmit={onSubmit}>
+    <Form
+      className="flex w-full max-w-64 flex-col gap-4"
+      errors={errors}
+      onSubmit={onSubmit}
+    >
       <Field name="name">
         <FieldLabel>Name</FieldLabel>
         <Input disabled={loading} placeholder="Enter name" />

@@ -8,7 +8,7 @@
   "files": [
     {
       "path": "registry/default/ui/fieldset.tsx",
-      "content": "\"use client\";\n\nimport { Fieldset as FieldsetPrimitive } from \"@base-ui/react/fieldset\";\n\nimport { cn } from \"@/registry/default/lib/utils\";\n\nfunction Fieldset({ className, ...props }: FieldsetPrimitive.Root.Props) {\n  return (\n    <FieldsetPrimitive.Root\n      className={cn(\"flex w-full max-w-64 flex-col gap-6\", className)}\n      data-slot=\"fieldset\"\n      {...props}\n    />\n  );\n}\nfunction FieldsetLegend({\n  className,\n  ...props\n}: FieldsetPrimitive.Legend.Props) {\n  return (\n    <FieldsetPrimitive.Legend\n      className={cn(\"font-semibold\", className)}\n      data-slot=\"fieldset-legend\"\n      {...props}\n    />\n  );\n}\n\nexport { Fieldset, FieldsetLegend };\n",
+      "content": "\"use client\";\n\nimport { Fieldset as FieldsetPrimitive } from \"@base-ui/react/fieldset\";\nimport type React from \"react\";\nimport { cn } from \"@/registry/default/lib/utils\";\n\nexport function Fieldset({\n  className,\n  ...props\n}: FieldsetPrimitive.Root.Props): React.ReactElement {\n  return (\n    <FieldsetPrimitive.Root\n      className={className}\n      data-slot=\"fieldset\"\n      {...props}\n    />\n  );\n}\nexport function FieldsetLegend({\n  className,\n  ...props\n}: FieldsetPrimitive.Legend.Props): React.ReactElement {\n  return (\n    <FieldsetPrimitive.Legend\n      className={cn(\"font-semibold text-foreground\", className)}\n      data-slot=\"fieldset-legend\"\n      {...props}\n    />\n  );\n}\n\nexport { FieldsetPrimitive };\n",
       "type": "registry:ui"
     }
   ]

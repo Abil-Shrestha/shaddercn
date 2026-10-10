@@ -68,6 +68,7 @@ function HostForm({
   return (
     <Form
       aria-label={name}
+      className="flex w-full flex-col gap-4"
       onSubmit={async (event) => {
         event.preventDefault();
         if (!submit || loading || pending.current) return;
@@ -92,7 +93,7 @@ function HostForm({
       }}
     >
       <Fieldset
-        className="min-w-0 max-w-none"
+        className="flex w-full min-w-0 max-w-none flex-col gap-6"
         disabled={loading || busy || !submit}
       >
         {children}

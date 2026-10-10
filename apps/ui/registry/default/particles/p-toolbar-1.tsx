@@ -7,7 +7,6 @@ import {
   DollarSignIcon,
   PercentIcon,
 } from "lucide-react";
-
 import { Button } from "@/registry/default/ui/button";
 import {
   Select,
@@ -16,7 +15,10 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/registry/default/ui/select";
-import { Toggle, ToggleGroup } from "@/registry/default/ui/toggle-group";
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from "@/registry/default/ui/toggle-group";
 import {
   Toolbar,
   ToolbarButton,
@@ -46,7 +48,7 @@ export default function Particle() {
               render={
                 <ToolbarButton
                   aria-label="Align left"
-                  render={<Toggle value="left" />}
+                  render={<ToggleGroupItem value="left" />}
                 >
                   <AlignLeftIcon />
                 </ToolbarButton>
@@ -59,7 +61,12 @@ export default function Particle() {
               render={
                 <ToolbarButton
                   aria-label="Align center"
-                  render={<Toggle aria-label="Toggle center" value="center" />}
+                  render={
+                    <ToggleGroupItem
+                      aria-label="Toggle center"
+                      value="center"
+                    />
+                  }
                 >
                   <AlignCenterIcon />
                 </ToolbarButton>
@@ -72,7 +79,9 @@ export default function Particle() {
               render={
                 <ToolbarButton
                   aria-label="Align right"
-                  render={<Toggle aria-label="Toggle right" value="right" />}
+                  render={
+                    <ToggleGroupItem aria-label="Toggle right" value="right" />
+                  }
                 >
                   <AlignRightIcon />
                 </ToolbarButton>

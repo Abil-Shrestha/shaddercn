@@ -52,8 +52,10 @@ npm install @base-ui/react
 import { Fieldset, FieldsetLegend } from "@/components/ui/fieldset"
 ```
 
+`Fieldset` does not add layout or spacing. Set those with `className` when grouping fields.
+
 ```tsx
-<Fieldset>
+<Fieldset className="flex w-full flex-col gap-6">
   <FieldsetLegend>Fieldset legend</FieldsetLegend>
 </Fieldset>
 ```

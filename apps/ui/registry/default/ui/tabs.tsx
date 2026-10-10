@@ -1,12 +1,24 @@
 "use client";
 
 import { Tabs as TabsPrimitive } from "@base-ui/react/tabs";
-
+import * as React from "react";
+import {
+  type SegmentedControlSize,
+  segmentedControlItemLayoutClassName,
+  segmentedControlItemSizeClassNames,
+} from "@/registry/default/lib/segmented-control";
 import { cn } from "@/registry/default/lib/utils";
 
 type TabsVariant = "default" | "underline";
+type TabsSize = SegmentedControlSize;
 
-function Tabs({ className, ...props }: TabsPrimitive.Root.Props) {
+const TabsListContext: React.Context<TabsSize> =
+  React.createContext<TabsSize>("default");
+
+export function Tabs({
+  className,
+  ...props
+}: TabsPrimitive.Root.Props): React.ReactElement {
   return (
     <TabsPrimitive.Root
       className={cn(
@@ -19,14 +31,16 @@ function Tabs({ className, ...props }: TabsPrimitive.Root.Props) {
   );
 }
 
-function TabsList({
+export function TabsList({
   variant = "default",
+  size = "default",
   className,
   children,
   ...props
 }: TabsPrimitive.List.Props & {
+  size?: TabsSize;
   variant?: TabsVariant;
-}) {
+}): React.ReactElement {
   return (
     <TabsPrimitive.List
       className={cn(
@@ -37,10 +51,13 @@ function TabsList({
           : "data-[orientation=vertical]:px-1 data-[orientation=horizontal]:py-1 *:data-[slot=tabs-tab]:hover:bg-accent",
         className,
       )}
+      data-size={size}
       data-slot="tabs-list"
       {...props}
     >
-      {children}
+      <TabsListContext.Provider value={size}>
+        {children}
+      </TabsListContext.Provider>
       <TabsPrimitive.Indicator
         className={cn(
           "-translate-y-(--active-tab-bottom) absolute bottom-0 left-0 h-(--active-tab-height) w-(--active-tab-width) translate-x-(--active-tab-left) transition-[width,translate] duration-200 ease-in-out",
@@ -54,20 +71,35 @@ function TabsList({
   );
 }
 
-function TabsTab({ className, ...props }: TabsPrimitive.Tab.Props) {
+export function TabsTab({
+  className,
+  size,
+  ...props
+}: TabsPrimitive.Tab.Props & {
+  size?: TabsSize;
+}): React.ReactElement {
+  const contextSize: TabsSize = React.useContext(TabsListContext);
+  const resolvedSize: TabsSize = size ?? contextSize;
+
   return (
     <TabsPrimitive.Tab
       className={cn(
-        "[&_svg]:-mx-0.5 flex h-9 shrink-0 grow cursor-pointer items-center justify-center gap-1.5 whitespace-nowrap rounded-md border border-transparent px-[calc(--spacing(2.5)-1px)] font-medium text-base outline-none transition-[color,background-color,box-shadow] hover:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring data-disabled:pointer-events-none data-[orientation=vertical]:w-full data-[orientation=vertical]:justify-start data-active:text-foreground data-disabled:opacity-64 sm:h-8 sm:text-sm [&_svg:not([class*='size-'])]:size-4.5 sm:[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
+        "relative flex shrink-0 grow cursor-pointer items-center justify-center whitespace-nowrap rounded-md border border-transparent font-medium text-base outline-none transition-[color,background-color,box-shadow] hover:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring data-disabled:pointer-events-none data-[orientation=vertical]:w-full data-[orientation=vertical]:justify-start data-active:text-foreground data-disabled:opacity-64 sm:text-sm",
+        segmentedControlItemLayoutClassName,
+        segmentedControlItemSizeClassNames[resolvedSize],
         className,
       )}
+      data-size={resolvedSize}
       data-slot="tabs-tab"
       {...props}
     />
   );
 }
 
-function TabsPanel({ className, ...props }: TabsPrimitive.Panel.Props) {
+export function TabsPanel({
+  className,
+  ...props
+}: TabsPrimitive.Panel.Props): React.ReactElement {
   return (
     <TabsPrimitive.Panel
       className={cn("flex-1 outline-none", className)}
@@ -78,10 +110,9 @@ function TabsPanel({ className, ...props }: TabsPrimitive.Panel.Props) {
 }
 
 export {
-  Tabs,
-  TabsList,
-  TabsTab,
+  TabsPrimitive,
   TabsTab as TabsTrigger,
-  TabsPanel,
   TabsPanel as TabsContent,
+  type TabsSize,
+  type TabsVariant,
 };

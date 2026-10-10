@@ -98,7 +98,7 @@ Popup container that displays the sheet content. Also exported as `SheetContent`
 | Prop              | Type                                      | Default   | Description                                      |
 | ----------------- | ----------------------------------------- | --------- | ------------------------------------------------ |
 | `side`            | `"right" \| "left" \| "top" \| "bottom"`  | `"right"` | Controls which side of the screen the sheet opens from |
-| `inset`           | `boolean`                                 | `false`   | When true, adds spacing around the sheet on desktop screens |
+| `variant`         | `"default" \| "inset"`                     | `"default"` | `inset` adds spacing around the sheet on desktop screens |
 | `showCloseButton` | `boolean`                                 | `true`    | When true, displays a close button in the top-right corner |
 
 **Example:**
@@ -125,7 +125,7 @@ Popup container that displays the sheet content. Also exported as `SheetContent`
 </SheetPopup>
 
 // Sheet with inset spacing
-<SheetPopup side="right" inset>
+<SheetPopup side="right" variant="inset">
   ...
 </SheetPopup>
 ```

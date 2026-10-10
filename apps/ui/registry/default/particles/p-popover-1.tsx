@@ -25,7 +25,7 @@ export default function Particle() {
             Let us know how we can improve.
           </PopoverDescription>
         </div>
-        <Form>
+        <Form className="flex w-full flex-col gap-4">
           <Field>
             <Textarea
               aria-label="Send feedback"

@@ -4,11 +4,11 @@ export const hooks: Registry["items"] = [
   {
     files: [
       {
-        path: "hooks/use-mobile.ts",
+        path: "hooks/use-media-query.ts",
         type: "registry:hook",
       },
     ],
-    name: "use-mobile",
+    name: "use-media-query",
     type: "registry:hook",
   },
   {

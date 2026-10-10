@@ -4,7 +4,6 @@ import type { Toggle as TogglePrimitive } from "@base-ui/react/toggle";
 import { ToggleGroup as ToggleGroupPrimitive } from "@base-ui/react/toggle-group";
 import type { VariantProps } from "class-variance-authority";
 import * as React from "react";
-
 import { cn } from "@shaddercn/ui/lib/utils";
 import { Separator } from "@shaddercn/ui/components/separator";
 import {
@@ -12,21 +11,22 @@ import {
   type toggleVariants,
 } from "@shaddercn/ui/components/toggle";
 
-const ToggleGroupContext = React.createContext<
+export const ToggleGroupContext: React.Context<
   VariantProps<typeof toggleVariants>
->({
+> = React.createContext<VariantProps<typeof toggleVariants>>({
   size: "default",
   variant: "default",
 });
 
-function ToggleGroup({
+export function ToggleGroup({
   className,
   variant = "default",
   size = "default",
   orientation = "horizontal",
   children,
   ...props
-}: ToggleGroupPrimitive.Props & VariantProps<typeof toggleVariants>) {
+}: ToggleGroupPrimitive.Props &
+  VariantProps<typeof toggleVariants>): React.ReactElement {
   return (
     <ToggleGroupPrimitive
       className={cn(
@@ -54,13 +54,14 @@ function ToggleGroup({
   );
 }
 
-function Toggle({
+export function ToggleGroupItem({
   className,
   children,
   variant,
   size,
   ...props
-}: TogglePrimitive.Props & VariantProps<typeof toggleVariants>) {
+}: TogglePrimitive.Props &
+  VariantProps<typeof toggleVariants>): React.ReactElement {
   const context = React.useContext(ToggleGroupContext);
 
   const resolvedVariant = context.variant || variant;
@@ -80,17 +81,17 @@ function Toggle({
   );
 }
 
-function ToggleGroupSeparator({
+export function ToggleGroupSeparator({
   className,
   orientation = "vertical",
   ...props
 }: {
   className?: string;
-} & React.ComponentProps<typeof Separator>) {
+} & React.ComponentProps<typeof Separator>): React.ReactElement {
   return (
     <Separator
       className={cn(
-        "pointer-events-none relative before:absolute before:inset-0 dark:before:bg-input/32",
+        "pointer-events-none relative bg-input before:absolute before:inset-0 dark:before:bg-input/32",
         className,
       )}
       orientation={orientation}
@@ -99,4 +100,4 @@ function ToggleGroupSeparator({
   );
 }
 
-export { ToggleGroup, Toggle, Toggle as ToggleGroupItem, ToggleGroupSeparator };
+export { ToggleGroupPrimitive };
