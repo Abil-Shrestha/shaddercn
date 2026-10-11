@@ -8,7 +8,7 @@ import { Input } from "@/registry/default/ui/input";
 
 export default function Particle() {
   return (
-    <Fieldset>
+    <Fieldset className="flex w-full max-w-64 flex-col gap-6">
       <FieldsetLegend>Billing Details</FieldsetLegend>
       <Field>
         <FieldLabel>Company</FieldLabel>

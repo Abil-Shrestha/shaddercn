@@ -14,15 +14,9 @@ const nextConfig: NextConfig = {
         source: "/",
       },
       {
-        destination: "/docs",
+        destination: "/shaddercn",
         permanent: false,
         source: "/",
-      },
-      // Keep /shaddercn as a friendly entrypoint
-      {
-        destination: "/docs",
-        permanent: false,
-        source: "/shaddercn",
       },
     ];
   },
@@ -34,7 +28,7 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  transpilePackages: ["@shaddercn/ui"],
+  transpilePackages: ["@shaddercn/ui", "@shaddercn/registry"],
 };
 
 export default withMDX(nextConfig);

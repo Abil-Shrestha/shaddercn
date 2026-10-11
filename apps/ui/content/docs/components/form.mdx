@@ -58,8 +58,11 @@ import { Form } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 ```
 
+`Form` does not add layout or spacing. Set those with `className` when arranging fields and actions.
+
 ```tsx
 <Form
+  className="flex w-full flex-col gap-4"
   onSubmit={(e) => {
     /* handle submit */
   }}

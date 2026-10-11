@@ -137,7 +137,7 @@ export const Index: Record<string, any> = {
     name: "button",
     description: "",
     type: "registry:ui",
-    registryDependencies: undefined,
+    registryDependencies: ["@shaddercn/spinner"],
     files: [{
       path: "registry/default/ui/button.tsx",
       type: "registry:ui",
@@ -145,6 +145,24 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/ui/button.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "calendar": {
+    name: "calendar",
+    description: "",
+    type: "registry:ui",
+    registryDependencies: [],
+    files: [{
+      path: "registry/default/ui/calendar.tsx",
+      type: "registry:ui",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/ui/calendar.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -259,6 +277,24 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "context-menu": {
+    name: "context-menu",
+    description: "",
+    type: "registry:ui",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/ui/context-menu.tsx",
+      type: "registry:ui",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/ui/context-menu.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "dialog": {
     name: "dialog",
     description: "",
@@ -271,6 +307,24 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/ui/dialog.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "drawer": {
+    name: "drawer",
+    description: "",
+    type: "registry:ui",
+    registryDependencies: ["@shaddercn/button","@shaddercn/scroll-area"],
+    files: [{
+      path: "registry/default/ui/drawer.tsx",
+      type: "registry:ui",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/ui/drawer.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -397,6 +451,24 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/ui/input.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "otp-field": {
+    name: "otp-field",
+    description: "",
+    type: "registry:ui",
+    registryDependencies: ["@shaddercn/separator"],
+    files: [{
+      path: "registry/default/ui/otp-field.tsx",
+      type: "registry:ui",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/ui/otp-field.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -677,7 +749,7 @@ export const Index: Record<string, any> = {
     name: "sidebar",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@shaddercn/button","@shaddercn/input","@shaddercn/scroll-area","@shaddercn/separator","@shaddercn/sheet","@shaddercn/skeleton","@shaddercn/tooltip","@shaddercn/use-mobile"],
+    registryDependencies: ["@shaddercn/button","@shaddercn/input","@shaddercn/scroll-area","@shaddercn/separator","@shaddercn/sheet","@shaddercn/skeleton","@shaddercn/tooltip","@shaddercn/use-media-query","@shaddercn/utils"],
     files: [{
       path: "registry/default/ui/sidebar.tsx",
       type: "registry:ui",
@@ -785,7 +857,7 @@ export const Index: Record<string, any> = {
     name: "tabs",
     description: "",
     type: "registry:ui",
-    registryDependencies: undefined,
+    registryDependencies: ["@shaddercn/segmented-control"],
     files: [{
       path: "registry/default/ui/tabs.tsx",
       type: "registry:ui",
@@ -6199,6 +6271,24 @@ export const Index: Record<string, any> = {
     categories: ["tooltip"],
     meta: undefined,
   },
+  "segmented-control": {
+    name: "segmented-control",
+    description: "",
+    type: "registry:lib",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/lib/segmented-control.ts",
+      type: "registry:lib",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/lib/segmented-control.ts")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "utils": {
     name: "utils",
     description: "",
@@ -6217,18 +6307,90 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
-  "use-mobile": {
-    name: "use-mobile",
+  "use-render": {
+    name: "use-render",
+    description: "",
+    type: "registry:lib",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/base-ui/use-render.ts",
+      type: "registry:lib",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/base-ui/use-render.ts")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "merge-props": {
+    name: "merge-props",
+    description: "",
+    type: "registry:lib",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/base-ui/merge-props.ts",
+      type: "registry:lib",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/base-ui/merge-props.ts")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "csp-provider": {
+    name: "csp-provider",
+    description: "",
+    type: "registry:lib",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/base-ui/csp-provider.ts",
+      type: "registry:lib",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/base-ui/csp-provider.ts")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "direction-provider": {
+    name: "direction-provider",
+    description: "",
+    type: "registry:lib",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/base-ui/direction-provider.ts",
+      type: "registry:lib",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/base-ui/direction-provider.ts")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "use-media-query": {
+    name: "use-media-query",
     description: "",
     type: "registry:hook",
     registryDependencies: undefined,
     files: [{
-      path: "registry/default/hooks/use-mobile.ts",
+      path: "registry/default/hooks/use-media-query.ts",
       type: "registry:hook",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/default/hooks/use-mobile.ts")
+      const mod = await import("@/registry/default/hooks/use-media-query.ts")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

@@ -8,7 +8,7 @@
   "files": [
     {
       "path": "registry/default/ui/checkbox-group.tsx",
-      "content": "\"use client\";\n\nimport { CheckboxGroup as CheckboxGroupPrimitive } from \"@base-ui/react/checkbox-group\";\n\nimport { cn } from \"@/registry/default/lib/utils\";\n\nfunction CheckboxGroup({ className, ...props }: CheckboxGroupPrimitive.Props) {\n  return (\n    <CheckboxGroupPrimitive\n      className={cn(\"flex flex-col items-start gap-3\", className)}\n      {...props}\n    />\n  );\n}\n\nexport { CheckboxGroup };\n",
+      "content": "\"use client\";\n\nimport { CheckboxGroup as CheckboxGroupPrimitive } from \"@base-ui/react/checkbox-group\";\nimport type React from \"react\";\nimport { cn } from \"@/registry/default/lib/utils\";\n\nexport function CheckboxGroup({\n  className,\n  ...props\n}: CheckboxGroupPrimitive.Props): React.ReactElement {\n  return (\n    <CheckboxGroupPrimitive\n      className={cn(\"flex flex-col items-start gap-3\", className)}\n      {...props}\n    />\n  );\n}\n\nexport { CheckboxGroupPrimitive };\n",
       "type": "registry:ui"
     }
   ]

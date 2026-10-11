@@ -1,0 +1,10 @@
+services:
+  ui:
+    # Build first: bun run build --filter=ui
+    command: bun run --cwd apps/ui start --port "$PORT"
+    port: 3000
+    health: /ui/shaddercn
+    portal:
+      url: /ui/shaddercn
+      title: Shaddercn playground
+      description: Low-memory production preview. Demo and JSON modes work; coding-agent sessions and live generation require development mode.

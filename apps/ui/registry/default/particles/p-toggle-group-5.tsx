@@ -1,8 +1,7 @@
 import { BoldIcon, ItalicIcon, UnderlineIcon } from "lucide-react";
-
 import {
-  Toggle,
   ToggleGroup,
+  ToggleGroupItem,
   ToggleGroupSeparator,
 } from "@/registry/default/ui/toggle-group";
 
@@ -13,17 +12,17 @@ export default function Particle() {
       orientation="vertical"
       variant="outline"
     >
-      <Toggle aria-label="Toggle bold" value="bold">
+      <ToggleGroupItem aria-label="Toggle bold" value="bold">
         <BoldIcon />
-      </Toggle>
+      </ToggleGroupItem>
       <ToggleGroupSeparator orientation="horizontal" />
-      <Toggle aria-label="Toggle italic" value="italic">
+      <ToggleGroupItem aria-label="Toggle italic" value="italic">
         <ItalicIcon />
-      </Toggle>
+      </ToggleGroupItem>
       <ToggleGroupSeparator orientation="horizontal" />
-      <Toggle aria-label="Toggle underline" value="underline">
+      <ToggleGroupItem aria-label="Toggle underline" value="underline">
         <UnderlineIcon />
-      </Toggle>
+      </ToggleGroupItem>
     </ToggleGroup>
   );
 }

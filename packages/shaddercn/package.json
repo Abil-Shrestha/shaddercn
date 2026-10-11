@@ -1,7 +1,11 @@
 {
   "dependencies": {
+    "@json-render/core": "0.21.0",
+    "@json-render/react": "0.21.0",
+    "@shaddercn/ui": "workspace:*",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.4.0",
+    "zod": "4.3.6"
   },
   "devDependencies": {
     "@shaddercn/typescript-config": "workspace:*",
@@ -10,8 +14,11 @@
   },
   "exports": {
     ".": "./src/index.ts",
+    "./catalog": "./src/catalog.ts",
     "./components/*": "./src/components/*.tsx",
-    "./lib/*": "./src/lib/*.ts"
+    "./lib/*": "./src/lib/*.ts",
+    "./react": "./src/renderer.tsx",
+    "./stream": "./src/stream.ts"
   },
   "license": "MIT",
   "name": "@shaddercn/registry",

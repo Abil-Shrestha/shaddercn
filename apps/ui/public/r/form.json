@@ -8,7 +8,7 @@
   "files": [
     {
       "path": "registry/default/ui/form.tsx",
-      "content": "\"use client\";\n\nimport { Form as FormPrimitive } from \"@base-ui/react/form\";\n\nimport { cn } from \"@/registry/default/lib/utils\";\n\nfunction Form({ className, ...props }: FormPrimitive.Props) {\n  return (\n    <FormPrimitive\n      className={cn(\"flex w-full flex-col gap-4\", className)}\n      data-slot=\"form\"\n      {...props}\n    />\n  );\n}\n\nexport { Form };\n",
+      "content": "\"use client\";\n\nimport { Form as FormPrimitive } from \"@base-ui/react/form\";\nimport type React from \"react\";\n\nexport function Form({\n  className,\n  ...props\n}: FormPrimitive.Props): React.ReactElement {\n  return <FormPrimitive className={className} data-slot=\"form\" {...props} />;\n}\n\nexport { FormPrimitive };\n",
       "type": "registry:ui"
     }
   ]

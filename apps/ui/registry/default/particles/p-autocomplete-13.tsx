@@ -43,7 +43,7 @@ export default function Particle() {
   };
 
   return (
-    <Form className="max-w-64" onSubmit={onSubmit}>
+    <Form className="flex w-full max-w-64 flex-col gap-4" onSubmit={onSubmit}>
       <Field name="item">
         <FieldLabel>Favorite item</FieldLabel>
         <Autocomplete disabled={loading} items={items} required>

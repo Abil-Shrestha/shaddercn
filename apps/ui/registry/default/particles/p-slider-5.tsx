@@ -28,7 +28,7 @@ export default function Particle() {
   };
 
   return (
-    <Form onSubmit={onSubmit}>
+    <Form className="flex w-full flex-col gap-4" onSubmit={onSubmit}>
       <Field className="items-stretch gap-3" name="volume">
         <Slider disabled={loading} onValueChange={setValue} value={value}>
           <div className="mb-2 flex items-center justify-between gap-1">

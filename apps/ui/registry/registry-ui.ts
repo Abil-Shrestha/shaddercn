@@ -12,13 +12,16 @@ export const ui: Registry["items"] = [
       "@shaddercn/badge",
       "@shaddercn/breadcrumb",
       "@shaddercn/button",
+      "@shaddercn/calendar",
       "@shaddercn/card",
       "@shaddercn/checkbox",
       "@shaddercn/checkbox-group",
       "@shaddercn/collapsible",
       "@shaddercn/combobox",
       "@shaddercn/command",
+      "@shaddercn/context-menu",
       "@shaddercn/dialog",
+      "@shaddercn/drawer",
       "@shaddercn/empty",
       "@shaddercn/field",
       "@shaddercn/fieldset",
@@ -26,6 +29,7 @@ export const ui: Registry["items"] = [
       "@shaddercn/frame",
       "@shaddercn/group",
       "@shaddercn/input",
+      "@shaddercn/otp-field",
       "@shaddercn/input-group",
       "@shaddercn/kbd",
       "@shaddercn/label",
@@ -191,6 +195,19 @@ export const ui: Registry["items"] = [
       },
     ],
     name: "button",
+    registryDependencies: ["@shaddercn/spinner"],
+    type: "registry:ui",
+  },
+  {
+    dependencies: ["@daypicker/react", "lucide-react"],
+    files: [
+      {
+        path: "ui/calendar.tsx",
+        type: "registry:ui",
+      },
+    ],
+    name: "calendar",
+    registryDependencies: [],
     type: "registry:ui",
   },
   {
@@ -262,6 +279,25 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
   },
   {
+    cssVars: {
+      dark: {
+        "destructive-foreground": "var(--color-red-400)",
+      },
+      light: {
+        "destructive-foreground": "var(--color-red-700)",
+      },
+    },
+    dependencies: ["@base-ui/react"],
+    files: [
+      {
+        path: "ui/context-menu.tsx",
+        type: "registry:ui",
+      },
+    ],
+    name: "context-menu",
+    type: "registry:ui",
+  },
+  {
     dependencies: ["@base-ui/react"],
     files: [
       {
@@ -270,6 +306,18 @@ export const ui: Registry["items"] = [
       },
     ],
     name: "dialog",
+    registryDependencies: ["@shaddercn/button", "@shaddercn/scroll-area"],
+    type: "registry:ui",
+  },
+  {
+    dependencies: ["@base-ui/react"],
+    files: [
+      {
+        path: "ui/drawer.tsx",
+        type: "registry:ui",
+      },
+    ],
+    name: "drawer",
     registryDependencies: ["@shaddercn/button", "@shaddercn/scroll-area"],
     type: "registry:ui",
   },
@@ -355,6 +403,33 @@ export const ui: Registry["items"] = [
       },
     ],
     name: "input",
+    type: "registry:ui",
+  },
+  {
+    css: {
+      "@keyframes caret-blink": {
+        "0%, 70%, to": {
+          opacity: "1",
+        },
+        "20%, 50%": {
+          opacity: "0",
+        },
+      },
+    },
+    cssVars: {
+      theme: {
+        "--animate-caret-blink": "1s ease-out infinite caret-blink",
+      },
+    },
+    dependencies: ["@base-ui/react"],
+    files: [
+      {
+        path: "ui/otp-field.tsx",
+        type: "registry:ui",
+      },
+    ],
+    name: "otp-field",
+    registryDependencies: ["@shaddercn/separator"],
     type: "registry:ui",
   },
   {
@@ -547,7 +622,8 @@ export const ui: Registry["items"] = [
       "@shaddercn/sheet",
       "@shaddercn/skeleton",
       "@shaddercn/tooltip",
-      "@shaddercn/use-mobile",
+      "@shaddercn/use-media-query",
+      "@shaddercn/utils",
     ],
     type: "registry:ui",
   },
@@ -606,6 +682,7 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
   },
   {
+    dependencies: ["@base-ui/react"],
     files: [
       {
         path: "ui/table.tsx",
@@ -624,6 +701,7 @@ export const ui: Registry["items"] = [
       },
     ],
     name: "tabs",
+    registryDependencies: ["@shaddercn/segmented-control"],
     type: "registry:ui",
   },
   {
@@ -638,6 +716,82 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
   },
   {
+    css: {
+      "@keyframes toast-error-even": {
+        "0%": {
+          translate: "0 0",
+        },
+        "25%": {
+          translate: "-3px 0",
+        },
+        "50%": {
+          translate: "3px 0",
+        },
+        "75%": {
+          translate: "-3px 0",
+        },
+        "100%": {
+          translate: "0 0",
+        },
+      },
+      "@keyframes toast-error-odd": {
+        "0%": {
+          translate: "0 0",
+        },
+        "25%": {
+          translate: "-3px 0",
+        },
+        "50%": {
+          translate: "3px 0",
+        },
+        "75%": {
+          translate: "-3px 0",
+        },
+        "100%": {
+          translate: "0 0",
+        },
+      },
+      "@keyframes toast-success-even": {
+        "0%": {
+          scale: "1",
+        },
+        "30%": {
+          scale: "1.025",
+        },
+        "60%": {
+          scale: "0.99",
+        },
+        "100%": {
+          scale: "1",
+        },
+      },
+      "@keyframes toast-success-odd": {
+        "0%": {
+          scale: "1",
+        },
+        "30%": {
+          scale: "1.025",
+        },
+        "60%": {
+          scale: "0.99",
+        },
+        "100%": {
+          scale: "1",
+        },
+      },
+    },
+    cssVars: {
+      theme: {
+        "--animate-toast-error-even":
+          "toast-error-even 0.28s cubic-bezier(0.5, 1, 0.89, 1)",
+        "--animate-toast-error-odd":
+          "toast-error-odd 0.28s cubic-bezier(0.5, 1, 0.89, 1)",
+        "--animate-toast-success-even":
+          "toast-success-even 0.32s cubic-bezier(0.5, 1, 0.89, 1)",
+        "--animate-toast-success-odd":
+          "toast-success-odd 0.32s cubic-bezier(0.5, 1, 0.89, 1)",
+      },
+    },
     dependencies: ["@base-ui/react"],
     files: [
       {

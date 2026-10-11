@@ -19,7 +19,7 @@ export default function Particle() {
     alert(`Terms: ${accepted}`);
   };
   return (
-    <Form className="w-auto" onSubmit={onSubmit}>
+    <Form className="flex w-auto flex-col gap-4" onSubmit={onSubmit}>
       <Field name="terms">
         <FieldLabel>
           <Checkbox defaultChecked disabled={loading} value="yes" />

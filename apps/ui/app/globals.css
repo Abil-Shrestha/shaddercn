@@ -1,4 +1,5 @@
 @import "@shaddercn/ui/globals.css";
+@source "../../../packages/shaddercn/src/**/*.{ts,tsx}";
 
 @layer base {
   @supports (font: -apple-system-body) and (-webkit-appearance: none) {

@@ -41,7 +41,7 @@ export default function Particle() {
     );
   };
   return (
-    <Form onSubmit={onSubmit}>
+    <Form className="flex w-full flex-col gap-4" onSubmit={onSubmit}>
       <Field name="fullName">
         <FieldLabel>
           Full Name <span className="text-destructive">*</span>

@@ -32,7 +32,7 @@ export default function Particle() {
         <CardTitle>Create project</CardTitle>
         <CardDescription>Deploy your new project in one-click.</CardDescription>
       </CardHeader>
-      <Form>
+      <Form className="flex w-full flex-col gap-4">
         <CardPanel>
           <div className="flex flex-col gap-4">
             <Field>
