@@ -66,6 +66,19 @@ bun run dev --filter=ui
 
 The app will run on http://localhost:3000
 
+#### Low-memory orb preview
+
+The tracked `.amp/services.yaml` serves a production build instead of the memory-heavy Next.js development server. On a fresh orb, build before starting the preview:
+
+```sh
+bun run build --filter=ui
+amp orb services ensure
+```
+
+Open the playground portal URL printed by `ensure`. Demo and JSON modes work in this preview; coding-agent sessions and live generation still require development mode.
+
+After changing source, stop the preview with `amp orb service stop ui`, rebuild, and run `amp orb services ensure` again. Production previews do not hot-reload. Close browser automation during builds to leave memory available for Next.js.
+
 ## Try the playground
 
 Run `bun install` and `bun run dev --filter=ui`, then open `/ui/shaddercn` on the development server. The default `/ui` entry point redirects there; the existing docs remain at `/ui/docs`.
